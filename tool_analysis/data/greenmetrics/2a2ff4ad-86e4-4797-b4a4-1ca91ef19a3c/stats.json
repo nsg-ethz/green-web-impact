@@ -1,0 +1,6001 @@
+{
+  "success": true,
+  "data": {
+    "comparison_case": null,
+    "comparison_details": null,
+    "comparison_identifiers": [
+      "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c"
+    ],
+    "data": {
+      "[BASELINE]": {
+        "hidden": false,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 60099231,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      60099231
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3321,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2130,
+                    "sr_max_max": 2248,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3321
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 140912148,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2130,
+                    "sr_max_max": 2248,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      140912148
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2345,
+                    "max": 8596,
+                    "min": 1350,
+                    "max_mean": 8596,
+                    "min_mean": 1350,
+                    "stddev": null,
+                    "sr_avg_avg": 2130,
+                    "sr_max_max": 2248,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2345
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2131,
+                    "sr_max_max": 4115,
+                    "sr_95p_max": 2148,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2131,
+                    "sr_max_max": 4115,
+                    "sr_95p_max": 2148,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 66,
+                    "max": 500,
+                    "min": 0,
+                    "max_mean": 500,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 99178,
+                    "sr_max_max": 99218,
+                    "sr_95p_max": 99200,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      66
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2131,
+                    "sr_max_max": 4145,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 51405793,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2131,
+                    "sr_max_max": 4145,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      51405793
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 855,
+                    "max": 1271,
+                    "min": 761,
+                    "max_mean": 1271,
+                    "min_mean": 761,
+                    "stddev": null,
+                    "sr_avg_avg": 2131,
+                    "sr_max_max": 4145,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      855
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 86234,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      86234
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "[INSTALLATION]": {
+        "hidden": false,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1078619,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1078619
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 192,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2136,
+                    "sr_max_max": 3837,
+                    "sr_95p_max": 2152,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      192
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3473106,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2136,
+                    "sr_max_max": 3837,
+                    "sr_95p_max": 2152,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3473106
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3198,
+                    "max": 9363,
+                    "min": 1588,
+                    "max_mean": 9363,
+                    "min_mean": 1588,
+                    "stddev": null,
+                    "sr_avg_avg": 2136,
+                    "sr_max_max": 3837,
+                    "sr_95p_max": 2152,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3198
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2136,
+                    "sr_max_max": 3870,
+                    "sr_95p_max": 2151,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2136,
+                    "sr_max_max": 3870,
+                    "sr_95p_max": 2151,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 537,
+                    "max": 1538,
+                    "min": 0,
+                    "max_mean": 1538,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 99204,
+                    "sr_max_max": 99306,
+                    "sr_95p_max": 99268,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      537
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2132,
+                    "sr_max_max": 4341,
+                    "sr_95p_max": 2147,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 943821,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2132,
+                    "sr_max_max": 4341,
+                    "sr_95p_max": 2147,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      943821
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 874,
+                    "max": 1589,
+                    "min": 763,
+                    "max_mean": 1589,
+                    "min_mean": 763,
+                    "stddev": null,
+                    "sr_avg_avg": 2132,
+                    "sr_max_max": 4341,
+                    "sr_95p_max": 2147,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      874
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1548,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1548
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "[BOOT]": {
+        "hidden": false,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 5440170,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      5440170
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2395,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2103,
+                    "sr_max_max": 4240,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2395
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 28206245,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2103,
+                    "sr_max_max": 4240,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      28206245
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 5191,
+                    "max": 13377,
+                    "min": 1204,
+                    "max_mean": 13377,
+                    "min_mean": 1204,
+                    "stddev": null,
+                    "sr_avg_avg": 2103,
+                    "sr_max_max": 4240,
+                    "sr_95p_max": 2146,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      5191
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2103,
+                    "sr_max_max": 4331,
+                    "sr_95p_max": 2148,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2103,
+                    "sr_max_max": 4331,
+                    "sr_95p_max": 2148,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2005,
+                    "max": 4594,
+                    "min": 0,
+                    "max_mean": 4594,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 99194,
+                    "sr_max_max": 100062,
+                    "sr_95p_max": 99212,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2005
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2104,
+                    "sr_max_max": 4292,
+                    "sr_95p_max": 2143,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 4952772,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2104,
+                    "sr_max_max": 4292,
+                    "sr_95p_max": 2143,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      4952772
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 910,
+                    "max": 2013,
+                    "min": 731,
+                    "max_mean": 2013,
+                    "min_mean": 731,
+                    "stddev": null,
+                    "sr_avg_avg": 2104,
+                    "sr_max_max": 4292,
+                    "sr_95p_max": 2143,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      910
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 7806,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      7806
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "[IDLE]": {
+        "hidden": false,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 60099195,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      60099195
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 8305,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2207,
+                    "sr_max_max": 2413,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      8305
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 154201809,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2207,
+                    "sr_max_max": 2413,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      154201809
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2566,
+                    "max": 7496,
+                    "min": 1214,
+                    "max_mean": 7496,
+                    "min_mean": 1214,
+                    "stddev": null,
+                    "sr_avg_avg": 2207,
+                    "sr_max_max": 2413,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2566
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2204,
+                    "sr_max_max": 2443,
+                    "sr_95p_max": 2255,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2204,
+                    "sr_max_max": 2443,
+                    "sr_95p_max": 2255,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 209,
+                    "max": 500,
+                    "min": 0,
+                    "max_mean": 500,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 99180,
+                    "sr_max_max": 99333,
+                    "sr_95p_max": 99234,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      209
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2206,
+                    "sr_max_max": 2471,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 51419658,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2206,
+                    "sr_max_max": 2471,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      51419658
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 856,
+                    "max": 1323,
+                    "min": 667,
+                    "max_mean": 1323,
+                    "min_mean": 667,
+                    "stddev": null,
+                    "sr_avg_avg": 2206,
+                    "sr_max_max": 2471,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      856
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 2370,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 8,
+                    "max": 84011,
+                    "min": 0,
+                    "max_mean": 84011,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 2370,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      8
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 2370,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 462,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 2370,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      462
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 68292,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      68292
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 6,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      6
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 86234,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      86234
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "[RUNTIME]": {
+        "hidden": false,
+        "data": {
+          "custom_website_load": {
+            "type": "TOTAL",
+            "unit": "Website Load and Idle Cached",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1,
+                    "max": 1,
+                    "min": 1,
+                    "max_mean": 1,
+                    "min_mean": 1,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 25154699,
+                    "max": 18033438,
+                    "min": 7121261,
+                    "max_mean": 18033438,
+                    "min_mean": 7121261,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      25154699
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 11466,
+                    "max": 6908,
+                    "min": 4558,
+                    "max_mean": 6908,
+                    "min_mean": 4558,
+                    "stddev": null,
+                    "sr_avg_avg": 2185,
+                    "sr_max_max": 5006,
+                    "sr_95p_max": 2269,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      11466
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 146653868,
+                    "max": 91623673,
+                    "min": 55030195,
+                    "max_mean": 91623673,
+                    "min_mean": 55030195,
+                    "stddev": null,
+                    "sr_avg_avg": 2185,
+                    "sr_max_max": 5006,
+                    "sr_95p_max": 2269,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      146653868
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 5842,
+                    "max": 7735,
+                    "min": 5094,
+                    "max_mean": 7735,
+                    "min_mean": 5094,
+                    "stddev": null,
+                    "sr_avg_avg": 2185,
+                    "sr_max_max": 5006,
+                    "sr_95p_max": 2269,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      5842
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2183,
+                    "sr_max_max": 4971,
+                    "sr_95p_max": 2263,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2183,
+                    "sr_max_max": 4971,
+                    "sr_95p_max": 2263,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3086,
+                    "max": 4992,
+                    "min": 2334,
+                    "max_mean": 4992,
+                    "min_mean": 2334,
+                    "stddev": null,
+                    "sr_avg_avg": 99208,
+                    "sr_max_max": 103052,
+                    "sr_95p_max": 99238,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3086
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 13,
+                    "max": 9,
+                    "min": 4,
+                    "max_mean": 9,
+                    "min_mean": 4,
+                    "stddev": null,
+                    "sr_avg_avg": 2184,
+                    "sr_max_max": 5044,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      13
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 27927550,
+                    "max": 19031178,
+                    "min": 8896372,
+                    "max_mean": 19031178,
+                    "min_mean": 8896372,
+                    "stddev": null,
+                    "sr_avg_avg": 2184,
+                    "sr_max_max": 5044,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      27927550
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1111,
+                    "max": 1249,
+                    "min": 1056,
+                    "max_mean": 1249,
+                    "min_mean": 1056,
+                    "stddev": null,
+                    "sr_avg_avg": 2184,
+                    "sr_max_max": 5044,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1111
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 525940,
+                    "max": 1401656,
+                    "min": 180127,
+                    "max_mean": 1401656,
+                    "min_mean": 180127,
+                    "stddev": null,
+                    "sr_avg_avg": 2225,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      525940
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 667148,
+                    "max": 1461605,
+                    "min": 353423,
+                    "max_mean": 1461605,
+                    "min_mean": 353423,
+                    "stddev": null,
+                    "sr_avg_avg": 2225,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      667148
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 13287229,
+                    "max": 10039816,
+                    "min": 3247413,
+                    "max_mean": 10039816,
+                    "min_mean": 3247413,
+                    "stddev": null,
+                    "sr_avg_avg": 2225,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      13287229
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 16836060,
+                    "max": 10467127,
+                    "min": 6368933,
+                    "max_mean": 10467127,
+                    "min_mean": 6368933,
+                    "stddev": null,
+                    "sr_avg_avg": 2225,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      16836060
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 4452772406,
+                    "max": 3031300796,
+                    "min": 1421471610,
+                    "max_mean": 3031300796,
+                    "min_mean": 1421471610,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      4452772406
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 364880,
+                    "max": 248398,
+                    "min": 116482,
+                    "max_mean": 248398,
+                    "min_mean": 116482,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      364880
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 36094,
+                    "max": 25876,
+                    "min": 10218,
+                    "max_mean": 25876,
+                    "min_mean": 10218,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      36094
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Starting browser IPC": {
+        "hidden": true,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 4224934,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      4224934
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2009,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2182,
+                    "sr_max_max": 4218,
+                    "sr_95p_max": 2257,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2009
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 24033491,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2182,
+                    "sr_max_max": 4218,
+                    "sr_95p_max": 2257,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      24033491
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 5697,
+                    "max": 14820,
+                    "min": 1606,
+                    "max_mean": 14820,
+                    "min_mean": 1606,
+                    "stddev": null,
+                    "sr_avg_avg": 2182,
+                    "sr_max_max": 4218,
+                    "sr_95p_max": 2257,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      5697
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 4193,
+                    "sr_95p_max": 2252,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 4193,
+                    "sr_95p_max": 2252,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2584,
+                    "max": 7000,
+                    "min": 500,
+                    "max_mean": 7000,
+                    "min_mean": 500,
+                    "stddev": null,
+                    "sr_avg_avg": 99173,
+                    "sr_max_max": 99282,
+                    "sr_95p_max": 99216,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2584
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 4231,
+                    "sr_95p_max": 2258,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3993245,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 4231,
+                    "sr_95p_max": 2258,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3993245
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 945,
+                    "max": 2451,
+                    "min": 733,
+                    "max_mean": 2451,
+                    "min_mean": 733,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 4231,
+                    "sr_95p_max": 2258,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      945
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2212,
+                    "sr_max_max": 4394,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2212,
+                    "sr_max_max": 4394,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2212,
+                    "sr_max_max": 4394,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2212,
+                    "sr_max_max": 4394,
+                    "sr_95p_max": 2244,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 6062,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      6062
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Warmup and Caching": {
+        "hidden": true,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 22345181,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      22345181
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 11222,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2188,
+                    "sr_max_max": 3588,
+                    "sr_95p_max": 2274,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      11222
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 143626410,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2188,
+                    "sr_max_max": 3588,
+                    "sr_95p_max": 2274,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      143626410
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 6436,
+                    "max": 16432,
+                    "min": 1435,
+                    "max_mean": 16432,
+                    "min_mean": 1435,
+                    "stddev": null,
+                    "sr_avg_avg": 2188,
+                    "sr_max_max": 3588,
+                    "sr_95p_max": 2274,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      6436
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2187,
+                    "sr_max_max": 3216,
+                    "sr_95p_max": 2268,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2187,
+                    "sr_max_max": 3216,
+                    "sr_95p_max": 2268,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3582,
+                    "max": 7692,
+                    "min": 256,
+                    "max_mean": 7692,
+                    "min_mean": 256,
+                    "stddev": null,
+                    "sr_avg_avg": 99185,
+                    "sr_max_max": 99662,
+                    "sr_95p_max": 99248,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3582
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2187,
+                    "sr_max_max": 3596,
+                    "sr_95p_max": 2275,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 26268614,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2187,
+                    "sr_max_max": 3596,
+                    "sr_95p_max": 2275,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      26268614
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1176,
+                    "max": 2860,
+                    "min": 713,
+                    "max_mean": 2860,
+                    "min_mean": 713,
+                    "stddev": null,
+                    "sr_avg_avg": 2187,
+                    "sr_max_max": 3596,
+                    "sr_95p_max": 2275,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1176
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 454544,
+                    "max": 28678700,
+                    "min": 0,
+                    "max_mean": 28678700,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2222,
+                    "sr_max_max": 4052,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      454544
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 917710,
+                    "max": 47563636,
+                    "min": 0,
+                    "max_mean": 47563636,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2222,
+                    "sr_max_max": 4052,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      917710
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 10152687,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2222,
+                    "sr_max_max": 4052,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      10152687
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 20484950,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2222,
+                    "sr_max_max": 4052,
+                    "sr_95p_max": 2262,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      20484950
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 4528802437,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      4528802437
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 371110,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      371110
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 32062,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      32062
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Visit page and idle for 5 s": {
+        "hidden": false,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 7121261,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      7121261
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 4558,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2175,
+                    "sr_max_max": 5006,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      4558
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 55030195,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2175,
+                    "sr_max_max": 5006,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      55030195
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 7735,
+                    "max": 16948,
+                    "min": 1512,
+                    "max_mean": 16948,
+                    "min_mean": 1512,
+                    "stddev": null,
+                    "sr_avg_avg": 2175,
+                    "sr_max_max": 5006,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      7735
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2173,
+                    "sr_max_max": 4971,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2173,
+                    "sr_max_max": 4971,
+                    "sr_95p_max": 2265,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 4992,
+                    "max": 8205,
+                    "min": 1794,
+                    "max_mean": 8205,
+                    "min_mean": 1794,
+                    "stddev": null,
+                    "sr_avg_avg": 99232,
+                    "sr_max_max": 103052,
+                    "sr_95p_max": 99230,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      4992
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "custom_website_load": {
+            "type": "TOTAL",
+            "unit": "Website Load and Idle Cached",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1,
+                    "max": 1,
+                    "min": 1,
+                    "max_mean": 1,
+                    "min_mean": 1,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 4,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 5044,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      4
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 8896372,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 5044,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      8896372
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1249,
+                    "max": 2816,
+                    "min": 725,
+                    "max_mean": 2816,
+                    "min_mean": 725,
+                    "stddev": null,
+                    "sr_avg_avg": 2176,
+                    "sr_max_max": 5044,
+                    "sr_95p_max": 2270,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1249
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1401656,
+                    "max": 316117912,
+                    "min": 0,
+                    "max_mean": 316117912,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2228,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2271,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1401656
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1461605,
+                    "max": 319972997,
+                    "min": 0,
+                    "max_mean": 319972997,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2228,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2271,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1461605
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 10039816,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2228,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2271,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      10039816
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 10467127,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2228,
+                    "sr_max_max": 4945,
+                    "sr_95p_max": 2271,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      10467127
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3031300796,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3031300796
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 248398,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      248398
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 10218,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      10218
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Check HTTP Status Code": {
+        "hidden": true,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 300650,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      300650
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 204,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2140,
+                    "sr_max_max": 2538,
+                    "sr_95p_max": 2247,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      204
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2388114,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2140,
+                    "sr_max_max": 2538,
+                    "sr_95p_max": 2247,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2388114
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 7958,
+                    "max": 15495,
+                    "min": 1715,
+                    "max_mean": 15495,
+                    "min_mean": 1715,
+                    "stddev": null,
+                    "sr_avg_avg": 2140,
+                    "sr_max_max": 2538,
+                    "sr_95p_max": 2247,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      7958
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2125,
+                    "sr_max_max": 3436,
+                    "sr_95p_max": 2234,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2125,
+                    "sr_max_max": 3436,
+                    "sr_95p_max": 2234,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3367,
+                    "max": 7750,
+                    "min": 2631,
+                    "max_mean": 7750,
+                    "min_mean": 2631,
+                    "stddev": null,
+                    "sr_avg_avg": 99152,
+                    "sr_max_max": 99166,
+                    "sr_95p_max": 99165,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3367
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2140,
+                    "sr_max_max": 2720,
+                    "sr_95p_max": 2251,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 373784,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2140,
+                    "sr_max_max": 2720,
+                    "sr_95p_max": 2251,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      373784
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1247,
+                    "max": 2723,
+                    "min": 761,
+                    "max_mean": 2723,
+                    "min_mean": 761,
+                    "stddev": null,
+                    "sr_avg_avg": 2140,
+                    "sr_max_max": 2720,
+                    "sr_95p_max": 2251,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1247
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2246,
+                    "sr_max_max": 3898,
+                    "sr_95p_max": 2326,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2246,
+                    "sr_max_max": 3898,
+                    "sr_95p_max": 2326,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2246,
+                    "sr_max_max": 3898,
+                    "sr_95p_max": 2326,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2246,
+                    "sr_max_max": 3898,
+                    "sr_95p_max": 2326,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 431,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      431
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Scroll down and wait for 5 s": {
+        "hidden": false,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 18033438,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      18033438
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 6908,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2194,
+                    "sr_max_max": 4089,
+                    "sr_95p_max": 2268,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      6908
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 91623673,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2194,
+                    "sr_max_max": 4089,
+                    "sr_95p_max": 2268,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      91623673
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 5094,
+                    "max": 15469,
+                    "min": 1354,
+                    "max_mean": 15469,
+                    "min_mean": 1354,
+                    "stddev": null,
+                    "sr_avg_avg": 2194,
+                    "sr_max_max": 4089,
+                    "sr_95p_max": 2268,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      5094
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2192,
+                    "sr_max_max": 4082,
+                    "sr_95p_max": 2261,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2192,
+                    "sr_max_max": 4082,
+                    "sr_95p_max": 2261,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2334,
+                    "max": 7250,
+                    "min": 0,
+                    "max_mean": 7250,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 99183,
+                    "sr_max_max": 99316,
+                    "sr_95p_max": 99245,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2334
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 9,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2192,
+                    "sr_max_max": 4149,
+                    "sr_95p_max": 2269,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      9
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 19031178,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2192,
+                    "sr_max_max": 4149,
+                    "sr_95p_max": 2269,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      19031178
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1056,
+                    "max": 3053,
+                    "min": 723,
+                    "max_mean": 3053,
+                    "min_mean": 723,
+                    "stddev": null,
+                    "sr_avg_avg": 2192,
+                    "sr_max_max": 4149,
+                    "sr_95p_max": 2269,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1056
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 180127,
+                    "max": 26610526,
+                    "min": 0,
+                    "max_mean": 26610526,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 3786,
+                    "sr_95p_max": 2253,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      180127
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 353423,
+                    "max": 40165789,
+                    "min": 0,
+                    "max_mean": 40165789,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 3786,
+                    "sr_95p_max": 2253,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      353423
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3247413,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 3786,
+                    "sr_95p_max": 2253,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3247413
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 6368933,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2221,
+                    "sr_max_max": 3786,
+                    "sr_95p_max": 2253,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      6368933
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1421471610,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1421471610
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 116482,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      116482
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 25876,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      25876
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "[REMOVE]": {
+        "hidden": false,
+        "data": {
+          "phase_time_syscall_system": {
+            "type": "TOTAL",
+            "unit": "us",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1099197,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1099197
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_elephant_machine": {
+            "type": "MEAN",
+            "unit": "gCO2e/kWh",
+            "data": {
+              "electricitymaps_de": {
+                "name": "electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 295,
+                    "max": 295,
+                    "min": 295,
+                    "max_mean": 295,
+                    "min_mean": 295,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      295
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "carbon_intensity_level_electricitymaps_machine": {
+            "type": "MEAN",
+            "unit": "level",
+            "data": {
+              "electricity_maps": {
+                "name": "electricity_maps",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3,
+                    "max": 3,
+                    "min": 3,
+                    "max_mean": 3,
+                    "min_mean": 3,
+                    "stddev": null,
+                    "sr_avg_avg": 99000,
+                    "sr_max_max": 99000,
+                    "sr_95p_max": 99000,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "Package_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "Package_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 206,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2296,
+                    "sr_95p_max": 2267,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      206
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 3065482,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2296,
+                    "sr_95p_max": 2267,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      3065482
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 2795,
+                    "max": 6667,
+                    "min": 1605,
+                    "max_mean": 6667,
+                    "min_mean": 1605,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2296,
+                    "sr_95p_max": 2267,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      2795
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_power_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2267,
+                    "sr_95p_max": 2256,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_throttling_thermal_msr_component": {
+            "type": "MEAN",
+            "unit": "boolean",
+            "data": {
+              "Package_0": {
+                "name": "Package_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2267,
+                    "sr_95p_max": 2256,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "cpu_utilization_procfs_system": {
+            "type": "MEAN",
+            "unit": "Ratio",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 329,
+                    "max": 512,
+                    "min": 0,
+                    "max_mean": 512,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 99193,
+                    "sr_max_max": 99235,
+                    "sr_95p_max": 99233,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      329
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_carbon_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "ugCO2e",
+            "data": {
+              "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de": {
+                "name": "DRAM_0_carbon_intensity_elephant_machine_electricitymaps_de",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2277,
+                    "sr_95p_max": 2266,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_energy_rapl_msr_component": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 945457,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2277,
+                    "sr_95p_max": 2266,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      945457
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "memory_power_rapl_msr_component": {
+            "type": "MEAN",
+            "unit": "mW",
+            "data": {
+              "DRAM_0": {
+                "name": "DRAM_0",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 863,
+                    "max": 1363,
+                    "min": 727,
+                    "max_mean": 1363,
+                    "min_mean": 727,
+                    "stddev": null,
+                    "sr_avg_avg": 2218,
+                    "sr_max_max": 2277,
+                    "sr_95p_max": 2266,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      863
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_io_cgroup_container": {
+            "type": "MEAN",
+            "unit": "Bytes/s",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": 0,
+                    "min": 0,
+                    "max_mean": 0,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2223,
+                    "sr_max_max": 2311,
+                    "sr_95p_max": 2239,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1670,
+                    "max": 219982,
+                    "min": 0,
+                    "max_mean": 219982,
+                    "min_mean": 0,
+                    "stddev": null,
+                    "sr_avg_avg": 2223,
+                    "sr_max_max": 2311,
+                    "sr_95p_max": 2239,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1670
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_total_cgroup_container": {
+            "type": "TOTAL",
+            "unit": "Bytes",
+            "data": {
+              "gmt-playwright-nodejs": {
+                "name": "gmt-playwright-nodejs",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2223,
+                    "sr_max_max": 2311,
+                    "sr_95p_max": 2239,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              },
+              "squid": {
+                "name": "squid",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1812,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": 2223,
+                    "sr_max_max": 2311,
+                    "sr_95p_max": 2239,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1812
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_energy_formula_global": {
+            "type": "TOTAL",
+            "unit": "uJ",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 267847,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      267847
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_power_formula_global": {
+            "type": "TOTAL",
+            "unit": "mW",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 0,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      0
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "network_carbon_formula_global": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[FORMULA]": {
+                "name": "[FORMULA]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 22,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      22
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "embodied_carbon_share_machine": {
+            "type": "TOTAL",
+            "unit": "ug",
+            "data": {
+              "[SYSTEM]": {
+                "name": "[SYSTEM]",
+                "p_value": null,
+                "is_significant": null,
+                "data": {
+                  "2a2ff4ad-86e4-4797-b4a4-1ca91ef19a3c": {
+                    "mean": 1577,
+                    "max": null,
+                    "min": null,
+                    "max_mean": null,
+                    "min_mean": null,
+                    "stddev": null,
+                    "sr_avg_avg": null,
+                    "sr_max_max": null,
+                    "sr_95p_max": null,
+                    "ci": null,
+                    "p_value": null,
+                    "is_significant": null,
+                    "values": [
+                      1577
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+
+====================== ENERGY COMPARISON ======================
+
+Reference: images.pi.lan_jpgn_baseline.html
+
+RUN                                          J/page    J/pg sd   Ext J/page  E J/pg sd    MB/page   MB/pg sd    Page %   Energy %  Ext Energy %     cpu % wifi_bt %    gpu % memory % display %  other %      kWh/GB   Req/page   sync
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+images.pi.lan_wepn.html                       3.769      0.140        7.414      0.279       2.73       0.00     38.7%      87.6%         90.6%     94.8%    61.8%    92.3%    93.5%    88.9%    95.6%    0.000383          8    146
+images.pi.lan_avfn.html                       3.871      0.197        7.516      0.291       3.37       0.00     47.7%      89.9%         91.8%     95.6%    67.0%    90.6%    91.9%    92.8%    96.6%    0.000319          8    146
+images.pi.lan_jpgn_baseline.html              4.304      0.167        8.186      0.261       7.06       0.00    100.0%     100.0%        100.0%    100.0%   100.0%   100.0%   100.0%   100.0%   100.0%    0.000169          8    146
+images.pi.lan_wep.html                        3.796      0.109        7.124      0.185       2.73       0.00     38.7%      88.2%         87.0%     63.9%    65.3%    80.7%    77.5%   112.7%    94.2%    0.000386          8    146
+images.pi.lan_avf.html                        3.892      0.166        7.258      0.219       3.37       0.00     47.7%      90.4%         88.7%     69.1%    69.1%    84.8%    79.7%   112.8%    95.4%    0.000321          8    146
+images.pi.lan_jpg_baseline.html               4.271      0.153        7.881      0.251       7.06       0.00    100.0%      99.2%         96.3%     81.3%   101.7%    84.3%    88.0%   112.9%    98.2%    0.000168          8    146
+
+===============================================================
+
+NETWORK VARIANCE (median page bytes)
+------------------------------------
+  Run                                            Median MB   Stdev MB     CV %
+  ---------------------------------------------------------------------------
+  images.pi.lan_wepn.html                            2.730      0.000      0.0%
+  images.pi.lan_avfn.html                            3.366      0.000      0.0%
+  images.pi.lan_jpgn_baseline.html                   7.063      0.000      0.0%
+  images.pi.lan_wep.html                             2.730      0.000      0.0%
+  images.pi.lan_avf.html                             3.366      0.000      0.0%
+  images.pi.lan_jpg_baseline.html                    7.063      0.000      0.0%
+
+NETWORK MEASUREMENT DIAGNOSTICS
+-------------------------------
+
+Run: images.pi.lan_wepn.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+Run: images.pi.lan_avfn.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+Run: images.pi.lan_jpgn_baseline.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+Run: images.pi.lan_wep.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+Run: images.pi.lan_avf.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+Run: images.pi.lan_jpg_baseline.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+SUMMARY
+-------
+Runs: 6
+Average diff: 89.96%
+Worst (higher external): 96.71%
+Best (lower external): 84.51%
+

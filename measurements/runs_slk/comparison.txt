@@ -1,0 +1,52 @@
+
+====================== ENERGY COMPARISON ======================
+
+Reference: slack.com_baseline
+
+RUN                                          J/page    J/pg sd   Ext J/page  E J/pg sd    MB/page   MB/pg sd    Page %   Energy %  Ext Energy %      WC J/pg     WC %   WC g CO2    GM J/pg     cpu % wifi_bt %    gpu % memory % display %  other %      kWh/GB   Req/page   sync
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+slack.com_novideo                            10.515      0.241       18.158      0.517       1.56       0.00      7.2%      80.2%         82.5%    4268.3050     8.3%     0.4783                70.5%    51.4%    92.8%    78.9%    93.4%    99.0%    0.001870         63     99
+slack.com_baseline                           13.111      1.457       22.001      4.779      21.83       8.66    100.0%     100.0%        100.0%   51462.0860   100.0%     5.7671   104.5956    100.0%   100.0%   100.0%   100.0%   100.0%   100.0%    0.000167        160     99
+
+===============================================================
+
+WEBSITE CARBON ENERGY vs BASELINE (J per page view)
+-----------------------------------------------------
+  slack.com_novideo                         4268.3050 J     8.3% of baseline
+  slack.com_baseline                       51462.0860 J   100.0% of baseline
+
+GREEN CODING (CPU+RAM J per page, server RAPL)
+----------------------------------------------
+  slack.com_baseline                         104.5956 J
+
+NETWORK VARIANCE (median page bytes)
+------------------------------------
+  Run                                            Median MB   Stdev MB     CV %
+  ---------------------------------------------------------------------------
+  slack.com_novideo                                  1.562      0.000      0.0%
+  slack.com_baseline                                21.833      8.657     39.7%
+
+NETWORK MEASUREMENT DIAGNOSTICS
+-------------------------------
+
+Run: slack.com_novideo
+  sync events:          99
+  valid measurements:   28
+  coverage:             28.3%
+  WARNING: Low network measurement coverage (28.3%).
+  Network-derived metrics may be unreliable.
+
+Run: slack.com_baseline
+  sync events:          99
+  valid measurements:   4
+  coverage:             4.0%
+  WARNING: Low network measurement coverage (4.0%).
+  Network-derived metrics may be unreliable.
+
+SUMMARY
+-------
+Runs: 2
+Average diff: 70.25%
+Worst (higher external): 72.68%
+Best (lower external): 67.81%
+

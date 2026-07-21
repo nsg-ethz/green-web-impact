@@ -1,0 +1,39 @@
+
+====================== ENERGY COMPARISON ======================
+
+Reference: images.pi.lan_white_baseline.html
+
+RUN                                          J/page    J/pg sd   Ext J/page  E J/pg sd    MB/page   MB/pg sd    Page %   Energy %  Ext Energy %     cpu % wifi_bt %    gpu % memory % display %  other %      kWh/GB   Req/page   sync
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+images.pi.lan_black.html                      1.925      0.069        4.763      0.117       0.00       0.00     99.8%      40.0%         59.3%     99.1%    98.2%    98.6%    99.6%    18.7%    98.5%    1.010854          1    147
+images.pi.lan_white_baseline.html             4.812      0.166        8.027      0.143       0.00       0.00    100.0%     100.0%        100.0%    100.0%   100.0%   100.0%   100.0%   100.0%   100.0%    2.522174          1    147
+
+===============================================================
+
+NETWORK VARIANCE (median page bytes)
+------------------------------------
+  Run                                            Median MB   Stdev MB     CV %
+  ---------------------------------------------------------------------------
+  images.pi.lan_black.html                           0.001      0.000      0.0%
+  images.pi.lan_white_baseline.html                  0.001      0.000      0.0%
+
+NETWORK MEASUREMENT DIAGNOSTICS
+-------------------------------
+
+Run: images.pi.lan_black.html
+  sync events:          147
+  valid measurements:   147
+  coverage:             100.0%
+
+Run: images.pi.lan_white_baseline.html
+  sync events:          147
+  valid measurements:   147
+  coverage:             100.0%
+
+SUMMARY
+-------
+Runs: 2
+Average diff: 107.12%
+Worst (higher external): 147.43%
+Best (lower external): 66.81%
+

@@ -1,0 +1,2482 @@
+{
+  "component": "svelte/App",
+  "props": {
+    "errors": {},
+    "report_id": "X4bq0514UY6j8WTlKVHXXfNK",
+    "report": {
+      "report_id": "X4bq0514UY6j8WTlKVHXXfNK",
+      "response": {
+        "site_submitted": "https://www.atlassian.com/software",
+        "score": 32,
+        "score_text": "Uh-oh. Out of 100 possible points, there's definitely room to improve this page. \r\n\r\nEcograder prioritizes a holistic approach to digital sustainability reporting. Each report includes quantifiable metrics to help you reduce emissions and improve performance. We also share best-in-class web design practices that aren't as easy to quantify from an ecological perspective. \r\n\r\nRead on to learn specific action items you can take to improve this page and your website overall.",
+        "emissions_score": "2.449073",
+        "emissions_text": "You did bad.",
+        "lighthouse_performance_score": "0.35",
+        "lighthouse_seo_score": "0.92",
+        "lighthouse_accessibility_score": "0.96",
+        "categories": [
+          {
+            "category": "Page Weight",
+            "category_weight": 2,
+            "category_content": "By compressing image file size and removing unused items from a page you'll not only reduce emissions but faster-downloading pages make users happier as well. Below are some things you can do to reduce the size of this page.",
+            "category_score": 35,
+            "category_id": 3,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 25,
+                  "submetrics": [
+                    {
+                      "total_byte_weight": 0
+                    },
+                    {
+                      "unused_css_rules": 1
+                    },
+                    {
+                      "unused_javascript": 0
+                    }
+                  ]
+                },
+                "name": "Reduce Overall Page Weight",
+                "impact_text": "Webpages that use unnecessary scripts, media, or other elements can slow down page performance, frustrate users, and increase both download times and emissions. \r\n\r\nMake sure you serve fast, lightweight pages to users by removing any unnecessary elements. \r\n\r\nLearn more about how to do this in the recommendations below.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 25 25\" enable-background=\"new 0 0 25 25\" xml:space=\"preserve\">\r\n<line id=\"Line_17\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"24\" y1=\"19\" x2=\"24\" y2=\"24\"/>\r\n<line id=\"Line_18\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"17\" y1=\"14\" x2=\"17\" y2=\"24\"/>\r\n<line id=\"Line_19\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"9\" y1=\"8\" x2=\"9\" y2=\"24\"/>\r\n<line id=\"Line_20\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"1\" y1=\"1\" x2=\"1\" y2=\"24\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Unused Javascript<span class=\"submetric_score\">0 / 100</span></h6> <p>There is unused JavaScript associated with this page. According to Ecograder's calculations, <span class=\"var\">19</span> scripts could potentially be removed. This might shave off <span class=\"var\">2160.72 kb</span> from your page, speeding up download time by <span class=\"var\">860 ms</span>.</p> </div> <div class=\"at green\"> <h6>Unused CSS Rules<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! There are no unused CSS Rules on this page.</p> </div> <div class=\"at red\"> <h6>Total Byte Weight<span class=\"submetric_score\">0 / 100</span></h6> <p>Whoa! This page is <span class=\"var\">6137.48 kb</span>. It scored <span class=\"var\">0</span> out of 100 for page weight. You can significantly improve performance by optimizing <span class=\"var\">10</span> items on this page.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Unused CSS Rules": [
+                      {
+                        "url": "@font-face {\n  font-family: Charlie Display;\n  font-style: normal;\n  font-display: swap; … } …",
+                        "totalBytes": 53562,
+                        "wastedBytes": 50074,
+                        "wastedPercent": 93.48717920754106
+                      },
+                      {
+                        "totalBytes": 42256,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/styles__ltr.css",
+                        "wastedPercent": 96.39499378447204,
+                        "wastedBytes": 40733
+                      },
+                      {
+                        "totalBytes": 23609,
+                        "url": "#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit; … } …",
+                        "wastedPercent": 98.71407151388854,
+                        "wastedBytes": 23305
+                      }
+                    ]
+                  },
+                  {
+                    "Unused Javascript": [
+                      {
+                        "totalBytes": 1236170,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.09915a6d.js",
+                        "wastedPercent": 57.31713654854557,
+                        "wastedBytes": 708537
+                      },
+                      {
+                        "wastedBytes": 218559,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 27016,
+                              "sourceWastedBytes": 27016,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-bar/src/bar-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 20990,
+                              "sourceWastedBytes": 20458,
+                              "source": "services/wac-web/src/uniform/components/teamwork-graph/src/teamwork-graph.tsx"
+                            },
+                            {
+                              "sourceBytes": 19924,
+                              "sourceWastedBytes": 19922,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-heading/src/heading-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 32735,
+                              "sourceWastedBytes": 13716,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceBytes": 8898,
+                              "sourceWastedBytes": 7468,
+                              "source": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 272826,
+                        "wastedPercent": 80.10936134712937,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js"
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 184067,
+                        "wastedPercent": 48.05730587305862
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 181259,
+                        "wastedPercent": 47.324053515577425
+                      },
+                      {
+                        "wastedPercent": 71.65055729066445,
+                        "wastedBytes": 145612,
+                        "totalBytes": 203225,
+                        "url": "https://js.intercomcdn.com/frame-modern.d705f820.js"
+                      },
+                      {
+                        "wastedPercent": 63.71348293622302,
+                        "wastedBytes": 93892,
+                        "totalBytes": 147366,
+                        "url": "https://js.intercomcdn.com/vendor-modern.5b6d263b.js"
+                      },
+                      {
+                        "wastedPercent": 87.04155921217792,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/animation-illustration.a9145d1a.js",
+                        "wastedBytes": 81856,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 81752,
+                              "source": "node_modules/lottie-web/build/player/lottie.js",
+                              "sourceBytes": 93688
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 94043
+                      },
+                      {
+                        "totalBytes": 137950,
+                        "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/otBannerSdk.js",
+                        "wastedPercent": 57.83415016248372,
+                        "wastedBytes": 79782
+                      },
+                      {
+                        "wastedPercent": 39.35804751524516,
+                        "wastedBytes": 72400,
+                        "totalBytes": 183952,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-EKLW76PEWW&cx=c&_slc=1"
+                      },
+                      {
+                        "wastedPercent": 47.73008391891748,
+                        "wastedBytes": 62450,
+                        "totalBytes": 130840,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-5406241&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 42.94333552461204,
+                        "wastedBytes": 59569,
+                        "totalBytes": 138715,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-975152762&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 39.05939934337255,
+                        "wastedBytes": 55321,
+                        "totalBytes": 141632,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=AW-955533044&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 26.6431199877515,
+                        "wastedBytes": 53239,
+                        "totalBytes": 199821,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5RJSBR"
+                      },
+                      {
+                        "url": "https://cdnssl.clicktale.net/www33/ptc/ef81b94c-8498-4f12-b358-eb76a000a247.js",
+                        "totalBytes": 131715,
+                        "wastedBytes": 51872,
+                        "wastedPercent": 39.3818695998882
+                      },
+                      {
+                        "totalBytes": 49098,
+                        "wastedBytes": 40389,
+                        "subItems": {
+                          "items": [
+                            {
+                              "source": "(unmapped)",
+                              "sourceWastedBytes": 4903,
+                              "sourceBytes": 9985
+                            },
+                            {
+                              "sourceWastedBytes": 4901,
+                              "source": "node_modules/@apollo/src/core/QueryManager.ts",
+                              "sourceBytes": 5209
+                            },
+                            {
+                              "sourceWastedBytes": 2865,
+                              "source": "node_modules/@apollo/src/core/ObservableQuery.ts",
+                              "sourceBytes": 3171
+                            },
+                            {
+                              "source": "node_modules/@apollo/src/cache/inmemory/entityStore.ts",
+                              "sourceWastedBytes": 1976,
+                              "sourceBytes": 2212
+                            },
+                            {
+                              "sourceWastedBytes": 1945,
+                              "source": "node_modules/@apollo/src/cache/inmemory/policies.ts",
+                              "sourceBytes": 2074
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confirmation-page.9169068b.js",
+                        "wastedPercent": 82.26119514408113
+                      },
+                      {
+                        "wastedPercent": 26.058499738163913,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/castle.6e837f0a.js",
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 38113,
+                              "source": "node_modules/@castleio/castle-js/dist/castle.js",
+                              "sourceBytes": 146119
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 38113,
+                        "totalBytes": 146259
+                      },
+                      {
+                        "wastedPercent": 35.195824246616574,
+                        "wastedBytes": 35216,
+                        "totalBytes": 100058,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js"
+                      },
+                      {
+                        "wastedPercent": 66.74135343594038,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.a8ff42e9.js",
+                        "wastedBytes": 25447,
+                        "subItems": {
+                          "type": "subitems",
+                          "items": [
+                            {
+                              "sourceBytes": 2018,
+                              "sourceWastedBytes": 2016,
+                              "source": "services/wac-web/src/templates/software/jira/service-management/jira-service-management-software-page/src/sections/software-jira-service-management-navbarv2.tsx"
+                            },
+                            {
+                              "sourceWastedBytes": 1773,
+                              "source": "services/wac-web/src/components/chat-widget/src/chat-widget.tsx",
+                              "sourceBytes": 2369
+                            },
+                            {
+                              "sourceBytes": 7212,
+                              "sourceWastedBytes": 1742,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceWastedBytes": 1206,
+                              "source": "services/wac-web/src/components/wpl/product-navbar/src/product-navbar.tsx",
+                              "sourceBytes": 1226
+                            },
+                            {
+                              "sourceWastedBytes": 1130,
+                              "source": "services/wac-web/src/contentful/product-catalog.tsx",
+                              "sourceBytes": 1134
+                            }
+                          ]
+                        },
+                        "totalBytes": 38128
+                      },
+                      {
+                        "wastedPercent": 77.99421193232413,
+                        "wastedBytes": 24995,
+                        "totalBytes": 32047,
+                        "url": "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Total Byte Weight": {
+                    "headings": [
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      }
+                    ],
+                    "items": [
+                      {
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.09915a6d.js",
+                        "totalBytes": 1244440
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 384012
+                      },
+                      {
+                        "totalBytes": 384012,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js"
+                      },
+                      {
+                        "totalBytes": 384011,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js"
+                      },
+                      {
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js",
+                        "totalBytes": 277999
+                      },
+                      {
+                        "totalBytes": 204164,
+                        "url": "https://js.intercomcdn.com/frame-modern.d705f820.js"
+                      },
+                      {
+                        "totalBytes": 200552,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5RJSBR"
+                      },
+                      {
+                        "totalBytes": 190141,
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/10gonvgd8w05a5ww441ow23cqen04x1t.png"
+                      },
+                      {
+                        "totalBytes": 184639,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-EKLW76PEWW&cx=c&_slc=1"
+                      },
+                      {
+                        "url": "https://www.atlassian.com/software",
+                        "totalBytes": 171111
+                      }
+                    ],
+                    "type": "table",
+                    "sortedBy": [
+                      "totalBytes"
+                    ]
+                  },
+                  "Unused CSS Rules": {
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 0,
+                        "FCP": 0
+                      },
+                      "type": "debugdata"
+                    },
+                    "items": [
+                      {
+                        "url": "@font-face {\n  font-family: Charlie Display;\n  font-style: normal;\n  font-display: swap; … } …",
+                        "totalBytes": 53562,
+                        "wastedBytes": 50074,
+                        "wastedPercent": 93.48717920754106
+                      },
+                      {
+                        "totalBytes": 42256,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/styles__ltr.css",
+                        "wastedPercent": 96.39499378447204,
+                        "wastedBytes": 40733
+                      },
+                      {
+                        "totalBytes": 23609,
+                        "url": "#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit; … } …",
+                        "wastedPercent": 98.71407151388854,
+                        "wastedBytes": 23305
+                      }
+                    ],
+                    "type": "opportunity",
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsBytes": 114112,
+                    "overallSavingsMs": 0,
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "key": "url",
+                        "label": "URL"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ]
+                  },
+                  "Unused Javascript": {
+                    "overallSavingsMs": 860,
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "key": "url",
+                        "label": "URL",
+                        "subItemsHeading": {
+                          "valueType": "code",
+                          "key": "source"
+                        }
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "subItemsHeading": {
+                          "key": "sourceBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "subItemsHeading": {
+                          "key": "sourceWastedBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsBytes": 2212575,
+                    "items": [
+                      {
+                        "totalBytes": 1236170,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.09915a6d.js",
+                        "wastedPercent": 57.31713654854557,
+                        "wastedBytes": 708537
+                      },
+                      {
+                        "wastedBytes": 218559,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 27016,
+                              "sourceWastedBytes": 27016,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-bar/src/bar-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 20990,
+                              "sourceWastedBytes": 20458,
+                              "source": "services/wac-web/src/uniform/components/teamwork-graph/src/teamwork-graph.tsx"
+                            },
+                            {
+                              "sourceBytes": 19924,
+                              "sourceWastedBytes": 19922,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-heading/src/heading-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 32735,
+                              "sourceWastedBytes": 13716,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceBytes": 8898,
+                              "sourceWastedBytes": 7468,
+                              "source": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 272826,
+                        "wastedPercent": 80.10936134712937,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js"
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 184067,
+                        "wastedPercent": 48.05730587305862
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 181259,
+                        "wastedPercent": 47.324053515577425
+                      },
+                      {
+                        "wastedPercent": 71.65055729066445,
+                        "wastedBytes": 145612,
+                        "totalBytes": 203225,
+                        "url": "https://js.intercomcdn.com/frame-modern.d705f820.js"
+                      },
+                      {
+                        "wastedPercent": 63.71348293622302,
+                        "wastedBytes": 93892,
+                        "totalBytes": 147366,
+                        "url": "https://js.intercomcdn.com/vendor-modern.5b6d263b.js"
+                      },
+                      {
+                        "wastedPercent": 87.04155921217792,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/animation-illustration.a9145d1a.js",
+                        "wastedBytes": 81856,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 81752,
+                              "source": "node_modules/lottie-web/build/player/lottie.js",
+                              "sourceBytes": 93688
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 94043
+                      },
+                      {
+                        "totalBytes": 137950,
+                        "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/otBannerSdk.js",
+                        "wastedPercent": 57.83415016248372,
+                        "wastedBytes": 79782
+                      },
+                      {
+                        "wastedPercent": 39.35804751524516,
+                        "wastedBytes": 72400,
+                        "totalBytes": 183952,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-EKLW76PEWW&cx=c&_slc=1"
+                      },
+                      {
+                        "wastedPercent": 47.73008391891748,
+                        "wastedBytes": 62450,
+                        "totalBytes": 130840,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-5406241&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 42.94333552461204,
+                        "wastedBytes": 59569,
+                        "totalBytes": 138715,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-975152762&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 39.05939934337255,
+                        "wastedBytes": 55321,
+                        "totalBytes": 141632,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=AW-955533044&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 26.6431199877515,
+                        "wastedBytes": 53239,
+                        "totalBytes": 199821,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5RJSBR"
+                      },
+                      {
+                        "url": "https://cdnssl.clicktale.net/www33/ptc/ef81b94c-8498-4f12-b358-eb76a000a247.js",
+                        "totalBytes": 131715,
+                        "wastedBytes": 51872,
+                        "wastedPercent": 39.3818695998882
+                      },
+                      {
+                        "totalBytes": 49098,
+                        "wastedBytes": 40389,
+                        "subItems": {
+                          "items": [
+                            {
+                              "source": "(unmapped)",
+                              "sourceWastedBytes": 4903,
+                              "sourceBytes": 9985
+                            },
+                            {
+                              "sourceWastedBytes": 4901,
+                              "source": "node_modules/@apollo/src/core/QueryManager.ts",
+                              "sourceBytes": 5209
+                            },
+                            {
+                              "sourceWastedBytes": 2865,
+                              "source": "node_modules/@apollo/src/core/ObservableQuery.ts",
+                              "sourceBytes": 3171
+                            },
+                            {
+                              "source": "node_modules/@apollo/src/cache/inmemory/entityStore.ts",
+                              "sourceWastedBytes": 1976,
+                              "sourceBytes": 2212
+                            },
+                            {
+                              "sourceWastedBytes": 1945,
+                              "source": "node_modules/@apollo/src/cache/inmemory/policies.ts",
+                              "sourceBytes": 2074
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confirmation-page.9169068b.js",
+                        "wastedPercent": 82.26119514408113
+                      },
+                      {
+                        "wastedPercent": 26.058499738163913,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/castle.6e837f0a.js",
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 38113,
+                              "source": "node_modules/@castleio/castle-js/dist/castle.js",
+                              "sourceBytes": 146119
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 38113,
+                        "totalBytes": 146259
+                      },
+                      {
+                        "wastedPercent": 35.195824246616574,
+                        "wastedBytes": 35216,
+                        "totalBytes": 100058,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js"
+                      },
+                      {
+                        "wastedPercent": 66.74135343594038,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.a8ff42e9.js",
+                        "wastedBytes": 25447,
+                        "subItems": {
+                          "type": "subitems",
+                          "items": [
+                            {
+                              "sourceBytes": 2018,
+                              "sourceWastedBytes": 2016,
+                              "source": "services/wac-web/src/templates/software/jira/service-management/jira-service-management-software-page/src/sections/software-jira-service-management-navbarv2.tsx"
+                            },
+                            {
+                              "sourceWastedBytes": 1773,
+                              "source": "services/wac-web/src/components/chat-widget/src/chat-widget.tsx",
+                              "sourceBytes": 2369
+                            },
+                            {
+                              "sourceBytes": 7212,
+                              "sourceWastedBytes": 1742,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceWastedBytes": 1206,
+                              "source": "services/wac-web/src/components/wpl/product-navbar/src/product-navbar.tsx",
+                              "sourceBytes": 1226
+                            },
+                            {
+                              "sourceWastedBytes": 1130,
+                              "source": "services/wac-web/src/contentful/product-catalog.tsx",
+                              "sourceBytes": 1134
+                            }
+                          ]
+                        },
+                        "totalBytes": 38128
+                      },
+                      {
+                        "wastedPercent": 77.99421193232413,
+                        "wastedBytes": 24995,
+                        "totalBytes": 32047,
+                        "url": "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+                      }
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 860,
+                        "FCP": 860
+                      },
+                      "type": "debugdata"
+                    }
+                  }
+                },
+                "resources_text": "<p><a href=\"https://sustainablewebdesign.org/has-the-design-team-set-a-page-weight-budget/\">Learn how page weight budgets can help you reach sustainability goals</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 50,
+                  "submetrics": [
+                    {
+                      "unused_css_rules": 1
+                    },
+                    {
+                      "unused_javascript": 0
+                    },
+                    {
+                      "duplicated_javascript_insight": 0.5
+                    }
+                  ]
+                },
+                "name": "Remove Unused Code",
+                "impact_text": "Plugins, widgets, and third-party frameworks often introduce unnecessary code snippets into your page which can adversely impact download speed and performance.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 30.43\" enable-background=\"new 0 0 27 30.43\" xml:space=\"preserve\">\r\n<path id=\"Path_74\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.25,1\r\n\th-4.06c-1.12,0-2.03,0.91-2.03,2.03l0,0v4.06h8.12V3.03C17.28,1.91,16.37,1,15.25,1C15.25,1,15.25,1,15.25,1z\"/>\r\n<line id=\"Line_21\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"26\" y1=\"7.21\" x2=\"1\" y2=\"7.21\"/>\r\n<path id=\"Path_75\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M23.37,7.09\r\n\tl-1.86,20.49c-0.1,1.05-0.97,1.85-2.02,1.85H6.95c-1.05,0-1.93-0.8-2.02-1.85L3.06,7.09\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Unminified CSS<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! All the CSS associated with this page has been optimized. Minifying scripts removes extra characters, improving page download speeds and reducing both data usage and emissions.</p> </div> <div class=\"at green\"> <h6>Unused CSS Rules<span class=\"submetric_score\">100 / 100</span></h6> <p>We did not detect any unused CSS Rules on this page.</p> </div> <div class=\"at green\"> <h6>Unminified Javascript<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! All JavaScript associated with this page has been minified. \n<p>Minifying scripts removes extra characters, improving page download speeds and reducing both data usage and emissions.</p> </div> <div class=\"at red\"> <h6>Duplicated Javascript Insight<span class=\"submetric_score\">50 / 100</span></h6> <p>There is duplicate JavaScript associated with this page. According to Ecograder's calculations, {{total_items}} scripts could potentially be removed. This might shave off {{total_savings_bytes_string}} from your page, speeding up download time by {{total_savings_ms_string}}.</p> </div> <div class=\"at red\"> <h6>Unused Javascript<span class=\"submetric_score\">0 / 100</span></h6> <p>There is unused JavaScript associated with this page. According to Ecograder's calculations, <span class=\"var\">19</span> scripts could potentially be removed. This might shave off <span class=\"var\">2160.72 kb</span> from your page, speeding up download time by <span class=\"var\">860 ms</span>.</p> </div> <div class=\"at red\"> <h6>Legacy Javascript Insight<span class=\"submetric_score\">50 / 100</span></h6> <p>There is outdated JavaScript associated with this page. Legacy scripts can slow down pages and cause potential security risks. You should fix this.</p> </div> <div class=\"at green\"> <h6>Document Latency Insight<span class=\"submetric_score\">100 / 100</span></h6> <p>It appears as though this page uses compression to deliver text-based resources. Good work.</p> </div></p>\n",
+                "opportunity_items": [
+                  {
+                    "Unused CSS Rules": [
+                      {
+                        "url": "@font-face {\n  font-family: Charlie Display;\n  font-style: normal;\n  font-display: swap; … } …",
+                        "totalBytes": 53562,
+                        "wastedBytes": 50074,
+                        "wastedPercent": 93.48717920754106
+                      },
+                      {
+                        "totalBytes": 42256,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/styles__ltr.css",
+                        "wastedPercent": 96.39499378447204,
+                        "wastedBytes": 40733
+                      },
+                      {
+                        "totalBytes": 23609,
+                        "url": "#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit; … } …",
+                        "wastedPercent": 98.71407151388854,
+                        "wastedBytes": 23305
+                      }
+                    ]
+                  },
+                  {
+                    "Unused Javascript": [
+                      {
+                        "totalBytes": 1236170,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.09915a6d.js",
+                        "wastedPercent": 57.31713654854557,
+                        "wastedBytes": 708537
+                      },
+                      {
+                        "wastedBytes": 218559,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 27016,
+                              "sourceWastedBytes": 27016,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-bar/src/bar-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 20990,
+                              "sourceWastedBytes": 20458,
+                              "source": "services/wac-web/src/uniform/components/teamwork-graph/src/teamwork-graph.tsx"
+                            },
+                            {
+                              "sourceBytes": 19924,
+                              "sourceWastedBytes": 19922,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-heading/src/heading-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 32735,
+                              "sourceWastedBytes": 13716,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceBytes": 8898,
+                              "sourceWastedBytes": 7468,
+                              "source": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 272826,
+                        "wastedPercent": 80.10936134712937,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js"
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 184067,
+                        "wastedPercent": 48.05730587305862
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 181259,
+                        "wastedPercent": 47.324053515577425
+                      },
+                      {
+                        "wastedPercent": 71.65055729066445,
+                        "wastedBytes": 145612,
+                        "totalBytes": 203225,
+                        "url": "https://js.intercomcdn.com/frame-modern.d705f820.js"
+                      },
+                      {
+                        "wastedPercent": 63.71348293622302,
+                        "wastedBytes": 93892,
+                        "totalBytes": 147366,
+                        "url": "https://js.intercomcdn.com/vendor-modern.5b6d263b.js"
+                      },
+                      {
+                        "wastedPercent": 87.04155921217792,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/animation-illustration.a9145d1a.js",
+                        "wastedBytes": 81856,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 81752,
+                              "source": "node_modules/lottie-web/build/player/lottie.js",
+                              "sourceBytes": 93688
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 94043
+                      },
+                      {
+                        "totalBytes": 137950,
+                        "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/otBannerSdk.js",
+                        "wastedPercent": 57.83415016248372,
+                        "wastedBytes": 79782
+                      },
+                      {
+                        "wastedPercent": 39.35804751524516,
+                        "wastedBytes": 72400,
+                        "totalBytes": 183952,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-EKLW76PEWW&cx=c&_slc=1"
+                      },
+                      {
+                        "wastedPercent": 47.73008391891748,
+                        "wastedBytes": 62450,
+                        "totalBytes": 130840,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-5406241&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 42.94333552461204,
+                        "wastedBytes": 59569,
+                        "totalBytes": 138715,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-975152762&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 39.05939934337255,
+                        "wastedBytes": 55321,
+                        "totalBytes": 141632,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=AW-955533044&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 26.6431199877515,
+                        "wastedBytes": 53239,
+                        "totalBytes": 199821,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5RJSBR"
+                      },
+                      {
+                        "url": "https://cdnssl.clicktale.net/www33/ptc/ef81b94c-8498-4f12-b358-eb76a000a247.js",
+                        "totalBytes": 131715,
+                        "wastedBytes": 51872,
+                        "wastedPercent": 39.3818695998882
+                      },
+                      {
+                        "totalBytes": 49098,
+                        "wastedBytes": 40389,
+                        "subItems": {
+                          "items": [
+                            {
+                              "source": "(unmapped)",
+                              "sourceWastedBytes": 4903,
+                              "sourceBytes": 9985
+                            },
+                            {
+                              "sourceWastedBytes": 4901,
+                              "source": "node_modules/@apollo/src/core/QueryManager.ts",
+                              "sourceBytes": 5209
+                            },
+                            {
+                              "sourceWastedBytes": 2865,
+                              "source": "node_modules/@apollo/src/core/ObservableQuery.ts",
+                              "sourceBytes": 3171
+                            },
+                            {
+                              "source": "node_modules/@apollo/src/cache/inmemory/entityStore.ts",
+                              "sourceWastedBytes": 1976,
+                              "sourceBytes": 2212
+                            },
+                            {
+                              "sourceWastedBytes": 1945,
+                              "source": "node_modules/@apollo/src/cache/inmemory/policies.ts",
+                              "sourceBytes": 2074
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confirmation-page.9169068b.js",
+                        "wastedPercent": 82.26119514408113
+                      },
+                      {
+                        "wastedPercent": 26.058499738163913,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/castle.6e837f0a.js",
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 38113,
+                              "source": "node_modules/@castleio/castle-js/dist/castle.js",
+                              "sourceBytes": 146119
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 38113,
+                        "totalBytes": 146259
+                      },
+                      {
+                        "wastedPercent": 35.195824246616574,
+                        "wastedBytes": 35216,
+                        "totalBytes": 100058,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js"
+                      },
+                      {
+                        "wastedPercent": 66.74135343594038,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.a8ff42e9.js",
+                        "wastedBytes": 25447,
+                        "subItems": {
+                          "type": "subitems",
+                          "items": [
+                            {
+                              "sourceBytes": 2018,
+                              "sourceWastedBytes": 2016,
+                              "source": "services/wac-web/src/templates/software/jira/service-management/jira-service-management-software-page/src/sections/software-jira-service-management-navbarv2.tsx"
+                            },
+                            {
+                              "sourceWastedBytes": 1773,
+                              "source": "services/wac-web/src/components/chat-widget/src/chat-widget.tsx",
+                              "sourceBytes": 2369
+                            },
+                            {
+                              "sourceBytes": 7212,
+                              "sourceWastedBytes": 1742,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceWastedBytes": 1206,
+                              "source": "services/wac-web/src/components/wpl/product-navbar/src/product-navbar.tsx",
+                              "sourceBytes": 1226
+                            },
+                            {
+                              "sourceWastedBytes": 1130,
+                              "source": "services/wac-web/src/contentful/product-catalog.tsx",
+                              "sourceBytes": 1134
+                            }
+                          ]
+                        },
+                        "totalBytes": 38128
+                      },
+                      {
+                        "wastedPercent": 77.99421193232413,
+                        "wastedBytes": 24995,
+                        "totalBytes": 32047,
+                        "url": "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+                      }
+                    ]
+                  },
+                  {
+                    "Duplicated Javascript Insight": [
+                      {
+                        "wastedBytes": 21516,
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-payload.7bbdf96a.js",
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              }
+                            },
+                            {
+                              "sourceTransferBytes": 6396,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-interaction-extra-metrics-payload.566508d2.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-post-interaction-log-payload.a836ef9c.js",
+                              "sourceTransferBytes": 6308
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-payload.a39ee377.js",
+                              "sourceTransferBytes": 5627
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-terminal-error-payload.d57adf10.js",
+                              "sourceTransferBytes": 3185
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@atlaskit/react-ufo"
+                      },
+                      {
+                        "wastedBytes": 10400,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              },
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.049093fd.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-software-page-anchor-lp-jsw-team-design.4473212b.js",
+                              "sourceTransferBytes": 3228
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.769629b7.js",
+                              "sourceTransferBytes": 2777
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/language-selector.517c7881.js",
+                              "sourceTransferBytes": 1834
+                            },
+                            {
+                              "sourceTransferBytes": 1108,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/direct-buy-site-setup-container.ec18f87d.js"
+                            },
+                            {
+                              "sourceTransferBytes": 780,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/view.5ff9d3ca.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.a8ff42e9.js",
+                              "sourceTransferBytes": 673
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@babel/runtime"
+                      },
+                      {
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.runtime.78feed4f.js",
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              }
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.runtime.3d14dcfa.js",
+                              "sourceTransferBytes": 4557
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@atlaspack/runtime-js",
+                        "wastedBytes": 4557
+                      },
+                      {
+                        "wastedBytes": 3710,
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.049093fd.js",
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              }
+                            },
+                            {
+                              "sourceTransferBytes": 3710,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-software-page-anchor-lp-jsw-team-design.4473212b.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@atlassian/ufo-experimental"
+                      },
+                      {
+                        "source": "<prelude>",
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.runtime.818ed9d8.js",
+                              "sourceTransferBytes": {
+                                "value": "--",
+                                "type": "text"
+                              }
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.runtime.3d14dcfa.js",
+                              "sourceTransferBytes": 1072
+                            },
+                            {
+                              "sourceTransferBytes": 819,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-terminal-error-payload.d57adf10.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js",
+                              "sourceTransferBytes": 605
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 2496
+                      },
+                      {
+                        "wastedBytes": 549,
+                        "source": "node_modules/uuid",
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceTransferBytes": {
+                                "value": "--",
+                                "type": "text"
+                              },
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.049093fd.js"
+                            },
+                            {
+                              "sourceTransferBytes": 549,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-software-page-anchor-lp-jsw-team-design.4473212b.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Unused CSS Rules": {
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 0,
+                        "FCP": 0
+                      },
+                      "type": "debugdata"
+                    },
+                    "items": [
+                      {
+                        "url": "@font-face {\n  font-family: Charlie Display;\n  font-style: normal;\n  font-display: swap; … } …",
+                        "totalBytes": 53562,
+                        "wastedBytes": 50074,
+                        "wastedPercent": 93.48717920754106
+                      },
+                      {
+                        "totalBytes": 42256,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/styles__ltr.css",
+                        "wastedPercent": 96.39499378447204,
+                        "wastedBytes": 40733
+                      },
+                      {
+                        "totalBytes": 23609,
+                        "url": "#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit; … } …",
+                        "wastedPercent": 98.71407151388854,
+                        "wastedBytes": 23305
+                      }
+                    ],
+                    "type": "opportunity",
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsBytes": 114112,
+                    "overallSavingsMs": 0,
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "key": "url",
+                        "label": "URL"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ]
+                  },
+                  "Unused Javascript": {
+                    "overallSavingsMs": 860,
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "key": "url",
+                        "label": "URL",
+                        "subItemsHeading": {
+                          "valueType": "code",
+                          "key": "source"
+                        }
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "subItemsHeading": {
+                          "key": "sourceBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "subItemsHeading": {
+                          "key": "sourceWastedBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsBytes": 2212575,
+                    "items": [
+                      {
+                        "totalBytes": 1236170,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.09915a6d.js",
+                        "wastedPercent": 57.31713654854557,
+                        "wastedBytes": 708537
+                      },
+                      {
+                        "wastedBytes": 218559,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 27016,
+                              "sourceWastedBytes": 27016,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-bar/src/bar-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 20990,
+                              "sourceWastedBytes": 20458,
+                              "source": "services/wac-web/src/uniform/components/teamwork-graph/src/teamwork-graph.tsx"
+                            },
+                            {
+                              "sourceBytes": 19924,
+                              "sourceWastedBytes": 19922,
+                              "source": "services/wac-web/src/uniform/components/design-refresh-heading/src/heading-svgs.tsx"
+                            },
+                            {
+                              "sourceBytes": 32735,
+                              "sourceWastedBytes": 13716,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceBytes": 8898,
+                              "sourceWastedBytes": 7468,
+                              "source": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.min.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 272826,
+                        "wastedPercent": 80.10936134712937,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js"
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 184067,
+                        "wastedPercent": 48.05730587305862
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 383016,
+                        "wastedBytes": 181259,
+                        "wastedPercent": 47.324053515577425
+                      },
+                      {
+                        "wastedPercent": 71.65055729066445,
+                        "wastedBytes": 145612,
+                        "totalBytes": 203225,
+                        "url": "https://js.intercomcdn.com/frame-modern.d705f820.js"
+                      },
+                      {
+                        "wastedPercent": 63.71348293622302,
+                        "wastedBytes": 93892,
+                        "totalBytes": 147366,
+                        "url": "https://js.intercomcdn.com/vendor-modern.5b6d263b.js"
+                      },
+                      {
+                        "wastedPercent": 87.04155921217792,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/animation-illustration.a9145d1a.js",
+                        "wastedBytes": 81856,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 81752,
+                              "source": "node_modules/lottie-web/build/player/lottie.js",
+                              "sourceBytes": 93688
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "totalBytes": 94043
+                      },
+                      {
+                        "totalBytes": 137950,
+                        "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/otBannerSdk.js",
+                        "wastedPercent": 57.83415016248372,
+                        "wastedBytes": 79782
+                      },
+                      {
+                        "wastedPercent": 39.35804751524516,
+                        "wastedBytes": 72400,
+                        "totalBytes": 183952,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-EKLW76PEWW&cx=c&_slc=1"
+                      },
+                      {
+                        "wastedPercent": 47.73008391891748,
+                        "wastedBytes": 62450,
+                        "totalBytes": 130840,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-5406241&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 42.94333552461204,
+                        "wastedBytes": 59569,
+                        "totalBytes": 138715,
+                        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-975152762&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 39.05939934337255,
+                        "wastedBytes": 55321,
+                        "totalBytes": 141632,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=AW-955533044&cx=c>m=4e66f1"
+                      },
+                      {
+                        "wastedPercent": 26.6431199877515,
+                        "wastedBytes": 53239,
+                        "totalBytes": 199821,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5RJSBR"
+                      },
+                      {
+                        "url": "https://cdnssl.clicktale.net/www33/ptc/ef81b94c-8498-4f12-b358-eb76a000a247.js",
+                        "totalBytes": 131715,
+                        "wastedBytes": 51872,
+                        "wastedPercent": 39.3818695998882
+                      },
+                      {
+                        "totalBytes": 49098,
+                        "wastedBytes": 40389,
+                        "subItems": {
+                          "items": [
+                            {
+                              "source": "(unmapped)",
+                              "sourceWastedBytes": 4903,
+                              "sourceBytes": 9985
+                            },
+                            {
+                              "sourceWastedBytes": 4901,
+                              "source": "node_modules/@apollo/src/core/QueryManager.ts",
+                              "sourceBytes": 5209
+                            },
+                            {
+                              "sourceWastedBytes": 2865,
+                              "source": "node_modules/@apollo/src/core/ObservableQuery.ts",
+                              "sourceBytes": 3171
+                            },
+                            {
+                              "source": "node_modules/@apollo/src/cache/inmemory/entityStore.ts",
+                              "sourceWastedBytes": 1976,
+                              "sourceBytes": 2212
+                            },
+                            {
+                              "sourceWastedBytes": 1945,
+                              "source": "node_modules/@apollo/src/cache/inmemory/policies.ts",
+                              "sourceBytes": 2074
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/confirmation-page.9169068b.js",
+                        "wastedPercent": 82.26119514408113
+                      },
+                      {
+                        "wastedPercent": 26.058499738163913,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/castle.6e837f0a.js",
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceWastedBytes": 38113,
+                              "source": "node_modules/@castleio/castle-js/dist/castle.js",
+                              "sourceBytes": 146119
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 38113,
+                        "totalBytes": 146259
+                      },
+                      {
+                        "wastedPercent": 35.195824246616574,
+                        "wastedBytes": 35216,
+                        "totalBytes": 100058,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js"
+                      },
+                      {
+                        "wastedPercent": 66.74135343594038,
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.a8ff42e9.js",
+                        "wastedBytes": 25447,
+                        "subItems": {
+                          "type": "subitems",
+                          "items": [
+                            {
+                              "sourceBytes": 2018,
+                              "sourceWastedBytes": 2016,
+                              "source": "services/wac-web/src/templates/software/jira/service-management/jira-service-management-software-page/src/sections/software-jira-service-management-navbarv2.tsx"
+                            },
+                            {
+                              "sourceWastedBytes": 1773,
+                              "source": "services/wac-web/src/components/chat-widget/src/chat-widget.tsx",
+                              "sourceBytes": 2369
+                            },
+                            {
+                              "sourceBytes": 7212,
+                              "sourceWastedBytes": 1742,
+                              "source": "(unmapped)"
+                            },
+                            {
+                              "sourceWastedBytes": 1206,
+                              "source": "services/wac-web/src/components/wpl/product-navbar/src/product-navbar.tsx",
+                              "sourceBytes": 1226
+                            },
+                            {
+                              "sourceWastedBytes": 1130,
+                              "source": "services/wac-web/src/contentful/product-catalog.tsx",
+                              "sourceBytes": 1134
+                            }
+                          ]
+                        },
+                        "totalBytes": 38128
+                      },
+                      {
+                        "wastedPercent": 77.99421193232413,
+                        "wastedBytes": 24995,
+                        "totalBytes": 32047,
+                        "url": "https://atl-onetrust-wrapper.atlassian.com/assets/atl-onetrust-wrapper.min.js"
+                      }
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 860,
+                        "FCP": 860
+                      },
+                      "type": "debugdata"
+                    }
+                  },
+                  "Duplicated Javascript Insight": {
+                    "headings": [
+                      {
+                        "label": "Source",
+                        "subItemsHeading": {
+                          "valueType": "url",
+                          "key": "url"
+                        },
+                        "valueType": "code",
+                        "key": "source"
+                      },
+                      {
+                        "subItemsHeading": {
+                          "key": "sourceTransferBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "wastedBytes",
+                        "label": "Duplicated bytes",
+                        "granularity": 10
+                      }
+                    ],
+                    "type": "table",
+                    "debugData": {
+                      "wastedBytes": 6171,
+                      "type": "debugdata"
+                    },
+                    "items": [
+                      {
+                        "wastedBytes": 21516,
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-payload.7bbdf96a.js",
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              }
+                            },
+                            {
+                              "sourceTransferBytes": 6396,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-interaction-extra-metrics-payload.566508d2.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-post-interaction-log-payload.a836ef9c.js",
+                              "sourceTransferBytes": 6308
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-payload.a39ee377.js",
+                              "sourceTransferBytes": 5627
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-terminal-error-payload.d57adf10.js",
+                              "sourceTransferBytes": 3185
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@atlaskit/react-ufo"
+                      },
+                      {
+                        "wastedBytes": 10400,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              },
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.049093fd.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-software-page-anchor-lp-jsw-team-design.4473212b.js",
+                              "sourceTransferBytes": 3228
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.769629b7.js",
+                              "sourceTransferBytes": 2777
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/language-selector.517c7881.js",
+                              "sourceTransferBytes": 1834
+                            },
+                            {
+                              "sourceTransferBytes": 1108,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/direct-buy-site-setup-container.ec18f87d.js"
+                            },
+                            {
+                              "sourceTransferBytes": 780,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/view.5ff9d3ca.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.a8ff42e9.js",
+                              "sourceTransferBytes": 673
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@babel/runtime"
+                      },
+                      {
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/uniform-entry-page.runtime.78feed4f.js",
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              }
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.runtime.3d14dcfa.js",
+                              "sourceTransferBytes": 4557
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@atlaspack/runtime-js",
+                        "wastedBytes": 4557
+                      },
+                      {
+                        "wastedBytes": 3710,
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.049093fd.js",
+                              "sourceTransferBytes": {
+                                "type": "text",
+                                "value": "--"
+                              }
+                            },
+                            {
+                              "sourceTransferBytes": 3710,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-software-page-anchor-lp-jsw-team-design.4473212b.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "source": "node_modules/@atlassian/ufo-experimental"
+                      },
+                      {
+                        "source": "<prelude>",
+                        "subItems": {
+                          "items": [
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.runtime.818ed9d8.js",
+                              "sourceTransferBytes": {
+                                "value": "--",
+                                "type": "text"
+                              }
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.runtime.3d14dcfa.js",
+                              "sourceTransferBytes": 1072
+                            },
+                            {
+                              "sourceTransferBytes": 819,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/create-terminal-error-payload.d57adf10.js"
+                            },
+                            {
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js",
+                              "sourceTransferBytes": 605
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 2496
+                      },
+                      {
+                        "wastedBytes": 549,
+                        "source": "node_modules/uuid",
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceTransferBytes": {
+                                "value": "--",
+                                "type": "text"
+                              },
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-switcher.049093fd.js"
+                            },
+                            {
+                              "sourceTransferBytes": 549,
+                              "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/jira-software-page-anchor-lp-jsw-team-design.4473212b.js"
+                            }
+                          ],
+                          "type": "subitems"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.upbuild.io/blog/find-remove-unused-css-javascript/\">Read more about how to find and remove unused scripts and code</a></p>\n"
+              }
+            ],
+            "category_percent": "33%"
+          },
+          {
+            "category": "UX Design",
+            "category_weight": 1,
+            "category_content": "Creating an accessible user experience that is free from barriers or intrusions helps people find what they need and accomplish tasks quickly. This is important because end consumer device use can potentially account for up to 52% of a digital product or service's overall emissions. Here are a few recommendations for providing your users with a better experience.",
+            "category_score": 52,
+            "category_id": 4,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 42,
+                  "submetrics": [
+                    {
+                      "largest_contentful_paint": 0.42
+                    }
+                  ]
+                },
+                "name": "Improve Page Rendering",
+                "impact_text": "Studies have shown that users leave pages that don't display content quickly. \"Above-the-fold\" page content should render on a user's device in 2.5 seconds or less. This is especially crucial in low-bandwidth areas and for users with older devices.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27.81 30.85\" enable-background=\"new 0 0 27.81 30.85\" xml:space=\"preserve\">\r\n<path id=\"Path_62\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21.74,9.11\r\n\tc4.74,4.74,4.74,12.43,0,17.18s-12.43,4.74-17.18,0s-4.74-12.43,0-17.18c0,0,0,0,0,0C9.3,4.37,16.99,4.37,21.74,9.11\"/>\r\n<path id=\"Path_63\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.91,17.7\r\n\tc0-0.42-0.34-0.76-0.76-0.76c-0.42,0-0.76,0.34-0.76,0.76c0,0.42,0.34,0.75,0.76,0.76c0.42,0,0.76-0.33,0.76-0.75\r\n\tC13.91,17.71,13.91,17.7,13.91,17.7\"/>\r\n<line id=\"Line_6\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"13.15\" y1=\"11.63\" x2=\"13.15\" y2=\"17.7\"/>\r\n<line id=\"Line_7\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"10.11\" y1=\"1\" x2=\"16.18\" y2=\"1\"/>\r\n<path id=\"Path_64\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M26.81,7.07\r\n\tl-3.04-3.04l1.52,1.52l-3.56,3.56\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Render Blocking Insight<span class=\"submetric_score\">0 / 100</span></h6> <p>You scored <span class=\"var\">0</span> out of 100 for using scripts or stylesheets that slow down page render time. There is room to improve this by optimizing the URLs listed below.</p> </div> <div class=\"at red\"> <h6>Largest Contentful Paint<span class=\"submetric_score\">42 / 100</span></h6> <p>This page scored <span class=\"var\">42</span> out of 100 based on how quickly this page displays content. This is okay, but there's still room to improve this score by identifying elements that impede page rendering. Based on Ecograder's calculations, there are <span class=\"var\">205</span> on this page that could slow down page renders. It looks like you stand to optimize a few more of them.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://www.wholegraindigital.com/blog/core-web-vitals/\">Learn more about how Core Web Vitals improves user experience</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 48,
+                  "submetrics": [
+                    {
+                      "cumulative_layout_shift": 0.86
+                    },
+                    {
+                      "max_potential_fid": 0.09
+                    }
+                  ]
+                },
+                "name": "Page Interactions",
+                "impact_text": "Pages that respond slowly or don't respond as expected to user interactions—like button clicks, taps, key presses, form inputs, and so on—use more energy and frustrate users. This can be attributed to a number of things, some of which are outlined here.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 30.67 30.67\" enable-background=\"new 0 0 30.67 30.67\" xml:space=\"preserve\">\r\n<path id=\"Path_65\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M24.55,12.77\r\n\tV3.42c0-1.34-1.08-2.42-2.42-2.42c0,0,0,0,0,0H3.42C2.08,1,1,2.08,1,3.42c0,0,0,0,0,0v18.7c0,1.34,1.08,2.42,2.41,2.43\r\n\tc0,0,0.01,0,0.01,0h11.23\"/>\r\n<path id=\"Path_66\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M28.56,26.84\r\n\th-3.95l-2.53,2.51c-0.43,0.43-1.13,0.43-1.56,0c-0.21-0.21-0.32-0.49-0.32-0.78V18.48c0-0.61,0.49-1.1,1.1-1.1\r\n\tc0.29,0,0.58,0.12,0.78,0.32l7.25,7.25c0.43,0.43,0.43,1.13,0,1.56C29.14,26.72,28.86,26.84,28.56,26.84z\"/>\r\n<line id=\"Line_8\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"19.45\" y1=\"12.77\" x2=\"12.27\" y2=\"12.77\"/>\r\n<path id=\"Path_67\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.87,12.53\r\n\tc0.13,0.13,0.13,0.35,0,0.48s-0.35,0.13-0.48,0c-0.13-0.13-0.13-0.35,0-0.48c0,0,0,0,0,0C6.52,12.4,6.74,12.4,6.87,12.53\r\n\tC6.87,12.53,6.87,12.53,6.87,12.53\"/>\r\n<line id=\"Line_9\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"19.45\" y1=\"6.63\" x2=\"12.27\" y2=\"6.63\"/>\r\n<path id=\"Path_68\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.87,6.39\r\n\tc0.13,0.13,0.13,0.35,0,0.48c-0.13,0.13-0.35,0.13-0.48,0c-0.13-0.13-0.13-0.35,0-0.48c0,0,0,0,0,0C6.52,6.26,6.74,6.26,6.87,6.39\r\n\tC6.87,6.39,6.87,6.39,6.87,6.39\"/>\r\n<line id=\"Line_10\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"14.65\" y1=\"18.92\" x2=\"12.39\" y2=\"18.92\"/>\r\n<path id=\"Path_69\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7,18.68\r\n\tc0.13,0.13,0.13,0.35,0,0.48s-0.35,0.13-0.48,0s-0.13-0.35,0-0.48c0,0,0,0,0,0C6.65,18.55,6.86,18.55,7,18.68\r\n\tC7,18.68,7,18.68,7,18.68\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Cumulative Layout Shift<span class=\"submetric_score\">86 / 100</span></h6> <p>This page scored <span class=\"var\">86</span> out of 100 for page layout shifts. This is pretty good. Page elements that shift while a user interacts with them are not only annoying but can potentially waste energy too. This is especially true if a user must redo tasks because of shift-induced mistakes they made.</p> </div> <div class=\"at red\"> <h6>Max Potential First Input Delay<span class=\"submetric_score\">9 / 100</span></h6> <p>This page scored <span class=\"var\">9</span> out of 100 based on how quickly users can interact with content. There is significant room to improve this score by identifying page elements that impede speedy interactivity. Based on Ecograder's calculations, page rendering is delayed by <span class=\"var\">485 millisecond</span>.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Cumulative Layout Shift": [
+                      {
+                        "newEngineResultDiffered": false,
+                        "newEngineResult": {
+                          "cumulativeLayoutShiftMainFrame": 0.112177,
+                          "cumulativeLayoutShift": 0.112177
+                        },
+                        "cumulativeLayoutShiftMainFrame": 0.112177
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Cumulative Layout Shift": {
+                    "items": [
+                      {
+                        "newEngineResultDiffered": false,
+                        "newEngineResult": {
+                          "cumulativeLayoutShiftMainFrame": 0.112177,
+                          "cumulativeLayoutShift": 0.112177
+                        },
+                        "cumulativeLayoutShiftMainFrame": 0.112177
+                      }
+                    ],
+                    "type": "debugdata"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://ecoping.earth/blog/core-web-vitals-and-sustainability\">Learn how Google's Core Web Vitals and sustainability go hand-in-hand</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 92,
+                  "submetrics": [
+                    {
+                      "lighthouse_seo_score": "0.92"
+                    }
+                  ]
+                },
+                "name": "Optimize Content for Search",
+                "impact_text": "Pages that employ SEO best practices help people more quickly find content, reducing energy used while searching. Search-optimized pages also tend to be more accessible and work across a wider array of devices and platforms. This reduces the amount of energy (and frustration) users expend when barriers exist.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27.12 27.36\" enable-background=\"new 0 0 27.12 27.36\" xml:space=\"preserve\">\r\n<circle id=\"Ellipse_3\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" cx=\"10.37\" cy=\"10.37\" r=\"9.37\"/>\r\n<line id=\"Line_11\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"16.94\" y1=\"17.06\" x2=\"26.12\" y2=\"26.36\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>SEO Score<span class=\"submetric_score\">92 / 100</span></h6> <p>Since search is contextual, it is difficult to estimate precisely how much good SEO practices reduce page-based emissions. Google says a single search can power a lightbulb for 17 seconds. However, given the global volume of daily searches, anything you can do to reduce energy expended by helping people more quickly find content is useful.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://sustainablewebdesign.org/is-the-content-easy-to-find/\">More information on SEO and sustainability</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 96,
+                  "submetrics": [
+                    {
+                      "lighthouse_accessibility_score": "0.96"
+                    }
+                  ]
+                },
+                "name": "Accessibility",
+                "impact_text": "Accessible pages tend to work across a wider array of devices and platforms, including assistive technologies used by people with disabilities. Prioritizing accessibility reduces the amount of energy (and frustration) users expend when barriers exist. Plus, it's just the right thing to do.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 29.61 33.66\" enable-background=\"new 0 0 29.61 33.66\" xml:space=\"preserve\">\r\n<path id=\"Path_70\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M28.61,10.16\r\n\tc-7.62,2.31-19.99,2.31-27.61,0\"/>\r\n<path id=\"Path_71\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11,11.78\r\n\tc0,7.45,0,16.41-1.73,20.88\"/>\r\n<path id=\"Path_72\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.6,11.78\r\n\tc0,11.53,0,13.96,1.73,20.88\"/>\r\n<circle id=\"Ellipse_4\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" cx=\"14.8\" cy=\"4.16\" r=\"3.16\"/>\r\n<line id=\"Line_12\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"11\" y1=\"22.48\" x2=\"18.6\" y2=\"22.48\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Accessibility Score<span class=\"submetric_score\">96 / 100</span></h6> <p>An automated crawler like Ecograder can only catch about one-third of total possible accessibility issues on any given page. Plus, emissions estimates related to the ecological impact of accessible content are difficult to quantify. However, truly sustainable solutions are good for people and planet. Because of this, we include web accessibility in Ecograder's scoring algorithm.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://www.mightybytes.com/blog/digital-accessibility-web-sustainability/\">Read more about web content, accessibility, and sustainability</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 50,
+                  "submetrics": [
+                    {
+                      "unsized_images": 0.5
+                    }
+                  ]
+                },
+                "name": "Image elements do not have explicit width and height",
+                "impact_text": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 27\" style=\"enable-background:new 0 0 27 27;\" xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{clip-path:url(#SVGID_00000022562805838848282430000005082421216664944259_);}\r\n\t.st1{fill:none;stroke:#F0F3F3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}\r\n</style>\r\n<g id=\"Group_172\" transform=\"translate(0 0)\">\r\n\t<g>\r\n\t\t<defs>\r\n\t\t\t<rect id=\"SVGID_1_\" width=\"27\" height=\"27\"/>\r\n\t\t</defs>\r\n\t\t<clipPath id=\"SVGID_00000095340850356617219920000003764292749914741917_\">\r\n\t\t\t<use xlink:href=\"#SVGID_1_\"  style=\"overflow:visible;\"/>\r\n\t\t</clipPath>\r\n\t\t\r\n\t\t\t<g id=\"Group_171\" transform=\"translate(0 0)\" style=\"clip-path:url(#SVGID_00000095340850356617219920000003764292749914741917_);\">\r\n\t\t\t<path id=\"Path_136\" class=\"st1\" d=\"M5.76,20.72c-0.28,0-0.52,0.23-0.51,0.52c0,0.28,0.23,0.52,0.52,0.51\r\n\t\t\t\tc0.28,0,0.51-0.23,0.51-0.52C6.28,20.95,6.04,20.72,5.76,20.72C5.76,20.72,5.76,20.72,5.76,20.72\"/>\r\n\t\t\t<path id=\"Path_137\" class=\"st1\" d=\"M5.93,25.88L5.93,25.88c-2.66,0-4.82-2.16-4.82-4.82c0,0,0,0,0,0V3.87\r\n\t\t\t\tc0-1.52,1.23-2.75,2.75-2.75c0,0,0,0,0,0H8c1.52,0,2.75,1.23,2.75,2.75c0,0,0,0,0,0v17.2C10.75,23.73,8.59,25.88,5.93,25.88z\"/>\r\n\t\t\t<path id=\"Path_138\" class=\"st1\" d=\"M9.34,24.47L22.7,11.11c1.07-1.07,1.07-2.82,0-3.89L19.78,4.3c-1.07-1.07-2.82-1.07-3.89,0\r\n\t\t\t\tl-5.14,5.14\"/>\r\n\t\t\t<path id=\"Path_139\" class=\"st1\" d=\"M17.56,16.25h5.57c1.52,0,2.75,1.23,2.75,2.75l0,0v4.13c0,1.52-1.23,2.75-2.75,2.75H5.93\"/>\r\n\t\t</g>\r\n\t</g>\r\n</g>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Unsized images<span class=\"submetric_score\">50 / 100</span></h6> <p><span class=\"var\">13</span> images on your web page do not have width and height attributes set. Setting an explicit height and width on image elements helps prevent cumulative layout shift, which can impact user experience and search rankings.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Unsized images": [
+                      {
+                        "node": {
+                          "selector": "div._1e0c11p5 > div._vhvk1xho > div._11q7wvjo > img._1bsb1osq",
+                          "boundingRect": {
+                            "width": 560,
+                            "right": 1244,
+                            "bottom": 449,
+                            "height": 381,
+                            "top": 68,
+                            "left": 684
+                          },
+                          "type": "node",
+                          "nodeLabel": "div._1e0c11p5 > div._vhvk1xho > div._11q7wvjo > img._1bsb1osq",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/10gonvgd8w05a5ww441ow23cqen0…\" alt=\"\" style=\"--_m5r7t4: auto; --_mzs5ed: auto; --_dwkr3u: auto; --_1mc860w: auto;\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                          "lhId": "1-0-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/10gonvgd8w05a5ww441ow23cqen04x1t.png"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:0 > div._4t3i10mc > img._1bsb1osq",
+                          "selector": "div.round-tab > button#tab:tabs:3:0 > div._4t3i10mc > img._1bsb1osq",
+                          "boundingRect": {
+                            "bottom": 1913,
+                            "width": 48,
+                            "right": 245,
+                            "left": 197,
+                            "top": 1865,
+                            "height": 48
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-8-IMG",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYI.svg\" alt=\"\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYI.svg"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:1 > div._4t3i10mc > img._1bsb1osq",
+                          "selector": "div.round-tab > button#tab:tabs:3:1 > div._4t3i10mc > img._1bsb1osq",
+                          "boundingRect": {
+                            "top": 1865,
+                            "height": 48,
+                            "left": 361,
+                            "width": 48,
+                            "right": 409,
+                            "bottom": 1913
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-9-IMG",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYK.svg\" alt=\"\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYK.svg"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:2 > div._4t3i10mc > img._1bsb1osq",
+                          "selector": "div.round-tab > button#tab:tabs:3:2 > div._4t3i10mc > img._1bsb1osq",
+                          "boundingRect": {
+                            "top": 1865,
+                            "height": 48,
+                            "left": 545,
+                            "bottom": 1913,
+                            "width": 48,
+                            "right": 593
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,2,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-10-IMG",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXT.svg\" alt=\"\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXT.svg"
+                      },
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "width": 48,
+                            "right": 785,
+                            "bottom": 1913,
+                            "left": 737,
+                            "top": 1865,
+                            "height": 48
+                          },
+                          "selector": "div.round-tab > button#tab:tabs:3:3 > div._4t3i10mc > img._1bsb1osq",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:3 > div._4t3i10mc > img._1bsb1osq",
+                          "type": "node",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYC.svg\" alt=\"\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,3,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-11-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYC.svg"
+                      },
+                      {
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MV8X.svg",
+                        "node": {
+                          "boundingRect": {
+                            "left": 918,
+                            "top": 1865,
+                            "height": 48,
+                            "bottom": 1913,
+                            "width": 48,
+                            "right": 966
+                          },
+                          "selector": "div.round-tab > button#tab:tabs:3:4 > div._4t3i10mc > img._1bsb1osq",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:4 > div._4t3i10mc > img._1bsb1osq",
+                          "type": "node",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MV8X.svg\" alt=\"\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,4,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-12-IMG"
+                        }
+                      },
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "right": 1138,
+                            "bottom": 1913,
+                            "width": 48,
+                            "left": 1090,
+                            "top": 1865,
+                            "height": 48
+                          },
+                          "selector": "div.round-tab > button#tab:tabs:3:5 > div._4t3i10mc > img._1bsb1osq",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:5 > div._4t3i10mc > img._1bsb1osq",
+                          "type": "node",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXU.svg\" alt=\"\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,5,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-13-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXU.svg"
+                      },
+                      {
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6gc76.svg",
+                        "node": {
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6…\" alt=\"Rovo logo\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-2-IMG",
+                          "boundingRect": {
+                            "height": 32,
+                            "top": 772,
+                            "left": 511,
+                            "width": 32,
+                            "right": 543,
+                            "bottom": 804
+                          },
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "nodeLabel": "Rovo logo",
+                          "type": "node"
+                        }
+                      },
+                      {
+                        "node": {
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-14-IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6…\" alt=\"Rovo logo\">",
+                          "type": "node",
+                          "nodeLabel": "Rovo logo",
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "left": 117,
+                            "height": 32,
+                            "top": 2306,
+                            "width": 32,
+                            "right": 149,
+                            "bottom": 2338
+                          }
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6gc76.svg"
+                      },
+                      {
+                        "node": {
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-16-IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/w5y63772u3hv13stbj352ut7x2h0…\" alt=\"Pipelines logo\">",
+                          "type": "node",
+                          "nodeLabel": "Pipelines logo",
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "bottom": 2926,
+                            "width": 32,
+                            "right": 938,
+                            "left": 906,
+                            "top": 2894,
+                            "height": 32
+                          }
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/w5y63772u3hv13stbj352ut7x2h001jf.svg"
+                      },
+                      {
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/1mx06b178gpdjg8u7kjg38ci80p80eln.svg",
+                        "node": {
+                          "nodeLabel": "DX logo",
+                          "type": "node",
+                          "boundingRect": {
+                            "top": 3166,
+                            "height": 32,
+                            "left": 906,
+                            "width": 32,
+                            "right": 938,
+                            "bottom": 3198
+                          },
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "lhId": "1-17-IMG",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,14,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/1mx06b178gpdjg8u7kjg38ci80p8…\" alt=\"DX logo\">"
+                        }
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "SourceTree logo",
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "left": 511,
+                            "height": 32,
+                            "top": 3834,
+                            "width": 32,
+                            "right": 543,
+                            "bottom": 3866
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,19,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-18-IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/1o5et30ftpu1nt3m25bbcmg44k5a…\" alt=\"SourceTree logo\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/1o5et30ftpu1nt3m25bbcmg44k5apcr6.svg"
+                      },
+                      {
+                        "node": {
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "left": 906,
+                            "top": 2600,
+                            "height": 36,
+                            "right": 938,
+                            "bottom": 2636,
+                            "width": 32
+                          },
+                          "type": "node",
+                          "nodeLabel": "Rovo Dev logo",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/m075131gef201aeok8g484w063t3…\" alt=\"Rovo Dev logo\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-15-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/m075131gef201aeok8g484w063t363hc.svg"
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Unsized images": {
+                    "headings": [
+                      {
+                        "valueType": "node",
+                        "key": "node"
+                      },
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      }
+                    ],
+                    "type": "table",
+                    "items": [
+                      {
+                        "node": {
+                          "selector": "div._1e0c11p5 > div._vhvk1xho > div._11q7wvjo > img._1bsb1osq",
+                          "boundingRect": {
+                            "width": 560,
+                            "right": 1244,
+                            "bottom": 449,
+                            "height": 381,
+                            "top": 68,
+                            "left": 684
+                          },
+                          "type": "node",
+                          "nodeLabel": "div._1e0c11p5 > div._vhvk1xho > div._11q7wvjo > img._1bsb1osq",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/10gonvgd8w05a5ww441ow23cqen0…\" alt=\"\" style=\"--_m5r7t4: auto; --_mzs5ed: auto; --_dwkr3u: auto; --_1mc860w: auto;\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,IMG",
+                          "lhId": "1-0-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/10gonvgd8w05a5ww441ow23cqen04x1t.png"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:0 > div._4t3i10mc > img._1bsb1osq",
+                          "selector": "div.round-tab > button#tab:tabs:3:0 > div._4t3i10mc > img._1bsb1osq",
+                          "boundingRect": {
+                            "bottom": 1913,
+                            "width": 48,
+                            "right": 245,
+                            "left": 197,
+                            "top": 1865,
+                            "height": 48
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-8-IMG",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYI.svg\" alt=\"\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYI.svg"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:1 > div._4t3i10mc > img._1bsb1osq",
+                          "selector": "div.round-tab > button#tab:tabs:3:1 > div._4t3i10mc > img._1bsb1osq",
+                          "boundingRect": {
+                            "top": 1865,
+                            "height": 48,
+                            "left": 361,
+                            "width": 48,
+                            "right": 409,
+                            "bottom": 1913
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,1,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-9-IMG",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYK.svg\" alt=\"\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYK.svg"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:2 > div._4t3i10mc > img._1bsb1osq",
+                          "selector": "div.round-tab > button#tab:tabs:3:2 > div._4t3i10mc > img._1bsb1osq",
+                          "boundingRect": {
+                            "top": 1865,
+                            "height": 48,
+                            "left": 545,
+                            "bottom": 1913,
+                            "width": 48,
+                            "right": 593
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,2,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-10-IMG",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXT.svg\" alt=\"\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXT.svg"
+                      },
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "width": 48,
+                            "right": 785,
+                            "bottom": 1913,
+                            "left": 737,
+                            "top": 1865,
+                            "height": 48
+                          },
+                          "selector": "div.round-tab > button#tab:tabs:3:3 > div._4t3i10mc > img._1bsb1osq",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:3 > div._4t3i10mc > img._1bsb1osq",
+                          "type": "node",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYC.svg\" alt=\"\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,3,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-11-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWYC.svg"
+                      },
+                      {
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MV8X.svg",
+                        "node": {
+                          "boundingRect": {
+                            "left": 918,
+                            "top": 1865,
+                            "height": 48,
+                            "bottom": 1913,
+                            "width": 48,
+                            "right": 966
+                          },
+                          "selector": "div.round-tab > button#tab:tabs:3:4 > div._4t3i10mc > img._1bsb1osq",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:4 > div._4t3i10mc > img._1bsb1osq",
+                          "type": "node",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MV8X.svg\" alt=\"\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,4,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-12-IMG"
+                        }
+                      },
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "right": 1138,
+                            "bottom": 1913,
+                            "width": 48,
+                            "left": 1090,
+                            "top": 1865,
+                            "height": 48
+                          },
+                          "selector": "div.round-tab > button#tab:tabs:3:5 > div._4t3i10mc > img._1bsb1osq",
+                          "nodeLabel": "div.round-tab > button#tab:tabs:3:5 > div._4t3i10mc > img._1bsb1osq",
+                          "type": "node",
+                          "snippet": "<img loading=\"lazy\" draggable=\"false\" class=\"_1bsb1osq\" src=\"https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXU.svg\" alt=\"\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,0,DIV,0,DIV,5,DIV,0,BUTTON,0,DIV,0,IMG",
+                          "lhId": "1-13-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/CDNLink/AT12MWXU.svg"
+                      },
+                      {
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6gc76.svg",
+                        "node": {
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6…\" alt=\"Rovo logo\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,1,DIV,0,DIV,1,DIV,0,DIV,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-2-IMG",
+                          "boundingRect": {
+                            "height": 32,
+                            "top": 772,
+                            "left": 511,
+                            "width": 32,
+                            "right": 543,
+                            "bottom": 804
+                          },
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "nodeLabel": "Rovo logo",
+                          "type": "node"
+                        }
+                      },
+                      {
+                        "node": {
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-14-IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6…\" alt=\"Rovo logo\">",
+                          "type": "node",
+                          "nodeLabel": "Rovo logo",
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "left": 117,
+                            "height": 32,
+                            "top": 2306,
+                            "width": 32,
+                            "right": 149,
+                            "bottom": 2338
+                          }
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/qe401oio4a2o006h83v3861f5xg6gc76.svg"
+                      },
+                      {
+                        "node": {
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,11,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-16-IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/w5y63772u3hv13stbj352ut7x2h0…\" alt=\"Pipelines logo\">",
+                          "type": "node",
+                          "nodeLabel": "Pipelines logo",
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "bottom": 2926,
+                            "width": 32,
+                            "right": 938,
+                            "left": 906,
+                            "top": 2894,
+                            "height": 32
+                          }
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/w5y63772u3hv13stbj352ut7x2h001jf.svg"
+                      },
+                      {
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/1mx06b178gpdjg8u7kjg38ci80p80eln.svg",
+                        "node": {
+                          "nodeLabel": "DX logo",
+                          "type": "node",
+                          "boundingRect": {
+                            "top": 3166,
+                            "height": 32,
+                            "left": 906,
+                            "width": 32,
+                            "right": 938,
+                            "bottom": 3198
+                          },
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "lhId": "1-17-IMG",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,14,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/1mx06b178gpdjg8u7kjg38ci80p8…\" alt=\"DX logo\">"
+                        }
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "nodeLabel": "SourceTree logo",
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "left": 511,
+                            "height": 32,
+                            "top": 3834,
+                            "width": 32,
+                            "right": 543,
+                            "bottom": 3866
+                          },
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,19,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-18-IMG",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/1o5et30ftpu1nt3m25bbcmg44k5a…\" alt=\"SourceTree logo\">"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/1o5et30ftpu1nt3m25bbcmg44k5apcr6.svg"
+                      },
+                      {
+                        "node": {
+                          "selector": "div._1e0c1txw > div._1e0c1txw > div._1e0c1txw > img._1bsbzwfg",
+                          "boundingRect": {
+                            "left": 906,
+                            "top": 2600,
+                            "height": 36,
+                            "right": 938,
+                            "bottom": 2636,
+                            "width": 32
+                          },
+                          "type": "node",
+                          "nodeLabel": "Rovo Dev logo",
+                          "snippet": "<img loading=\"lazy\" class=\"_1bsbzwfg\" src=\"https://dam-cdn.atl.orangelogic.com/AssetLink/m075131gef201aeok8g484w063t3…\" alt=\"Rovo Dev logo\">",
+                          "path": "0,HTML,1,BODY,2,DIV,0,DIV,0,DIV,2,DIV,0,MAIN,3,DIV,0,DIV,0,DIV,1,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,DIV,0,DIV,0,DIV,0,IMG",
+                          "lhId": "1-15-IMG"
+                        },
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/m075131gef201aeok8g484w063t363hc.svg"
+                      }
+                    ]
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/\">Read why setting width and height on images benefits your users</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 100,
+                  "submetrics": [
+                    {
+                      "redirects": 1
+                    }
+                  ]
+                },
+                "name": "Avoid multiple page redirects",
+                "impact_text": "Page redirects cause slower page speeds. Pages are flagged if they have two or more redirects.\r\n\r\nTo prevent this, look at the list of redirects and update links to point directly to each resource’s actual location. This will cut out unnecessary redirecting and reduce load times.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 32\" style=\"enable-background:new 0 0 27 32;\" xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{fill:none;stroke:#F0F3F3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}\r\n\t.st1{clip-path:url(#SVGID_00000053543231613112214770000010342768293729731002_);}\r\n</style>\r\n<g id=\"Group_180\" transform=\"translate(0 0.037)\">\r\n\t<line id=\"Line_46\" class=\"st0\" x1=\"13.73\" y1=\"17.77\" x2=\"13.73\" y2=\"12.93\"/>\r\n\t<g id=\"Group_179\" transform=\"translate(0 -0.037)\">\r\n\t\t<g>\r\n\t\t\t<defs>\r\n\t\t\t\t<rect id=\"SVGID_1_\" width=\"27\" height=\"32\"/>\r\n\t\t\t</defs>\r\n\t\t\t<clipPath id=\"SVGID_00000026151135947184363400000004390900541528640675_\">\r\n\t\t\t\t<use xlink:href=\"#SVGID_1_\"  style=\"overflow:visible;\"/>\r\n\t\t\t</clipPath>\r\n\t\t\t<g id=\"Group_178\" style=\"clip-path:url(#SVGID_00000026151135947184363400000004390900541528640675_);\">\r\n\t\t\t\t<line id=\"Line_47\" class=\"st0\" x1=\"13.73\" y1=\"4.88\" x2=\"13.73\" y2=\"1.65\"/>\r\n\t\t\t\t<path id=\"Path_150\" class=\"st0\" d=\"M4.85,4.88h17.26c0.47,0,0.91,0.2,1.22,0.55l2.13,2.44c0.53,0.6,0.53,1.5,0,2.1l-2.13,2.44\r\n\t\t\t\t\tc-0.31,0.35-0.75,0.55-1.22,0.55H4.85c-0.89,0-1.62-0.72-1.62-1.62c0,0,0,0,0,0V6.5C3.23,5.61,3.95,4.88,4.85,4.88L4.85,4.88z\"\r\n\t\t\t\t\t/>\r\n\t\t\t\t<path id=\"Path_151\" class=\"st0\" d=\"M22.62,25.89H5.35c-0.47,0-0.91-0.2-1.22-0.55L2.01,22.9c-0.53-0.6-0.53-1.5,0-2.1l2.13-2.44\r\n\t\t\t\t\tc0.31-0.35,0.75-0.55,1.22-0.55h17.26c0.89,0,1.62,0.72,1.62,1.62v4.85C24.23,25.16,23.51,25.89,22.62,25.89z\"/>\r\n\t\t\t\t<line id=\"Line_48\" class=\"st0\" x1=\"13.73\" y1=\"30.73\" x2=\"13.73\" y2=\"25.89\"/>\r\n\t\t\t</g>\r\n\t\t</g>\r\n\t</g>\r\n</g>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Page redirects<span class=\"submetric_score\">100 / 100</span></h6> <p>Great job. Your page doesn't contain two or more redirects and is optimized for load time based on pointing your resources directly to the actual location.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Page redirects": []
+                  }
+                ],
+                "details": {
+                  "Page redirects": {
+                    "items": [],
+                    "type": "opportunity",
+                    "headings": [],
+                    "overallSavingsMs": 0
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.matthewedgar.net/do-redirects-add-to-website-speed/\">Read more about how redirects impact page speed</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 0,
+                  "submetrics": [
+                    {
+                      "total_byte_weight": 0
+                    }
+                  ]
+                },
+                "name": "Reduce Server Requests",
+                "impact_text": "Every time your page makes a server request, energy is required to transfer and display data. Reducing the number of requests your pages make can improve performance and reduce emissions.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 29.9 29.9\" enable-background=\"new 0 0 29.9 29.9\" xml:space=\"preserve\">\r\n<path id=\"Path_80\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M25.8,28.9\r\n\tL25.8,28.9c-1.71,0-3.1-1.39-3.1-3.1s1.39-3.1,3.1-3.1c1.71,0,3.1,1.39,3.1,3.1S27.51,28.9,25.8,28.9L25.8,28.9z\"/>\r\n<line id=\"Line_23\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"15.45\" y1=\"13.45\" x2=\"15.45\" y2=\"22.45\"/>\r\n<path id=\"Path_81\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.95,28.9\r\n\tL14.95,28.9c-1.71,0-3.1-1.39-3.1-3.1s1.39-3.1,3.1-3.1c1.71,0,3.1,1.39,3.1,3.1S16.66,28.9,14.95,28.9L14.95,28.9z\"/>\r\n<path id=\"Path_82\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.1,28.9\r\n\tL4.1,28.9c-1.71,0-3.1-1.39-3.1-3.1c0-1.71,1.39-3.1,3.1-3.1s3.1,1.39,3.1,3.1S5.81,28.9,4.1,28.9L4.1,28.9z\"/>\r\n<path id=\"Path_83\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.1,22.7\r\n\tv-3.1c0-0.86,0.69-1.55,1.55-1.55h18.6c0.86,0,1.55,0.69,1.55,1.55v3.1\"/>\r\n<path id=\"Path_84\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M22.7,1H7.2\r\n\tC3.78,1,1,3.77,1,7.2c0,3.42,2.77,6.2,6.2,6.2c0,0,0,0,0,0h15.5c3.42,0,6.2-2.78,6.2-6.2C28.9,3.78,26.12,1,22.7,1z\"/>\r\n<line id=\"Line_24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"13.45\" y1=\"7.45\" x2=\"22.45\" y2=\"7.45\"/>\r\n<path id=\"Path_85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.25,7.15\r\n\tc0.03,0.03,0.03,0.08,0,0.11c0,0,0,0,0,0C7.22,7.28,7.17,7.28,7.14,7.25c-0.03-0.03-0.03-0.07,0-0.1C7.17,7.12,7.22,7.12,7.25,7.15\r\n\tC7.25,7.15,7.25,7.15,7.25,7.15\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Total Byte Weight<span class=\"submetric_score\">0 / 100</span></h6> <p>This page scored <span class=\"var\">0</span> out of 100 possible points for the <span class=\"var\">10</span> requests it makes to the server. Try reducing the number of server requests on this page to improve your score.</p> </div>\n",
+                "opportunity_items": [],
+                "details": {
+                  "Total Byte Weight": {
+                    "headings": [
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      }
+                    ],
+                    "items": [
+                      {
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/404.09915a6d.js",
+                        "totalBytes": 1244440
+                      },
+                      {
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js",
+                        "totalBytes": 384012
+                      },
+                      {
+                        "totalBytes": 384012,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js"
+                      },
+                      {
+                        "totalBytes": 384011,
+                        "url": "https://www.gstatic.com/recaptcha/releases/ne1iDVwClkE7nKD3uA9Vqsvl/recaptcha__en.js"
+                      },
+                      {
+                        "url": "https://wac-web.prod-east.frontend.public.atl-paas.net/assets/index.3a12bf19.js",
+                        "totalBytes": 277999
+                      },
+                      {
+                        "totalBytes": 204164,
+                        "url": "https://js.intercomcdn.com/frame-modern.d705f820.js"
+                      },
+                      {
+                        "totalBytes": 200552,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5RJSBR"
+                      },
+                      {
+                        "totalBytes": 190141,
+                        "url": "https://dam-cdn.atl.orangelogic.com/AssetLink/10gonvgd8w05a5ww441ow23cqen04x1t.png"
+                      },
+                      {
+                        "totalBytes": 184639,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-EKLW76PEWW&cx=c&_slc=1"
+                      },
+                      {
+                        "url": "https://www.atlassian.com/software",
+                        "totalBytes": 171111
+                      }
+                    ],
+                    "type": "table",
+                    "sortedBy": [
+                      "totalBytes"
+                    ]
+                  }
+                },
+                "resources_text": "<p><a href=\"https://blog.hubspot.com/marketing/reduce-http-requests\">Learn more about HTTP requests</a></p>\n"
+              }
+            ],
+            "category_percent": "17%"
+          },
+          {
+            "category": "Green Hosting",
+            "category_weight": 1,
+            "category_content": "Choosing a web host that powers its servers with renewable energy can reduce your digital product or service's environmental impact by an estimated 15%. But not all renewable energy is created equal. If possible, choose a hosting partner that directly powers their data centers with renewables versus one that purchases offsets or unbundled renewable energy credits (RECs).",
+            "category_score": 0,
+            "category_id": 2,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 0,
+                  "submetrics": [
+                    {
+                      "greenhosting_audit": 0
+                    }
+                  ]
+                },
+                "name": "Green Hosting",
+                "impact_text": "Powering servers with renewable energy is an important choice to measurably reduce your product or service's environmental impact.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 30.01 29.16\" enable-background=\"new 0 0 30.01 29.16\" xml:space=\"preserve\">\r\n<path id=\"Path_86\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.07,12.33\r\n\tc1.25,0,2.26,1.01,2.26,2.26s-1.01,2.26-2.26,2.26s-2.26-1.01-2.26-2.26C7.81,13.34,8.82,12.33,10.07,12.33\"/>\r\n<path id=\"Path_87\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M20.9,8.57\r\n\tc0,1.25-1.01,2.26-2.26,2.26c-1.25,0-2.26-1.01-2.26-2.26c0-1.25,1.01-2.26,2.26-2.26c0,0,0,0,0,0C19.89,6.3,20.9,7.32,20.9,8.57\"/>\r\n<path id=\"Path_88\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M29.01,20.62\r\n\tc0,1.25-1.01,2.26-2.26,2.26s-2.26-1.01-2.26-2.26c0-1.25,1.01-2.26,2.26-2.26c0,0,0,0,0,0C28,18.36,29.01,19.37,29.01,20.62\"/>\r\n<line id=\"Line_25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"28.15\" y1=\"14.59\" x2=\"12.33\" y2=\"14.59\"/>\r\n<line id=\"Line_26\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"7.81\" y1=\"14.59\" x2=\"1.02\" y2=\"14.59\"/>\r\n<line id=\"Line_27\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"24.49\" y1=\"20.62\" x2=\"2.43\" y2=\"20.62\"/>\r\n<line id=\"Line_28\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"16.38\" y1=\"8.57\" x2=\"2.43\" y2=\"8.57\"/>\r\n<line id=\"Line_29\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"26.75\" y1=\"8.57\" x2=\"20.9\" y2=\"8.57\"/>\r\n<path id=\"Path_89\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.93,10.81\r\n\tc0.12,1.2,0.18,2.47,0.18,3.78c0,7.49-2.02,13.56-4.52,13.56c-2.24,0-4.1-4.89-4.46-11.3\"/>\r\n<path id=\"Path_90\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.18,6.35\r\n\tc-0.83-3.24-2.13-5.32-3.59-5.32c-2.24,0-4.1,4.89-4.46,11.3\"/>\r\n<path id=\"Path_91\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M27.58,18.51\r\n\tc2.17-7.18-1.89-14.76-9.06-16.93S3.76,3.47,1.59,10.65s1.89,14.76,9.06,16.93c5.54,1.68,11.52-0.34,14.92-5.02\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Green Hosting<span class=\"submetric_score\">0 / 100</span></h6> <p>Hmmm. It appears as though you're not using a web host that powers its servers with renewable energy. You can improve this part of your score by switching to a green web host.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p>Find a green web host in <a href=\"https://www.thegreenwebfoundation.org/directory/\">The Green Web Foundation's hosting directory</a></p>\n<p>More information on the <a href=\"https://www.mightybytes.com/blog/web-hosting-renewable-energy/\">difference between RECs and renewable energy</a></p>\n"
+              }
+            ],
+            "category_percent": "17%"
+          },
+          {
+            "category": "Carbon Score",
+            "category_weight": 2,
+            "category_content": "Carbon usage category info...",
+            "category_score": 34,
+            "category_id": 6,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 34,
+                  "submetrics": [
+                    {
+                      "carbon_usage": 0.33792250112393024
+                    }
+                  ]
+                },
+                "name": "Carbon Score",
+                "impact_text": "Impact text...",
+                "svg": null,
+                "action_text": "",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p>Resources...</p>\n"
+              }
+            ],
+            "category_percent": "33%"
+          }
+        ]
+      },
+      "datetime": "2026-06-17T10:49:51.000000Z",
+      "scoreColor": "red"
+    },
+    "scantime": "2026-06-17T10:49:51.000000Z",
+    "percentile": 2,
+    "breakdownGraphData": {
+      "total": {
+        "name": "Total",
+        "count": 197,
+        "byteTotal": 6273978,
+        "percentage": "100.00"
+      },
+      "images": {
+        "name": "Images",
+        "count": 44,
+        "byteTotal": 283160,
+        "percentage": "4.51"
+      },
+      "html": {
+        "name": "HTML/CSS",
+        "count": 9,
+        "byteTotal": 285012,
+        "percentage": "4.54"
+      },
+      "scripts": {
+        "name": "Scripts",
+        "count": 75,
+        "byteTotal": 4911535,
+        "percentage": "78.28"
+      },
+      "media": {
+        "name": "Media",
+        "count": 0,
+        "byteTotal": 0,
+        "percentage": "0.00"
+      },
+      "other": {
+        "name": "Other",
+        "count": 69,
+        "byteTotal": 794271,
+        "percentage": "12.66"
+      }
+    }
+  },
+  "url": "/report/X4bq0514UY6j8WTlKVHXXfNK",
+  "version": "47de4abbbcf775ef2eb22a95a2d11617",
+  "encryptHistory": false,
+  "clearHistory": false
+}

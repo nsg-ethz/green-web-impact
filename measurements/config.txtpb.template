@@ -1,0 +1,80 @@
+buffers {
+  size_kb: 524288
+  fill_policy: RING_BUFFER
+}
+buffers {
+  size_kb: 1024
+  fill_policy: RING_BUFFER
+}
+buffers {
+  size_kb: 8192
+  fill_policy: RING_BUFFER
+}
+data_sources {
+  config {
+    name: "track_event"
+    track_event_config {
+      disabled_categories: "*"
+      disabled_categories: "*"
+      enabled_categories: "__metadata"
+      timestamp_unit_multiplier: 1000
+      filter_debug_annotations: false
+      enable_thread_time_sampling: true
+      filter_dynamic_event_names: false
+    }
+  }
+}
+data_sources {
+  config {
+    name: "org.chromium.trace_metadata2"
+    target_buffer: 1
+    chrome_config {
+      privacy_filtering_enabled: false
+    }
+  }
+}
+
+data_sources {
+  config {
+    name: "org.chromium.network_event"
+  }
+}
+
+data_sources {
+  config {
+    name: "linux.process_stats"
+    target_buffer: 2
+    process_stats_config {
+      scan_all_processes_on_start: true
+    }
+  }
+}
+data_sources {
+  config {
+    name: "linux.sys_stats"
+    sys_stats_config {
+      stat_period_ms: 250
+      stat_counters: STAT_CPU_TIMES
+      stat_counters: STAT_FORK_COUNT
+      cpufreq_period_ms: 250
+    }
+  }
+}
+data_sources {
+  config {
+    name: "android.network_usage"
+  }
+}
+data_sources {
+  config {
+    name: "android.power"
+    android_power_config {
+      battery_poll_ms: 500
+      battery_counters: BATTERY_COUNTER_CAPACITY_PERCENT
+      battery_counters: BATTERY_COUNTER_CHARGE
+      battery_counters: BATTERY_COUNTER_CURRENT
+      collect_power_rails: true
+    }
+  }
+}
+duration_ms: <durms§§>

@@ -1,0 +1,50 @@
+
+====================== ENERGY COMPARISON ======================
+
+Reference: www.dropbox.com_baseline
+
+RUN                                          J/page    J/pg sd   Ext J/page  E J/pg sd    MB/page   MB/pg sd    Page %   Energy %  Ext Energy %    GM J/pg     cpu % wifi_bt %    gpu % memory % display %  other %      kWh/GB   Req/page   sync
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+www.dropbox.com_jsreplace2                   13.138      0.330       21.595      2.044      11.27       1.07     98.8%      89.0%         90.6%                72.0%    96.0%    85.2%    76.3%   102.3%    98.4%    0.000324        174     98
+www.dropbox.com_jsreplace                    14.142      0.362       22.856      1.036      11.09       1.03     97.2%      95.8%         95.9%                91.0%    94.4%    86.3%    92.2%   102.0%    99.5%    0.000354        170     99
+www.dropbox.com_baseline                     14.759      0.293       23.829      0.925      11.41       0.66    100.0%     100.0%        100.0%    80.9455    100.0%   100.0%   100.0%   100.0%   100.0%   100.0%    0.000359        176     99
+
+===============================================================
+
+GREEN CODING (CPU+RAM J per page, server RAPL)
+----------------------------------------------
+  www.dropbox.com_baseline                    80.9455 J
+
+NETWORK VARIANCE (median page bytes)
+------------------------------------
+  Run                                            Median MB   Stdev MB     CV %
+  ---------------------------------------------------------------------------
+  www.dropbox.com_jsreplace2                        11.271      1.072      9.5%
+  www.dropbox.com_jsreplace                         11.090      1.025      9.2%
+  www.dropbox.com_baseline                          11.411      0.664      5.8%
+
+NETWORK MEASUREMENT DIAGNOSTICS
+-------------------------------
+
+Run: www.dropbox.com_jsreplace2
+  sync events:          98
+  valid measurements:   95
+  coverage:             96.9%
+
+Run: www.dropbox.com_jsreplace
+  sync events:          99
+  valid measurements:   95
+  coverage:             96.0%
+
+Run: www.dropbox.com_baseline
+  sync events:          99
+  valid measurements:   98
+  coverage:             99.0%
+
+SUMMARY
+-------
+Runs: 3
+Average diff: 62.48%
+Worst (higher external): 64.37%
+Best (lower external): 61.45%
+

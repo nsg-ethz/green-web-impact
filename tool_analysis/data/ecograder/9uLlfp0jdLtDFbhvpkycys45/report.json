@@ -1,0 +1,1716 @@
+{
+  "component": "svelte/App",
+  "props": {
+    "errors": {},
+    "report_id": "9uLlfp0jdLtDFbhvpkycys45",
+    "report": {
+      "report_id": "9uLlfp0jdLtDFbhvpkycys45",
+      "response": {
+        "site_submitted": "https://www.merriam-webster.com/",
+        "score": 45,
+        "score_text": "Hmmm. With 100 possible points to earn, you could stand to improve this page. \r\n\r\nEcograder prioritizes a holistic approach to digital sustainability reporting. Each report includes quantifiable metrics to help you reduce emissions and improve performance. We also share best-in-class web design practices that aren't as easy to quantify from an ecological perspective. \r\n\r\nRead on to learn specific action items you can take to improve this page and your website overall.",
+        "emissions_score": "2.451400",
+        "emissions_text": "You did bad.",
+        "lighthouse_performance_score": "0.54",
+        "lighthouse_seo_score": "0.92",
+        "lighthouse_accessibility_score": "0.89",
+        "categories": [
+          {
+            "category": "Page Weight",
+            "category_weight": 2,
+            "category_content": "By compressing image file size and removing unused items from a page you'll not only reduce emissions but faster-downloading pages make users happier as well. Below are some things you can do to reduce the size of this page.",
+            "category_score": 22,
+            "category_id": 3,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 8,
+                  "submetrics": [
+                    {
+                      "total_byte_weight": 0
+                    },
+                    {
+                      "unused_css_rules": 0.3
+                    },
+                    {
+                      "unused_javascript": 0
+                    }
+                  ]
+                },
+                "name": "Reduce Overall Page Weight",
+                "impact_text": "Webpages that use unnecessary scripts, media, or other elements can slow down page performance, frustrate users, and increase both download times and emissions. \r\n\r\nMake sure you serve fast, lightweight pages to users by removing any unnecessary elements. \r\n\r\nLearn more about how to do this in the recommendations below.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 25 25\" enable-background=\"new 0 0 25 25\" xml:space=\"preserve\">\r\n<line id=\"Line_17\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"24\" y1=\"19\" x2=\"24\" y2=\"24\"/>\r\n<line id=\"Line_18\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"17\" y1=\"14\" x2=\"17\" y2=\"24\"/>\r\n<line id=\"Line_19\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"9\" y1=\"8\" x2=\"9\" y2=\"24\"/>\r\n<line id=\"Line_20\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"1\" y1=\"1\" x2=\"1\" y2=\"24\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Unused Javascript<span class=\"submetric_score\">0 / 100</span></h6> <p>There is unused JavaScript associated with this page. According to Ecograder's calculations, <span class=\"var\">24</span> scripts could potentially be removed. This might shave off <span class=\"var\">1653.97 kb</span> from your page, speeding up download time by <span class=\"var\">180 ms</span>.</p> </div> <div class=\"at red\"> <h6>Unused CSS Rules<span class=\"submetric_score\">30 / 100</span></h6> <p>There are unused CSS Rules associated with this page. According to Ecograder's calculations, <span class=\"var\">1</span> rules could potentially be removed. This might shave off <span class=\"var\">58.01 kb</span> from your page, speeding up download time by <span class=\"var\">160 ms</span>.</p> </div> <div class=\"at red\"> <h6>Total Byte Weight<span class=\"submetric_score\">0 / 100</span></h6> <p>Whoa! This page is <span class=\"var\">7097.26 kb</span>. It scored <span class=\"var\">0</span> out of 100 for page weight. You can significantly improve performance by optimizing <span class=\"var\">10</span> items on this page.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Unused CSS Rules": [
+                      {
+                        "totalBytes": 59405,
+                        "wastedBytes": 59405,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/css/style-home-redesign.143471d6.css",
+                        "wastedPercent": 100
+                      }
+                    ]
+                  },
+                  {
+                    "Unused Javascript": [
+                      {
+                        "wastedBytes": 208425,
+                        "url": "https://live.primis.tech/content/prebid/prebidVid.10.23.17.min.js",
+                        "totalBytes": 349407,
+                        "wastedPercent": 59.651121545333766
+                      },
+                      {
+                        "wastedBytes": 200349,
+                        "url": "https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032362D30362D31375F31357D7B7331373237323538307D7B4333307D7B53643364334C6D316C636E4A7059573074643256696333526C6369356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583331307D7B593236307D7B66317D7B4C32313733367DFEFE&cudi=pip-MmQhMTAhNTphMwQ4&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F136.0.0.0+Safari%2F537.36+Chrome-Lighthouse&debugInformation=&isWePassGdpr=1&gppConsent=&gppSid=&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=22&c2pWaitTime=-2&sdkv=&isSinglePageFloatSupport=0&availCampaigns=&isAmpIframe=0&tagKeywords=&cbuster=1781700292&csuuid=6a3296c3d9949&debugInfo=17272580_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17272580&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=&secondaryContent=&x=310&y=260&pubUrl=https%3A%2F%2Fwww.merriam-webster.com%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=5&flow_bottomOffset=110&impGap=1&flow_width=227&flow_height=128&videoType=slider&isOriginImg=0&gdpr=0&gdprConsent=&contentFeedId=&geoLati=41.2591&geoLong=-95.8517&vpTemplate=21736&flowMode=below&isRealPreroll=0&playerApiId=brittanica&isApp=0&ccpa=0&ccpaConsent=1---&subId=&appName=&appBundleId=https%3A%2F%2Fwww.merriam-webster.com%2F&appStoreUrl=&diaid=&appPrivacyPolicy=&appIsPaid=&appDeveloper=&appId=&appVersion=&sdkv=&enableResizeObserverInapp=0&isAppJs=0",
+                        "totalBytes": 360674,
+                        "wastedPercent": 55.54834892495926
+                      },
+                      {
+                        "totalBytes": 264233,
+                        "url": "https://imasdk.googleapis.com/js/core/bridge3.771.2_en.html",
+                        "wastedBytes": 189816,
+                        "wastedPercent": 71.83650050078823
+                      },
+                      {
+                        "wastedPercent": 37.712465749100886,
+                        "wastedBytes": 154135,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/es2018/js/adthrive.min.js?deployment=2026-06-17-07:ada-1740:9aa0d31:4&bucket=flex-54&deliveryFeatures=additiveRaptiveFloors,altsdm,altv2,amazonBetaApstag,cfbd,consentManagerCMP,cv2,dlc,es2021,hb_crid,i262,ld,marmaladeV2,nvc,pbis,raptiveFloors,raptiveManualCookieSync,recencyFrequency,reissuingSticky,removeAdHost,rpbsecs,rpr,rrassf,stickyBucketsLocalStorage,stickyV2,switzerlandGdpr,trafficShaping,usdk,prebidLoad,gptLoad,amazonLoad,ttdSync&siteid=61575e8e934c48ea554b3caa",
+                        "totalBytes": 408711
+                      },
+                      {
+                        "wastedPercent": 56.604889550105675,
+                        "wastedBytes": 87573,
+                        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+                        "totalBytes": 154710
+                      },
+                      {
+                        "wastedPercent": 43.70150409915435,
+                        "totalBytes": 194389,
+                        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606120101/pubads_impl.js?cb=31099135",
+                        "wastedBytes": 84951
+                      },
+                      {
+                        "wastedPercent": 47.63120206492702,
+                        "totalBytes": 170794,
+                        "wastedBytes": 81351,
+                        "url": "https://cdn.confiant-integrations.net/gptprebidnativevideo/202603180909/wrap.js"
+                      },
+                      {
+                        "totalBytes": 181570,
+                        "wastedBytes": 73118,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/vendor/prebid/es2018/prebid.min.js",
+                        "wastedPercent": 40.26974108984779
+                      },
+                      {
+                        "wastedPercent": 41.02147243337171,
+                        "wastedBytes": 71371,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-M7RZHNRRPK&cx=c>m=4e66f1",
+                        "totalBytes": 173985
+                      },
+                      {
+                        "totalBytes": 118701,
+                        "wastedBytes": 64749,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PQ9SK33N",
+                        "wastedPercent": 54.547654662246295
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WW4KHXF",
+                        "wastedBytes": 54610,
+                        "totalBytes": 151370,
+                        "wastedPercent": 36.07704945809132
+                      },
+                      {
+                        "wastedBytes": 46327,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-storybook-games.ZezPSs9l.js",
+                        "totalBytes": 80756,
+                        "wastedPercent": 57.3665709894609
+                      },
+                      {
+                        "wastedPercent": 43.98907476210076,
+                        "totalBytes": 93121,
+                        "wastedBytes": 40963,
+                        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+                      },
+                      {
+                        "totalBytes": 64886,
+                        "wastedBytes": 40055,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-other.CzKq53QB.js",
+                        "wastedPercent": 61.731875253138924
+                      },
+                      {
+                        "wastedBytes": 39996,
+                        "url": "https://c.aps.amazon-adsystem.com/apstag.js",
+                        "totalBytes": 79199,
+                        "wastedPercent": 50.50032815044685
+                      },
+                      {
+                        "totalBytes": 100058,
+                        "wastedBytes": 36693,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js",
+                        "wastedPercent": 36.67170066374836
+                      },
+                      {
+                        "wastedPercent": 38.63725855084659,
+                        "url": "https://live.primis.tech/content/pal/pal.js",
+                        "wastedBytes": 35070,
+                        "totalBytes": 90767
+                      },
+                      {
+                        "wastedPercent": 42.26554536187564,
+                        "wastedBytes": 31610,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js",
+                        "totalBytes": 74790
+                      },
+                      {
+                        "wastedPercent": 41.33701621123935,
+                        "totalBytes": 74790,
+                        "wastedBytes": 30916,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js"
+                      },
+                      {
+                        "wastedPercent": 74.89346907483018,
+                        "wastedBytes": 27484,
+                        "url": "https://merriam-webster.com/assets/mw/jwplayer-8.10.3/jwplayer.js",
+                        "totalBytes": 36698
+                      },
+                      {
+                        "wastedPercent": 76.44275173566069,
+                        "wastedBytes": 26199,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-jquery.B0DjzWWj.js",
+                        "totalBytes": 34273
+                      },
+                      {
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-bootstrap.BSYYCAnH.js",
+                        "wastedBytes": 24395,
+                        "totalBytes": 31339,
+                        "wastedPercent": 77.84166475005749
+                      },
+                      {
+                        "wastedBytes": 22745,
+                        "url": "https://ats-wrapper.privacymanager.io/ats-modules/89dceacc-dd72-45e2-a48d-44ff778db796/ats.js",
+                        "totalBytes": 39490,
+                        "wastedPercent": 57.59591474941757
+                      },
+                      {
+                        "wastedPercent": 71.60436558557862,
+                        "wastedBytes": 20764,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-lodash.C6-JQlf5.js",
+                        "totalBytes": 28998
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Total Byte Weight": {
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "label": "URL",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "totalBytes"
+                    ],
+                    "items": [
+                      {
+                        "totalBytes": 426737,
+                        "url": "https://merriam-webster.com/assets/mw/static/app-css-images/home/app_mw_image_2x_updated.png"
+                      },
+                      {
+                        "totalBytes": 409249,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/es2018/js/adthrive.min.js?deployment=2026-06-17-07:ada-1740:9aa0d31:4&bucket=flex-54&deliveryFeatures=additiveRaptiveFloors,altsdm,altv2,amazonBetaApstag,cfbd,consentManagerCMP,cv2,dlc,es2021,hb_crid,i262,ld,marmaladeV2,nvc,pbis,raptiveFloors,raptiveManualCookieSync,recencyFrequency,reissuingSticky,removeAdHost,rpbsecs,rpr,rrassf,stickyBucketsLocalStorage,stickyV2,switzerlandGdpr,trafficShaping,usdk,prebidLoad,gptLoad,amazonLoad,ttdSync&siteid=61575e8e934c48ea554b3caa"
+                      },
+                      {
+                        "url": "https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032362D30362D31375F31357D7B7331373237323538307D7B4333307D7B53643364334C6D316C636E4A7059573074643256696333526C6369356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583331307D7B593236307D7B66317D7B4C32313733367DFEFE&cudi=pip-MmQhMTAhNTphMwQ4&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F136.0.0.0+Safari%2F537.36+Chrome-Lighthouse&debugInformation=&isWePassGdpr=1&gppConsent=&gppSid=&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=22&c2pWaitTime=-2&sdkv=&isSinglePageFloatSupport=0&availCampaigns=&isAmpIframe=0&tagKeywords=&cbuster=1781700292&csuuid=6a3296c3d9949&debugInfo=17272580_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17272580&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=&secondaryContent=&x=310&y=260&pubUrl=https%3A%2F%2Fwww.merriam-webster.com%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=5&flow_bottomOffset=110&impGap=1&flow_width=227&flow_height=128&videoType=slider&isOriginImg=0&gdpr=0&gdprConsent=&contentFeedId=&geoLati=41.2591&geoLong=-95.8517&vpTemplate=21736&flowMode=below&isRealPreroll=0&playerApiId=brittanica&isApp=0&ccpa=0&ccpaConsent=1---&subId=&appName=&appBundleId=https%3A%2F%2Fwww.merriam-webster.com%2F&appStoreUrl=&diaid=&appPrivacyPolicy=&appIsPaid=&appDeveloper=&appId=&appVersion=&sdkv=&enableResizeObserverInapp=0&isAppJs=0",
+                        "totalBytes": 361142
+                      },
+                      {
+                        "url": "https://live.primis.tech/content/prebid/prebidVid.10.23.17.min.js",
+                        "totalBytes": 350049
+                      },
+                      {
+                        "url": "https://imasdk.googleapis.com/js/core/bridge3.771.2_en.html",
+                        "totalBytes": 278923
+                      },
+                      {
+                        "totalBytes": 195211,
+                        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606120101/pubads_impl.js?cb=31099135"
+                      },
+                      {
+                        "totalBytes": 182205,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/vendor/prebid/es2018/prebid.min.js"
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-M7RZHNRRPK&cx=c>m=4e66f1",
+                        "totalBytes": 174675
+                      },
+                      {
+                        "totalBytes": 171521,
+                        "url": "https://cdn.confiant-integrations.net/gptprebidnativevideo/202603180909/wrap.js"
+                      },
+                      {
+                        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+                        "totalBytes": 155504
+                      }
+                    ],
+                    "type": "table"
+                  },
+                  "Unused CSS Rules": {
+                    "items": [
+                      {
+                        "totalBytes": 59405,
+                        "wastedBytes": 59405,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/css/style-home-redesign.143471d6.css",
+                        "wastedPercent": 100
+                      }
+                    ],
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 160,
+                        "FCP": 60
+                      },
+                      "type": "debugdata"
+                    },
+                    "type": "opportunity",
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsBytes": 59405,
+                    "overallSavingsMs": 160,
+                    "headings": [
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "key": "wastedBytes",
+                        "label": "Est Savings",
+                        "valueType": "bytes"
+                      }
+                    ]
+                  },
+                  "Unused Javascript": {
+                    "overallSavingsBytes": 1693665,
+                    "overallSavingsMs": 180,
+                    "headings": [
+                      {
+                        "key": "url",
+                        "label": "URL",
+                        "subItemsHeading": {
+                          "key": "source",
+                          "valueType": "code"
+                        },
+                        "valueType": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "subItemsHeading": {
+                          "key": "sourceBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "subItemsHeading": {
+                          "key": "sourceWastedBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 180,
+                        "FCP": 0
+                      },
+                      "type": "debugdata"
+                    },
+                    "items": [
+                      {
+                        "wastedBytes": 208425,
+                        "url": "https://live.primis.tech/content/prebid/prebidVid.10.23.17.min.js",
+                        "totalBytes": 349407,
+                        "wastedPercent": 59.651121545333766
+                      },
+                      {
+                        "wastedBytes": 200349,
+                        "url": "https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032362D30362D31375F31357D7B7331373237323538307D7B4333307D7B53643364334C6D316C636E4A7059573074643256696333526C6369356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583331307D7B593236307D7B66317D7B4C32313733367DFEFE&cudi=pip-MmQhMTAhNTphMwQ4&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F136.0.0.0+Safari%2F537.36+Chrome-Lighthouse&debugInformation=&isWePassGdpr=1&gppConsent=&gppSid=&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=22&c2pWaitTime=-2&sdkv=&isSinglePageFloatSupport=0&availCampaigns=&isAmpIframe=0&tagKeywords=&cbuster=1781700292&csuuid=6a3296c3d9949&debugInfo=17272580_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17272580&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=&secondaryContent=&x=310&y=260&pubUrl=https%3A%2F%2Fwww.merriam-webster.com%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=5&flow_bottomOffset=110&impGap=1&flow_width=227&flow_height=128&videoType=slider&isOriginImg=0&gdpr=0&gdprConsent=&contentFeedId=&geoLati=41.2591&geoLong=-95.8517&vpTemplate=21736&flowMode=below&isRealPreroll=0&playerApiId=brittanica&isApp=0&ccpa=0&ccpaConsent=1---&subId=&appName=&appBundleId=https%3A%2F%2Fwww.merriam-webster.com%2F&appStoreUrl=&diaid=&appPrivacyPolicy=&appIsPaid=&appDeveloper=&appId=&appVersion=&sdkv=&enableResizeObserverInapp=0&isAppJs=0",
+                        "totalBytes": 360674,
+                        "wastedPercent": 55.54834892495926
+                      },
+                      {
+                        "totalBytes": 264233,
+                        "url": "https://imasdk.googleapis.com/js/core/bridge3.771.2_en.html",
+                        "wastedBytes": 189816,
+                        "wastedPercent": 71.83650050078823
+                      },
+                      {
+                        "wastedPercent": 37.712465749100886,
+                        "wastedBytes": 154135,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/es2018/js/adthrive.min.js?deployment=2026-06-17-07:ada-1740:9aa0d31:4&bucket=flex-54&deliveryFeatures=additiveRaptiveFloors,altsdm,altv2,amazonBetaApstag,cfbd,consentManagerCMP,cv2,dlc,es2021,hb_crid,i262,ld,marmaladeV2,nvc,pbis,raptiveFloors,raptiveManualCookieSync,recencyFrequency,reissuingSticky,removeAdHost,rpbsecs,rpr,rrassf,stickyBucketsLocalStorage,stickyV2,switzerlandGdpr,trafficShaping,usdk,prebidLoad,gptLoad,amazonLoad,ttdSync&siteid=61575e8e934c48ea554b3caa",
+                        "totalBytes": 408711
+                      },
+                      {
+                        "wastedPercent": 56.604889550105675,
+                        "wastedBytes": 87573,
+                        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+                        "totalBytes": 154710
+                      },
+                      {
+                        "wastedPercent": 43.70150409915435,
+                        "totalBytes": 194389,
+                        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606120101/pubads_impl.js?cb=31099135",
+                        "wastedBytes": 84951
+                      },
+                      {
+                        "wastedPercent": 47.63120206492702,
+                        "totalBytes": 170794,
+                        "wastedBytes": 81351,
+                        "url": "https://cdn.confiant-integrations.net/gptprebidnativevideo/202603180909/wrap.js"
+                      },
+                      {
+                        "totalBytes": 181570,
+                        "wastedBytes": 73118,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/vendor/prebid/es2018/prebid.min.js",
+                        "wastedPercent": 40.26974108984779
+                      },
+                      {
+                        "wastedPercent": 41.02147243337171,
+                        "wastedBytes": 71371,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-M7RZHNRRPK&cx=c>m=4e66f1",
+                        "totalBytes": 173985
+                      },
+                      {
+                        "totalBytes": 118701,
+                        "wastedBytes": 64749,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PQ9SK33N",
+                        "wastedPercent": 54.547654662246295
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WW4KHXF",
+                        "wastedBytes": 54610,
+                        "totalBytes": 151370,
+                        "wastedPercent": 36.07704945809132
+                      },
+                      {
+                        "wastedBytes": 46327,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-storybook-games.ZezPSs9l.js",
+                        "totalBytes": 80756,
+                        "wastedPercent": 57.3665709894609
+                      },
+                      {
+                        "wastedPercent": 43.98907476210076,
+                        "totalBytes": 93121,
+                        "wastedBytes": 40963,
+                        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+                      },
+                      {
+                        "totalBytes": 64886,
+                        "wastedBytes": 40055,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-other.CzKq53QB.js",
+                        "wastedPercent": 61.731875253138924
+                      },
+                      {
+                        "wastedBytes": 39996,
+                        "url": "https://c.aps.amazon-adsystem.com/apstag.js",
+                        "totalBytes": 79199,
+                        "wastedPercent": 50.50032815044685
+                      },
+                      {
+                        "totalBytes": 100058,
+                        "wastedBytes": 36693,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js",
+                        "wastedPercent": 36.67170066374836
+                      },
+                      {
+                        "wastedPercent": 38.63725855084659,
+                        "url": "https://live.primis.tech/content/pal/pal.js",
+                        "wastedBytes": 35070,
+                        "totalBytes": 90767
+                      },
+                      {
+                        "wastedPercent": 42.26554536187564,
+                        "wastedBytes": 31610,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js",
+                        "totalBytes": 74790
+                      },
+                      {
+                        "wastedPercent": 41.33701621123935,
+                        "totalBytes": 74790,
+                        "wastedBytes": 30916,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js"
+                      },
+                      {
+                        "wastedPercent": 74.89346907483018,
+                        "wastedBytes": 27484,
+                        "url": "https://merriam-webster.com/assets/mw/jwplayer-8.10.3/jwplayer.js",
+                        "totalBytes": 36698
+                      },
+                      {
+                        "wastedPercent": 76.44275173566069,
+                        "wastedBytes": 26199,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-jquery.B0DjzWWj.js",
+                        "totalBytes": 34273
+                      },
+                      {
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-bootstrap.BSYYCAnH.js",
+                        "wastedBytes": 24395,
+                        "totalBytes": 31339,
+                        "wastedPercent": 77.84166475005749
+                      },
+                      {
+                        "wastedBytes": 22745,
+                        "url": "https://ats-wrapper.privacymanager.io/ats-modules/89dceacc-dd72-45e2-a48d-44ff778db796/ats.js",
+                        "totalBytes": 39490,
+                        "wastedPercent": 57.59591474941757
+                      },
+                      {
+                        "wastedPercent": 71.60436558557862,
+                        "wastedBytes": 20764,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-lodash.C6-JQlf5.js",
+                        "totalBytes": 28998
+                      }
+                    ]
+                  }
+                },
+                "resources_text": "<p><a href=\"https://sustainablewebdesign.org/has-the-design-team-set-a-page-weight-budget/\">Learn how page weight budgets can help you reach sustainability goals</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 43,
+                  "submetrics": [
+                    {
+                      "unused_css_rules": 0.3
+                    },
+                    {
+                      "unused_javascript": 0
+                    },
+                    {
+                      "duplicated_javascript_insight": 1
+                    }
+                  ]
+                },
+                "name": "Remove Unused Code",
+                "impact_text": "Plugins, widgets, and third-party frameworks often introduce unnecessary code snippets into your page which can adversely impact download speed and performance.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 30.43\" enable-background=\"new 0 0 27 30.43\" xml:space=\"preserve\">\r\n<path id=\"Path_74\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.25,1\r\n\th-4.06c-1.12,0-2.03,0.91-2.03,2.03l0,0v4.06h8.12V3.03C17.28,1.91,16.37,1,15.25,1C15.25,1,15.25,1,15.25,1z\"/>\r\n<line id=\"Line_21\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"26\" y1=\"7.21\" x2=\"1\" y2=\"7.21\"/>\r\n<path id=\"Path_75\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M23.37,7.09\r\n\tl-1.86,20.49c-0.1,1.05-0.97,1.85-2.02,1.85H6.95c-1.05,0-1.93-0.8-2.02-1.85L3.06,7.09\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Unminified CSS<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! All the CSS associated with this page has been optimized. Minifying scripts removes extra characters, improving page download speeds and reducing both data usage and emissions.</p> </div> <div class=\"at red\"> <h6>Unused CSS Rules<span class=\"submetric_score\">30 / 100</span></h6> <p>There are unused CSS Rules associated with this page. According to Ecograder's calculations, <span class=\"var\">1</span> rules could potentially be removed. This might shave off <span class=\"var\">58.01 kb</span> from your page, speeding up download time by <span class=\"var\">160 ms</span>.</p> </div> <div class=\"at green\"> <h6>Unminified Javascript<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! All JavaScript associated with this page has been minified. \n<p>Minifying scripts removes extra characters, improving page download speeds and reducing both data usage and emissions.</p> </div> <div class=\"at green\"> <h6>Duplicated Javascript Insight<span class=\"submetric_score\">100 / 100</span></h6> <p>We did not detect any duplicated JavaScript on this page.</p> </div> <div class=\"at red\"> <h6>Unused Javascript<span class=\"submetric_score\">0 / 100</span></h6> <p>There is unused JavaScript associated with this page. According to Ecograder's calculations, <span class=\"var\">24</span> scripts could potentially be removed. This might shave off <span class=\"var\">1653.97 kb</span> from your page, speeding up download time by <span class=\"var\">180 ms</span>.</p> </div> <div class=\"at red\"> <h6>Legacy Javascript Insight<span class=\"submetric_score\">50 / 100</span></h6> <p>There is outdated JavaScript associated with this page. Legacy scripts can slow down pages and cause potential security risks. You should fix this.</p> </div> <div class=\"at green\"> <h6>Document Latency Insight<span class=\"submetric_score\">100 / 100</span></h6> <p>It appears as though this page uses compression to deliver text-based resources. Good work.</p> </div></p>\n",
+                "opportunity_items": [
+                  {
+                    "Unused CSS Rules": [
+                      {
+                        "totalBytes": 59405,
+                        "wastedBytes": 59405,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/css/style-home-redesign.143471d6.css",
+                        "wastedPercent": 100
+                      }
+                    ]
+                  },
+                  {
+                    "Unused Javascript": [
+                      {
+                        "wastedBytes": 208425,
+                        "url": "https://live.primis.tech/content/prebid/prebidVid.10.23.17.min.js",
+                        "totalBytes": 349407,
+                        "wastedPercent": 59.651121545333766
+                      },
+                      {
+                        "wastedBytes": 200349,
+                        "url": "https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032362D30362D31375F31357D7B7331373237323538307D7B4333307D7B53643364334C6D316C636E4A7059573074643256696333526C6369356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583331307D7B593236307D7B66317D7B4C32313733367DFEFE&cudi=pip-MmQhMTAhNTphMwQ4&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F136.0.0.0+Safari%2F537.36+Chrome-Lighthouse&debugInformation=&isWePassGdpr=1&gppConsent=&gppSid=&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=22&c2pWaitTime=-2&sdkv=&isSinglePageFloatSupport=0&availCampaigns=&isAmpIframe=0&tagKeywords=&cbuster=1781700292&csuuid=6a3296c3d9949&debugInfo=17272580_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17272580&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=&secondaryContent=&x=310&y=260&pubUrl=https%3A%2F%2Fwww.merriam-webster.com%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=5&flow_bottomOffset=110&impGap=1&flow_width=227&flow_height=128&videoType=slider&isOriginImg=0&gdpr=0&gdprConsent=&contentFeedId=&geoLati=41.2591&geoLong=-95.8517&vpTemplate=21736&flowMode=below&isRealPreroll=0&playerApiId=brittanica&isApp=0&ccpa=0&ccpaConsent=1---&subId=&appName=&appBundleId=https%3A%2F%2Fwww.merriam-webster.com%2F&appStoreUrl=&diaid=&appPrivacyPolicy=&appIsPaid=&appDeveloper=&appId=&appVersion=&sdkv=&enableResizeObserverInapp=0&isAppJs=0",
+                        "totalBytes": 360674,
+                        "wastedPercent": 55.54834892495926
+                      },
+                      {
+                        "totalBytes": 264233,
+                        "url": "https://imasdk.googleapis.com/js/core/bridge3.771.2_en.html",
+                        "wastedBytes": 189816,
+                        "wastedPercent": 71.83650050078823
+                      },
+                      {
+                        "wastedPercent": 37.712465749100886,
+                        "wastedBytes": 154135,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/es2018/js/adthrive.min.js?deployment=2026-06-17-07:ada-1740:9aa0d31:4&bucket=flex-54&deliveryFeatures=additiveRaptiveFloors,altsdm,altv2,amazonBetaApstag,cfbd,consentManagerCMP,cv2,dlc,es2021,hb_crid,i262,ld,marmaladeV2,nvc,pbis,raptiveFloors,raptiveManualCookieSync,recencyFrequency,reissuingSticky,removeAdHost,rpbsecs,rpr,rrassf,stickyBucketsLocalStorage,stickyV2,switzerlandGdpr,trafficShaping,usdk,prebidLoad,gptLoad,amazonLoad,ttdSync&siteid=61575e8e934c48ea554b3caa",
+                        "totalBytes": 408711
+                      },
+                      {
+                        "wastedPercent": 56.604889550105675,
+                        "wastedBytes": 87573,
+                        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+                        "totalBytes": 154710
+                      },
+                      {
+                        "wastedPercent": 43.70150409915435,
+                        "totalBytes": 194389,
+                        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606120101/pubads_impl.js?cb=31099135",
+                        "wastedBytes": 84951
+                      },
+                      {
+                        "wastedPercent": 47.63120206492702,
+                        "totalBytes": 170794,
+                        "wastedBytes": 81351,
+                        "url": "https://cdn.confiant-integrations.net/gptprebidnativevideo/202603180909/wrap.js"
+                      },
+                      {
+                        "totalBytes": 181570,
+                        "wastedBytes": 73118,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/vendor/prebid/es2018/prebid.min.js",
+                        "wastedPercent": 40.26974108984779
+                      },
+                      {
+                        "wastedPercent": 41.02147243337171,
+                        "wastedBytes": 71371,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-M7RZHNRRPK&cx=c>m=4e66f1",
+                        "totalBytes": 173985
+                      },
+                      {
+                        "totalBytes": 118701,
+                        "wastedBytes": 64749,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PQ9SK33N",
+                        "wastedPercent": 54.547654662246295
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WW4KHXF",
+                        "wastedBytes": 54610,
+                        "totalBytes": 151370,
+                        "wastedPercent": 36.07704945809132
+                      },
+                      {
+                        "wastedBytes": 46327,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-storybook-games.ZezPSs9l.js",
+                        "totalBytes": 80756,
+                        "wastedPercent": 57.3665709894609
+                      },
+                      {
+                        "wastedPercent": 43.98907476210076,
+                        "totalBytes": 93121,
+                        "wastedBytes": 40963,
+                        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+                      },
+                      {
+                        "totalBytes": 64886,
+                        "wastedBytes": 40055,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-other.CzKq53QB.js",
+                        "wastedPercent": 61.731875253138924
+                      },
+                      {
+                        "wastedBytes": 39996,
+                        "url": "https://c.aps.amazon-adsystem.com/apstag.js",
+                        "totalBytes": 79199,
+                        "wastedPercent": 50.50032815044685
+                      },
+                      {
+                        "totalBytes": 100058,
+                        "wastedBytes": 36693,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js",
+                        "wastedPercent": 36.67170066374836
+                      },
+                      {
+                        "wastedPercent": 38.63725855084659,
+                        "url": "https://live.primis.tech/content/pal/pal.js",
+                        "wastedBytes": 35070,
+                        "totalBytes": 90767
+                      },
+                      {
+                        "wastedPercent": 42.26554536187564,
+                        "wastedBytes": 31610,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js",
+                        "totalBytes": 74790
+                      },
+                      {
+                        "wastedPercent": 41.33701621123935,
+                        "totalBytes": 74790,
+                        "wastedBytes": 30916,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js"
+                      },
+                      {
+                        "wastedPercent": 74.89346907483018,
+                        "wastedBytes": 27484,
+                        "url": "https://merriam-webster.com/assets/mw/jwplayer-8.10.3/jwplayer.js",
+                        "totalBytes": 36698
+                      },
+                      {
+                        "wastedPercent": 76.44275173566069,
+                        "wastedBytes": 26199,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-jquery.B0DjzWWj.js",
+                        "totalBytes": 34273
+                      },
+                      {
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-bootstrap.BSYYCAnH.js",
+                        "wastedBytes": 24395,
+                        "totalBytes": 31339,
+                        "wastedPercent": 77.84166475005749
+                      },
+                      {
+                        "wastedBytes": 22745,
+                        "url": "https://ats-wrapper.privacymanager.io/ats-modules/89dceacc-dd72-45e2-a48d-44ff778db796/ats.js",
+                        "totalBytes": 39490,
+                        "wastedPercent": 57.59591474941757
+                      },
+                      {
+                        "wastedPercent": 71.60436558557862,
+                        "wastedBytes": 20764,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-lodash.C6-JQlf5.js",
+                        "totalBytes": 28998
+                      }
+                    ]
+                  },
+                  {
+                    "Duplicated Javascript Insight": []
+                  }
+                ],
+                "details": {
+                  "Unused CSS Rules": {
+                    "items": [
+                      {
+                        "totalBytes": 59405,
+                        "wastedBytes": 59405,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/css/style-home-redesign.143471d6.css",
+                        "wastedPercent": 100
+                      }
+                    ],
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 160,
+                        "FCP": 60
+                      },
+                      "type": "debugdata"
+                    },
+                    "type": "opportunity",
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsBytes": 59405,
+                    "overallSavingsMs": 160,
+                    "headings": [
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "key": "wastedBytes",
+                        "label": "Est Savings",
+                        "valueType": "bytes"
+                      }
+                    ]
+                  },
+                  "Unused Javascript": {
+                    "overallSavingsBytes": 1693665,
+                    "overallSavingsMs": 180,
+                    "headings": [
+                      {
+                        "key": "url",
+                        "label": "URL",
+                        "subItemsHeading": {
+                          "key": "source",
+                          "valueType": "code"
+                        },
+                        "valueType": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "subItemsHeading": {
+                          "key": "sourceBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "subItemsHeading": {
+                          "key": "sourceWastedBytes"
+                        },
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 180,
+                        "FCP": 0
+                      },
+                      "type": "debugdata"
+                    },
+                    "items": [
+                      {
+                        "wastedBytes": 208425,
+                        "url": "https://live.primis.tech/content/prebid/prebidVid.10.23.17.min.js",
+                        "totalBytes": 349407,
+                        "wastedPercent": 59.651121545333766
+                      },
+                      {
+                        "wastedBytes": 200349,
+                        "url": "https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032362D30362D31375F31357D7B7331373237323538307D7B4333307D7B53643364334C6D316C636E4A7059573074643256696333526C6369356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583331307D7B593236307D7B66317D7B4C32313733367DFEFE&cudi=pip-MmQhMTAhNTphMwQ4&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F136.0.0.0+Safari%2F537.36+Chrome-Lighthouse&debugInformation=&isWePassGdpr=1&gppConsent=&gppSid=&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=22&c2pWaitTime=-2&sdkv=&isSinglePageFloatSupport=0&availCampaigns=&isAmpIframe=0&tagKeywords=&cbuster=1781700292&csuuid=6a3296c3d9949&debugInfo=17272580_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17272580&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=&secondaryContent=&x=310&y=260&pubUrl=https%3A%2F%2Fwww.merriam-webster.com%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=5&flow_bottomOffset=110&impGap=1&flow_width=227&flow_height=128&videoType=slider&isOriginImg=0&gdpr=0&gdprConsent=&contentFeedId=&geoLati=41.2591&geoLong=-95.8517&vpTemplate=21736&flowMode=below&isRealPreroll=0&playerApiId=brittanica&isApp=0&ccpa=0&ccpaConsent=1---&subId=&appName=&appBundleId=https%3A%2F%2Fwww.merriam-webster.com%2F&appStoreUrl=&diaid=&appPrivacyPolicy=&appIsPaid=&appDeveloper=&appId=&appVersion=&sdkv=&enableResizeObserverInapp=0&isAppJs=0",
+                        "totalBytes": 360674,
+                        "wastedPercent": 55.54834892495926
+                      },
+                      {
+                        "totalBytes": 264233,
+                        "url": "https://imasdk.googleapis.com/js/core/bridge3.771.2_en.html",
+                        "wastedBytes": 189816,
+                        "wastedPercent": 71.83650050078823
+                      },
+                      {
+                        "wastedPercent": 37.712465749100886,
+                        "wastedBytes": 154135,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/es2018/js/adthrive.min.js?deployment=2026-06-17-07:ada-1740:9aa0d31:4&bucket=flex-54&deliveryFeatures=additiveRaptiveFloors,altsdm,altv2,amazonBetaApstag,cfbd,consentManagerCMP,cv2,dlc,es2021,hb_crid,i262,ld,marmaladeV2,nvc,pbis,raptiveFloors,raptiveManualCookieSync,recencyFrequency,reissuingSticky,removeAdHost,rpbsecs,rpr,rrassf,stickyBucketsLocalStorage,stickyV2,switzerlandGdpr,trafficShaping,usdk,prebidLoad,gptLoad,amazonLoad,ttdSync&siteid=61575e8e934c48ea554b3caa",
+                        "totalBytes": 408711
+                      },
+                      {
+                        "wastedPercent": 56.604889550105675,
+                        "wastedBytes": 87573,
+                        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+                        "totalBytes": 154710
+                      },
+                      {
+                        "wastedPercent": 43.70150409915435,
+                        "totalBytes": 194389,
+                        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606120101/pubads_impl.js?cb=31099135",
+                        "wastedBytes": 84951
+                      },
+                      {
+                        "wastedPercent": 47.63120206492702,
+                        "totalBytes": 170794,
+                        "wastedBytes": 81351,
+                        "url": "https://cdn.confiant-integrations.net/gptprebidnativevideo/202603180909/wrap.js"
+                      },
+                      {
+                        "totalBytes": 181570,
+                        "wastedBytes": 73118,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/vendor/prebid/es2018/prebid.min.js",
+                        "wastedPercent": 40.26974108984779
+                      },
+                      {
+                        "wastedPercent": 41.02147243337171,
+                        "wastedBytes": 71371,
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-M7RZHNRRPK&cx=c>m=4e66f1",
+                        "totalBytes": 173985
+                      },
+                      {
+                        "totalBytes": 118701,
+                        "wastedBytes": 64749,
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PQ9SK33N",
+                        "wastedPercent": 54.547654662246295
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WW4KHXF",
+                        "wastedBytes": 54610,
+                        "totalBytes": 151370,
+                        "wastedPercent": 36.07704945809132
+                      },
+                      {
+                        "wastedBytes": 46327,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-storybook-games.ZezPSs9l.js",
+                        "totalBytes": 80756,
+                        "wastedPercent": 57.3665709894609
+                      },
+                      {
+                        "wastedPercent": 43.98907476210076,
+                        "totalBytes": 93121,
+                        "wastedBytes": 40963,
+                        "url": "https://c.amazon-adsystem.com/aax2/apstag.js"
+                      },
+                      {
+                        "totalBytes": 64886,
+                        "wastedBytes": 40055,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-other.CzKq53QB.js",
+                        "wastedPercent": 61.731875253138924
+                      },
+                      {
+                        "wastedBytes": 39996,
+                        "url": "https://c.aps.amazon-adsystem.com/apstag.js",
+                        "totalBytes": 79199,
+                        "wastedPercent": 50.50032815044685
+                      },
+                      {
+                        "totalBytes": 100058,
+                        "wastedBytes": 36693,
+                        "url": "https://connect.facebook.net/en_US/fbevents.js",
+                        "wastedPercent": 36.67170066374836
+                      },
+                      {
+                        "wastedPercent": 38.63725855084659,
+                        "url": "https://live.primis.tech/content/pal/pal.js",
+                        "wastedBytes": 35070,
+                        "totalBytes": 90767
+                      },
+                      {
+                        "wastedPercent": 42.26554536187564,
+                        "wastedBytes": 31610,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js",
+                        "totalBytes": 74790
+                      },
+                      {
+                        "wastedPercent": 41.33701621123935,
+                        "totalBytes": 74790,
+                        "wastedBytes": 30916,
+                        "url": "https://pagead2.googlesyndication.com/pagead/managed/js/activeview/m202605180101/ufs_web_display.js"
+                      },
+                      {
+                        "wastedPercent": 74.89346907483018,
+                        "wastedBytes": 27484,
+                        "url": "https://merriam-webster.com/assets/mw/jwplayer-8.10.3/jwplayer.js",
+                        "totalBytes": 36698
+                      },
+                      {
+                        "wastedPercent": 76.44275173566069,
+                        "wastedBytes": 26199,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-jquery.B0DjzWWj.js",
+                        "totalBytes": 34273
+                      },
+                      {
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-bootstrap.BSYYCAnH.js",
+                        "wastedBytes": 24395,
+                        "totalBytes": 31339,
+                        "wastedPercent": 77.84166475005749
+                      },
+                      {
+                        "wastedBytes": 22745,
+                        "url": "https://ats-wrapper.privacymanager.io/ats-modules/89dceacc-dd72-45e2-a48d-44ff778db796/ats.js",
+                        "totalBytes": 39490,
+                        "wastedPercent": 57.59591474941757
+                      },
+                      {
+                        "wastedPercent": 71.60436558557862,
+                        "wastedBytes": 20764,
+                        "url": "https://www.merriam-webster.com/dist-cross-dungarees/2026-06-12--15-35-17-e6dck/compiled/js/vendor-lodash.C6-JQlf5.js",
+                        "totalBytes": 28998
+                      }
+                    ]
+                  },
+                  "Duplicated Javascript Insight": {
+                    "debugData": {
+                      "wastedBytes": 0,
+                      "type": "debugdata"
+                    },
+                    "headings": [
+                      {
+                        "key": "source",
+                        "valueType": "code",
+                        "label": "Source",
+                        "subItemsHeading": {
+                          "valueType": "url",
+                          "key": "url"
+                        }
+                      },
+                      {
+                        "granularity": 10,
+                        "valueType": "bytes",
+                        "key": "wastedBytes",
+                        "label": "Duplicated bytes",
+                        "subItemsHeading": {
+                          "key": "sourceTransferBytes"
+                        }
+                      }
+                    ],
+                    "items": [],
+                    "type": "table"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.upbuild.io/blog/find-remove-unused-css-javascript/\">Read more about how to find and remove unused scripts and code</a></p>\n"
+              }
+            ],
+            "category_percent": "33%"
+          },
+          {
+            "category": "UX Design",
+            "category_weight": 1,
+            "category_content": "Creating an accessible user experience that is free from barriers or intrusions helps people find what they need and accomplish tasks quickly. This is important because end consumer device use can potentially account for up to 52% of a digital product or service's overall emissions. Here are a few recommendations for providing your users with a better experience.",
+            "category_score": 59,
+            "category_id": 4,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 70,
+                  "submetrics": [
+                    {
+                      "largest_contentful_paint": 0.7
+                    }
+                  ]
+                },
+                "name": "Improve Page Rendering",
+                "impact_text": "Studies have shown that users leave pages that don't display content quickly. \"Above-the-fold\" page content should render on a user's device in 2.5 seconds or less. This is especially crucial in low-bandwidth areas and for users with older devices.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27.81 30.85\" enable-background=\"new 0 0 27.81 30.85\" xml:space=\"preserve\">\r\n<path id=\"Path_62\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21.74,9.11\r\n\tc4.74,4.74,4.74,12.43,0,17.18s-12.43,4.74-17.18,0s-4.74-12.43,0-17.18c0,0,0,0,0,0C9.3,4.37,16.99,4.37,21.74,9.11\"/>\r\n<path id=\"Path_63\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.91,17.7\r\n\tc0-0.42-0.34-0.76-0.76-0.76c-0.42,0-0.76,0.34-0.76,0.76c0,0.42,0.34,0.75,0.76,0.76c0.42,0,0.76-0.33,0.76-0.75\r\n\tC13.91,17.71,13.91,17.7,13.91,17.7\"/>\r\n<line id=\"Line_6\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"13.15\" y1=\"11.63\" x2=\"13.15\" y2=\"17.7\"/>\r\n<line id=\"Line_7\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"10.11\" y1=\"1\" x2=\"16.18\" y2=\"1\"/>\r\n<path id=\"Path_64\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M26.81,7.07\r\n\tl-3.04-3.04l1.52,1.52l-3.56,3.56\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Render Blocking Insight<span class=\"submetric_score\">0 / 100</span></h6> <p>You scored <span class=\"var\">0</span> out of 100 for using scripts or stylesheets that slow down page render time. There is room to improve this by optimizing the URLs listed below.</p> </div> <div class=\"at yellow\"> <h6>Largest Contentful Paint<span class=\"submetric_score\">70 / 100</span></h6> <p>This page scored <span class=\"var\">70</span> out of 100 based on how quickly this page displays content. This is pretty good. You can improve this score by identifying elements that impede page rendering. Based on Ecograder's calculations, there are <span class=\"var\">1758</span> on this page that could potentially slow down page renders. It looks like you have optimized most of them.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://www.wholegraindigital.com/blog/core-web-vitals/\">Learn more about how Core Web Vitals improves user experience</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 64,
+                  "submetrics": [
+                    {
+                      "cumulative_layout_shift": 1
+                    },
+                    {
+                      "max_potential_fid": 0.27
+                    }
+                  ]
+                },
+                "name": "Page Interactions",
+                "impact_text": "Pages that respond slowly or don't respond as expected to user interactions—like button clicks, taps, key presses, form inputs, and so on—use more energy and frustrate users. This can be attributed to a number of things, some of which are outlined here.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 30.67 30.67\" enable-background=\"new 0 0 30.67 30.67\" xml:space=\"preserve\">\r\n<path id=\"Path_65\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M24.55,12.77\r\n\tV3.42c0-1.34-1.08-2.42-2.42-2.42c0,0,0,0,0,0H3.42C2.08,1,1,2.08,1,3.42c0,0,0,0,0,0v18.7c0,1.34,1.08,2.42,2.41,2.43\r\n\tc0,0,0.01,0,0.01,0h11.23\"/>\r\n<path id=\"Path_66\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M28.56,26.84\r\n\th-3.95l-2.53,2.51c-0.43,0.43-1.13,0.43-1.56,0c-0.21-0.21-0.32-0.49-0.32-0.78V18.48c0-0.61,0.49-1.1,1.1-1.1\r\n\tc0.29,0,0.58,0.12,0.78,0.32l7.25,7.25c0.43,0.43,0.43,1.13,0,1.56C29.14,26.72,28.86,26.84,28.56,26.84z\"/>\r\n<line id=\"Line_8\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"19.45\" y1=\"12.77\" x2=\"12.27\" y2=\"12.77\"/>\r\n<path id=\"Path_67\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.87,12.53\r\n\tc0.13,0.13,0.13,0.35,0,0.48s-0.35,0.13-0.48,0c-0.13-0.13-0.13-0.35,0-0.48c0,0,0,0,0,0C6.52,12.4,6.74,12.4,6.87,12.53\r\n\tC6.87,12.53,6.87,12.53,6.87,12.53\"/>\r\n<line id=\"Line_9\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"19.45\" y1=\"6.63\" x2=\"12.27\" y2=\"6.63\"/>\r\n<path id=\"Path_68\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.87,6.39\r\n\tc0.13,0.13,0.13,0.35,0,0.48c-0.13,0.13-0.35,0.13-0.48,0c-0.13-0.13-0.13-0.35,0-0.48c0,0,0,0,0,0C6.52,6.26,6.74,6.26,6.87,6.39\r\n\tC6.87,6.39,6.87,6.39,6.87,6.39\"/>\r\n<line id=\"Line_10\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"14.65\" y1=\"18.92\" x2=\"12.39\" y2=\"18.92\"/>\r\n<path id=\"Path_69\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7,18.68\r\n\tc0.13,0.13,0.13,0.35,0,0.48s-0.35,0.13-0.48,0s-0.13-0.35,0-0.48c0,0,0,0,0,0C6.65,18.55,6.86,18.55,7,18.68\r\n\tC7,18.68,7,18.68,7,18.68\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Cumulative Layout Shift<span class=\"submetric_score\">100 / 100</span></h6> <p>Nice work. This page scored 100 for no detectable page layout shifts. Page elements that shift while a user interacts with them are not only annoying but can potentially waste energy too. This is especially true if a user must redo tasks because of shift-induced mistakes they made.</p> </div> <div class=\"at red\"> <h6>Max Potential First Input Delay<span class=\"submetric_score\">27 / 100</span></h6> <p>This page scored <span class=\"var\">27</span> out of 100 based on how quickly users can interact with content. There is significant room to improve this score by identifying page elements that impede speedy interactivity. Based on Ecograder's calculations, page rendering is delayed by <span class=\"var\">338 millisecond</span>.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Cumulative Layout Shift": [
+                      {
+                        "cumulativeLayoutShiftMainFrame": 0.0048579999999999995,
+                        "newEngineResult": {
+                          "cumulativeLayoutShiftMainFrame": 0.0048579999999999995,
+                          "cumulativeLayoutShift": 0.0048579999999999995
+                        },
+                        "newEngineResultDiffered": false
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Cumulative Layout Shift": {
+                    "items": [
+                      {
+                        "cumulativeLayoutShiftMainFrame": 0.0048579999999999995,
+                        "newEngineResult": {
+                          "cumulativeLayoutShiftMainFrame": 0.0048579999999999995,
+                          "cumulativeLayoutShift": 0.0048579999999999995
+                        },
+                        "newEngineResultDiffered": false
+                      }
+                    ],
+                    "type": "debugdata"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://ecoping.earth/blog/core-web-vitals-and-sustainability\">Learn how Google's Core Web Vitals and sustainability go hand-in-hand</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 92,
+                  "submetrics": [
+                    {
+                      "lighthouse_seo_score": "0.92"
+                    }
+                  ]
+                },
+                "name": "Optimize Content for Search",
+                "impact_text": "Pages that employ SEO best practices help people more quickly find content, reducing energy used while searching. Search-optimized pages also tend to be more accessible and work across a wider array of devices and platforms. This reduces the amount of energy (and frustration) users expend when barriers exist.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27.12 27.36\" enable-background=\"new 0 0 27.12 27.36\" xml:space=\"preserve\">\r\n<circle id=\"Ellipse_3\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" cx=\"10.37\" cy=\"10.37\" r=\"9.37\"/>\r\n<line id=\"Line_11\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"16.94\" y1=\"17.06\" x2=\"26.12\" y2=\"26.36\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>SEO Score<span class=\"submetric_score\">92 / 100</span></h6> <p>Since search is contextual, it is difficult to estimate precisely how much good SEO practices reduce page-based emissions. Google says a single search can power a lightbulb for 17 seconds. However, given the global volume of daily searches, anything you can do to reduce energy expended by helping people more quickly find content is useful.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://sustainablewebdesign.org/is-the-content-easy-to-find/\">More information on SEO and sustainability</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 89,
+                  "submetrics": [
+                    {
+                      "lighthouse_accessibility_score": "0.89"
+                    }
+                  ]
+                },
+                "name": "Accessibility",
+                "impact_text": "Accessible pages tend to work across a wider array of devices and platforms, including assistive technologies used by people with disabilities. Prioritizing accessibility reduces the amount of energy (and frustration) users expend when barriers exist. Plus, it's just the right thing to do.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 29.61 33.66\" enable-background=\"new 0 0 29.61 33.66\" xml:space=\"preserve\">\r\n<path id=\"Path_70\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M28.61,10.16\r\n\tc-7.62,2.31-19.99,2.31-27.61,0\"/>\r\n<path id=\"Path_71\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11,11.78\r\n\tc0,7.45,0,16.41-1.73,20.88\"/>\r\n<path id=\"Path_72\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.6,11.78\r\n\tc0,11.53,0,13.96,1.73,20.88\"/>\r\n<circle id=\"Ellipse_4\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" cx=\"14.8\" cy=\"4.16\" r=\"3.16\"/>\r\n<line id=\"Line_12\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"11\" y1=\"22.48\" x2=\"18.6\" y2=\"22.48\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Accessibility Score<span class=\"submetric_score\">89 / 100</span></h6> <p>An automated crawler like Ecograder can only catch about one-third of total possible accessibility issues on any given page. Plus, emissions estimates related to the ecological impact of accessible content are difficult to quantify. However, truly sustainable solutions are good for people and planet. Because of this, we include web accessibility in Ecograder's scoring algorithm.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://www.mightybytes.com/blog/digital-accessibility-web-sustainability/\">Read more about web content, accessibility, and sustainability</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 50,
+                  "submetrics": [
+                    {
+                      "unsized_images": 0.5
+                    }
+                  ]
+                },
+                "name": "Image elements do not have explicit width and height",
+                "impact_text": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 27\" style=\"enable-background:new 0 0 27 27;\" xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{clip-path:url(#SVGID_00000022562805838848282430000005082421216664944259_);}\r\n\t.st1{fill:none;stroke:#F0F3F3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}\r\n</style>\r\n<g id=\"Group_172\" transform=\"translate(0 0)\">\r\n\t<g>\r\n\t\t<defs>\r\n\t\t\t<rect id=\"SVGID_1_\" width=\"27\" height=\"27\"/>\r\n\t\t</defs>\r\n\t\t<clipPath id=\"SVGID_00000095340850356617219920000003764292749914741917_\">\r\n\t\t\t<use xlink:href=\"#SVGID_1_\"  style=\"overflow:visible;\"/>\r\n\t\t</clipPath>\r\n\t\t\r\n\t\t\t<g id=\"Group_171\" transform=\"translate(0 0)\" style=\"clip-path:url(#SVGID_00000095340850356617219920000003764292749914741917_);\">\r\n\t\t\t<path id=\"Path_136\" class=\"st1\" d=\"M5.76,20.72c-0.28,0-0.52,0.23-0.51,0.52c0,0.28,0.23,0.52,0.52,0.51\r\n\t\t\t\tc0.28,0,0.51-0.23,0.51-0.52C6.28,20.95,6.04,20.72,5.76,20.72C5.76,20.72,5.76,20.72,5.76,20.72\"/>\r\n\t\t\t<path id=\"Path_137\" class=\"st1\" d=\"M5.93,25.88L5.93,25.88c-2.66,0-4.82-2.16-4.82-4.82c0,0,0,0,0,0V3.87\r\n\t\t\t\tc0-1.52,1.23-2.75,2.75-2.75c0,0,0,0,0,0H8c1.52,0,2.75,1.23,2.75,2.75c0,0,0,0,0,0v17.2C10.75,23.73,8.59,25.88,5.93,25.88z\"/>\r\n\t\t\t<path id=\"Path_138\" class=\"st1\" d=\"M9.34,24.47L22.7,11.11c1.07-1.07,1.07-2.82,0-3.89L19.78,4.3c-1.07-1.07-2.82-1.07-3.89,0\r\n\t\t\t\tl-5.14,5.14\"/>\r\n\t\t\t<path id=\"Path_139\" class=\"st1\" d=\"M17.56,16.25h5.57c1.52,0,2.75,1.23,2.75,2.75l0,0v4.13c0,1.52-1.23,2.75-2.75,2.75H5.93\"/>\r\n\t\t</g>\r\n\t</g>\r\n</g>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Unsized images<span class=\"submetric_score\">50 / 100</span></h6> <p><span class=\"var\">11</span> images on your web page do not have width and height attributes set. Setting an explicit height and width on image elements helps prevent cumulative layout shift, which can impact user experience and search rankings.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Unsized images": [
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "top": 3381,
+                            "width": 250,
+                            "left": 531,
+                            "bottom": 3427,
+                            "right": 780,
+                            "height": 46
+                          },
+                          "snippet": "<img class=\"time-traveler__logo__image\" src=\"https://merriam-webster.com/assets/mw/static/time-traveler/timetraveler-lo…\" alt=\"Time Traveler\">",
+                          "nodeLabel": "Time Traveler",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,7,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,A,0,IMG",
+                          "type": "node",
+                          "selector": "div.time-traveler__header-wrapper > div.time-traveler__logo > a > img.time-traveler__logo__image",
+                          "lhId": "1-24-IMG"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/static/time-traveler/timetraveler-logo.svg"
+                      },
+                      {
+                        "node": {
+                          "nodeLabel": "the-loop",
+                          "snippet": "<img data-sizes=\"auto\" alt=\"the-loop\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" data-caption=\"The Loop\" data-credit=\"Merriam-Webster\" data-type=\"article\" data-dim=\"art-home-edpick-lg\" data-ret-pref=\"the-loop-13216-ab84b1a845507cbd2dda36cc78de7ca5\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" pair-id=\"13218\" image-id=\"13216\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" …>",
+                          "boundingRect": {
+                            "height": 143,
+                            "right": 217,
+                            "width": 191,
+                            "left": 26,
+                            "bottom": 747,
+                            "top": 604
+                          },
+                          "lhId": "1-16-IMG",
+                          "selector": "div.home-general-games-and-quizzes-list > a.home-games-and-quizzes-item-featured > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,A,0,SPAN,0,IMG",
+                          "type": "node"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/the-loop-13216-ab84b1a845507cbd2dda36cc78de7ca5@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "selector": "div.home-general-games-and-quizzes-list > a.home-games-and-quizzes-item-featured > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,A,0,SPAN,0,IMG",
+                          "lhId": "1-20-IMG",
+                          "boundingRect": {
+                            "height": 143,
+                            "right": 425,
+                            "bottom": 747,
+                            "width": 191,
+                            "left": 235,
+                            "top": 604
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"reunion\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" data-caption=\"Reunion - NEW\" data-credit=\"Merriam-Webster\" data-type=\"article\" data-dim=\"art-home-edpick-lg\" data-ret-pref=\"reunion-12704-f95b19cd1f61190ce027a4b8bbbe9c7a\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" pair-id=\"12706\" image-id=\"12704\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" …>",
+                          "nodeLabel": "reunion"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/reunion-12704-f95b19cd1f61190ce027a4b8bbbe9c7a@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,A,0,DIV,0,SPAN,0,IMG",
+                          "type": "node",
+                          "lhId": "1-17-IMG",
+                          "boundingRect": {
+                            "width": 28,
+                            "left": 24,
+                            "bottom": 795,
+                            "top": 767,
+                            "right": 52,
+                            "height": 28
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"quordle-icon\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" data-caption=\"quordle-icon\" data-credit=\"Merriam-Webster\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"quordle-icon-12356-33b1b410304895ce2ca1a8ab37bc6da3\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" pair-id=\"12358\" image-id=\"12356\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" …>",
+                          "nodeLabel": "quordle-icon"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle-icon-12356-33b1b410304895ce2ca1a8ab37bc6da3@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "nodeLabel": "octordle icon 8 dots",
+                          "boundingRect": {
+                            "top": 814,
+                            "width": 28,
+                            "left": 24,
+                            "bottom": 842,
+                            "right": 52,
+                            "height": 28
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"octordle icon 8 dots\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" data-caption=\"\" data-credit=\"\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"octordle icon 8 dots-10990-72bd644352f64bbfb57b57a96079f306\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" pair-id=\"10992\" image-id=\"10990\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" …>",
+                          "lhId": "1-18-IMG",
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,2,A,0,DIV,0,SPAN,0,IMG"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordle%20icon%208%20dots-10990-72bd644352f64bbfb57b57a96079f306@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "lhId": "1-19-IMG",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,3,A,0,DIV,0,SPAN,0,IMG",
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "nodeLabel": "tightrope",
+                          "boundingRect": {
+                            "height": 28,
+                            "right": 52,
+                            "top": 860,
+                            "width": 28,
+                            "left": 24,
+                            "bottom": 888
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"tightrope\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" data-caption=\"Tightrope\" data-credit=\"Merriam-Webster\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"tightrope-11710-82fca83d4f35f423e4fe6603c25f2853\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" pair-id=\"11712\" image-id=\"11710\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" …>"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightrope-11710-82fca83d4f35f423e4fe6603c25f2853@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "width": 28,
+                            "left": 233,
+                            "bottom": 795,
+                            "top": 767,
+                            "height": 28,
+                            "right": 261
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"blossom game flower image\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" data-caption=\"\" data-credit=\"\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"blossom game flower image-10991-db20c536d779a196b4ad017c82167882\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" pair-id=\"10993\" image-id=\"10991\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" …>",
+                          "nodeLabel": "blossom game flower image",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,1,A,0,DIV,0,SPAN,0,IMG",
+                          "type": "node",
+                          "lhId": "1-21-IMG"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom%20game%20flower%20image-10991-db20c536d779a196b4ad017c82167882@1x.jpg"
+                      },
+                      {
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/revealed-12705-bca85dadfda6836e7787aefabddf06eb@1x.jpg",
+                        "node": {
+                          "nodeLabel": "revealed",
+                          "snippet": "<img data-sizes=\"auto\" alt=\"revealed\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" data-caption=\"Revealed Logo\" data-credit=\"Merriam-Webster\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"revealed-12705-bca85dadfda6836e7787aefabddf06eb\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" pair-id=\"12707\" image-id=\"12705\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" …>",
+                          "boundingRect": {
+                            "top": 814,
+                            "width": 28,
+                            "left": 233,
+                            "bottom": 842,
+                            "height": 28,
+                            "right": 261
+                          },
+                          "lhId": "1-22-IMG",
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,2,A,0,DIV,0,SPAN,0,IMG"
+                        }
+                      },
+                      {
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing-letter-11650-a038ce49e58d331e6d21bcc052440708@1x.jpg",
+                        "node": {
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,3,A,0,DIV,0,SPAN,0,IMG",
+                          "lhId": "1-23-IMG",
+                          "snippet": "<img data-sizes=\"auto\" alt=\"missing-letter\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" data-caption=\"\" data-credit=\"\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"missing-letter-11650-a038ce49e58d331e6d21bcc052440708\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" pair-id=\"11652\" image-id=\"11650\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" …>",
+                          "boundingRect": {
+                            "right": 261,
+                            "height": 28,
+                            "left": 233,
+                            "bottom": 888,
+                            "width": 28,
+                            "top": 860
+                          },
+                          "nodeLabel": "missing-letter"
+                        }
+                      },
+                      {
+                        "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                        "node": {
+                          "selector": "div.row > div.col-6 > a.more-from-mw-app-links-list-item > img.app-links__img",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,11,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,A,0,IMG",
+                          "type": "node",
+                          "lhId": "1-29-IMG",
+                          "snippet": "<img class=\"app-links__img lazyload\" data-src=\"https://merriam-webster.com/assets/mw/static/app-standalone-images/home-ic…\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" alt=\"App Store\">",
+                          "boundingRect": {
+                            "height": 54,
+                            "right": 222,
+                            "width": 198,
+                            "left": 24,
+                            "bottom": 4963,
+                            "top": 4909
+                          },
+                          "nodeLabel": "App Store"
+                        }
+                      },
+                      {
+                        "node": {
+                          "lhId": "1-30-IMG",
+                          "selector": "div.row > div.col-6 > a.more-from-mw-app-links-list-item > img.app-links__img",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,11,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,A,0,IMG",
+                          "type": "node",
+                          "nodeLabel": "Play Store",
+                          "boundingRect": {
+                            "right": 427,
+                            "height": 54,
+                            "top": 4909,
+                            "width": 198,
+                            "left": 230,
+                            "bottom": 4963
+                          },
+                          "snippet": "<img class=\"app-links__img lazyload\" data-src=\"https://merriam-webster.com/assets/mw/static/app-standalone-images/home-ic…\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" alt=\"Play Store\">"
+                        },
+                        "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Unsized images": {
+                    "headings": [
+                      {
+                        "valueType": "node",
+                        "key": "node"
+                      },
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      }
+                    ],
+                    "items": [
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "top": 3381,
+                            "width": 250,
+                            "left": 531,
+                            "bottom": 3427,
+                            "right": 780,
+                            "height": 46
+                          },
+                          "snippet": "<img class=\"time-traveler__logo__image\" src=\"https://merriam-webster.com/assets/mw/static/time-traveler/timetraveler-lo…\" alt=\"Time Traveler\">",
+                          "nodeLabel": "Time Traveler",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,7,DIV,0,DIV,1,DIV,0,DIV,0,DIV,1,A,0,IMG",
+                          "type": "node",
+                          "selector": "div.time-traveler__header-wrapper > div.time-traveler__logo > a > img.time-traveler__logo__image",
+                          "lhId": "1-24-IMG"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/static/time-traveler/timetraveler-logo.svg"
+                      },
+                      {
+                        "node": {
+                          "nodeLabel": "the-loop",
+                          "snippet": "<img data-sizes=\"auto\" alt=\"the-loop\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" data-caption=\"The Loop\" data-credit=\"Merriam-Webster\" data-type=\"article\" data-dim=\"art-home-edpick-lg\" data-ret-pref=\"the-loop-13216-ab84b1a845507cbd2dda36cc78de7ca5\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" pair-id=\"13218\" image-id=\"13216\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/th…\" …>",
+                          "boundingRect": {
+                            "height": 143,
+                            "right": 217,
+                            "width": 191,
+                            "left": 26,
+                            "bottom": 747,
+                            "top": 604
+                          },
+                          "lhId": "1-16-IMG",
+                          "selector": "div.home-general-games-and-quizzes-list > a.home-games-and-quizzes-item-featured > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,0,A,0,SPAN,0,IMG",
+                          "type": "node"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/the-loop-13216-ab84b1a845507cbd2dda36cc78de7ca5@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "type": "node",
+                          "selector": "div.home-general-games-and-quizzes-list > a.home-games-and-quizzes-item-featured > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,0,A,0,SPAN,0,IMG",
+                          "lhId": "1-20-IMG",
+                          "boundingRect": {
+                            "height": 143,
+                            "right": 425,
+                            "bottom": 747,
+                            "width": 191,
+                            "left": 235,
+                            "top": 604
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"reunion\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" data-caption=\"Reunion - NEW\" data-credit=\"Merriam-Webster\" data-type=\"article\" data-dim=\"art-home-edpick-lg\" data-ret-pref=\"reunion-12704-f95b19cd1f61190ce027a4b8bbbe9c7a\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" pair-id=\"12706\" image-id=\"12704\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/re…\" …>",
+                          "nodeLabel": "reunion"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/article/art-home-edpick-lg/reunion-12704-f95b19cd1f61190ce027a4b8bbbe9c7a@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,A,0,DIV,0,SPAN,0,IMG",
+                          "type": "node",
+                          "lhId": "1-17-IMG",
+                          "boundingRect": {
+                            "width": 28,
+                            "left": 24,
+                            "bottom": 795,
+                            "top": 767,
+                            "right": 52,
+                            "height": 28
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"quordle-icon\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" data-caption=\"quordle-icon\" data-credit=\"Merriam-Webster\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"quordle-icon-12356-33b1b410304895ce2ca1a8ab37bc6da3\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" pair-id=\"12358\" image-id=\"12356\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle…\" …>",
+                          "nodeLabel": "quordle-icon"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/quordle-icon-12356-33b1b410304895ce2ca1a8ab37bc6da3@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "nodeLabel": "octordle icon 8 dots",
+                          "boundingRect": {
+                            "top": 814,
+                            "width": 28,
+                            "left": 24,
+                            "bottom": 842,
+                            "right": 52,
+                            "height": 28
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"octordle icon 8 dots\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" data-caption=\"\" data-credit=\"\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"octordle icon 8 dots-10990-72bd644352f64bbfb57b57a96079f306\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" pair-id=\"10992\" image-id=\"10990\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordl…\" …>",
+                          "lhId": "1-18-IMG",
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,2,A,0,DIV,0,SPAN,0,IMG"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/octordle%20icon%208%20dots-10990-72bd644352f64bbfb57b57a96079f306@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "lhId": "1-19-IMG",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,1,DIV,3,A,0,DIV,0,SPAN,0,IMG",
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "nodeLabel": "tightrope",
+                          "boundingRect": {
+                            "height": 28,
+                            "right": 52,
+                            "top": 860,
+                            "width": 28,
+                            "left": 24,
+                            "bottom": 888
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"tightrope\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" data-caption=\"Tightrope\" data-credit=\"Merriam-Webster\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"tightrope-11710-82fca83d4f35f423e4fe6603c25f2853\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" pair-id=\"11712\" image-id=\"11710\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightro…\" …>"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/tightrope-11710-82fca83d4f35f423e4fe6603c25f2853@1x.jpg"
+                      },
+                      {
+                        "node": {
+                          "boundingRect": {
+                            "width": 28,
+                            "left": 233,
+                            "bottom": 795,
+                            "top": 767,
+                            "height": 28,
+                            "right": 261
+                          },
+                          "snippet": "<img data-sizes=\"auto\" alt=\"blossom game flower image\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" data-caption=\"\" data-credit=\"\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"blossom game flower image-10991-db20c536d779a196b4ad017c82167882\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" pair-id=\"10993\" image-id=\"10991\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom…\" …>",
+                          "nodeLabel": "blossom game flower image",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,1,A,0,DIV,0,SPAN,0,IMG",
+                          "type": "node",
+                          "lhId": "1-21-IMG"
+                        },
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/blossom%20game%20flower%20image-10991-db20c536d779a196b4ad017c82167882@1x.jpg"
+                      },
+                      {
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/revealed-12705-bca85dadfda6836e7787aefabddf06eb@1x.jpg",
+                        "node": {
+                          "nodeLabel": "revealed",
+                          "snippet": "<img data-sizes=\"auto\" alt=\"revealed\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" data-caption=\"Revealed Logo\" data-credit=\"Merriam-Webster\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"revealed-12705-bca85dadfda6836e7787aefabddf06eb\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" pair-id=\"12707\" image-id=\"12705\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/reveale…\" …>",
+                          "boundingRect": {
+                            "top": 814,
+                            "width": 28,
+                            "left": 233,
+                            "bottom": 842,
+                            "height": 28,
+                            "right": 261
+                          },
+                          "lhId": "1-22-IMG",
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,2,A,0,DIV,0,SPAN,0,IMG"
+                        }
+                      },
+                      {
+                        "url": "https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing-letter-11650-a038ce49e58d331e6d21bcc052440708@1x.jpg",
+                        "node": {
+                          "type": "node",
+                          "selector": "a.d-flex > div.home-games-and-quizzes-item-icon > span.lazyload-container > img.lazyloaded",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,DIV,3,DIV,3,A,0,DIV,0,SPAN,0,IMG",
+                          "lhId": "1-23-IMG",
+                          "snippet": "<img data-sizes=\"auto\" alt=\"missing-letter\" is_retina=\"true\" data-src=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" data-caption=\"\" data-credit=\"\" data-type=\"omni\" data-dim=\"omni-1x1-540x540\" data-ret-pref=\"missing-letter-11650-a038ce49e58d331e6d21bcc052440708\" data-ret-x=\"1\" data-srcset=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" pair-id=\"11652\" image-id=\"11650\" srcset-img-1x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" srcset-img-2x=\"https://merriam-webster.com/assets/mw/images/omni/omni-1x1-540x540/missing…\" …>",
+                          "boundingRect": {
+                            "right": 261,
+                            "height": 28,
+                            "left": 233,
+                            "bottom": 888,
+                            "width": 28,
+                            "top": 860
+                          },
+                          "nodeLabel": "missing-letter"
+                        }
+                      },
+                      {
+                        "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+                        "node": {
+                          "selector": "div.row > div.col-6 > a.more-from-mw-app-links-list-item > img.app-links__img",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,11,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,0,A,0,IMG",
+                          "type": "node",
+                          "lhId": "1-29-IMG",
+                          "snippet": "<img class=\"app-links__img lazyload\" data-src=\"https://merriam-webster.com/assets/mw/static/app-standalone-images/home-ic…\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" alt=\"App Store\">",
+                          "boundingRect": {
+                            "height": 54,
+                            "right": 222,
+                            "width": 198,
+                            "left": 24,
+                            "bottom": 4963,
+                            "top": 4909
+                          },
+                          "nodeLabel": "App Store"
+                        }
+                      },
+                      {
+                        "node": {
+                          "lhId": "1-30-IMG",
+                          "selector": "div.row > div.col-6 > a.more-from-mw-app-links-list-item > img.app-links__img",
+                          "path": "1,HTML,1,BODY,2,DIV,3,DIV,11,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,DIV,0,A,0,IMG",
+                          "type": "node",
+                          "nodeLabel": "Play Store",
+                          "boundingRect": {
+                            "right": 427,
+                            "height": 54,
+                            "top": 4909,
+                            "width": 198,
+                            "left": 230,
+                            "bottom": 4963
+                          },
+                          "snippet": "<img class=\"app-links__img lazyload\" data-src=\"https://merriam-webster.com/assets/mw/static/app-standalone-images/home-ic…\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\" alt=\"Play Store\">"
+                        },
+                        "url": "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      }
+                    ],
+                    "type": "table"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/\">Read why setting width and height on images benefits your users</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 100,
+                  "submetrics": [
+                    {
+                      "redirects": 1
+                    }
+                  ]
+                },
+                "name": "Avoid multiple page redirects",
+                "impact_text": "Page redirects cause slower page speeds. Pages are flagged if they have two or more redirects.\r\n\r\nTo prevent this, look at the list of redirects and update links to point directly to each resource’s actual location. This will cut out unnecessary redirecting and reduce load times.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 32\" style=\"enable-background:new 0 0 27 32;\" xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{fill:none;stroke:#F0F3F3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}\r\n\t.st1{clip-path:url(#SVGID_00000053543231613112214770000010342768293729731002_);}\r\n</style>\r\n<g id=\"Group_180\" transform=\"translate(0 0.037)\">\r\n\t<line id=\"Line_46\" class=\"st0\" x1=\"13.73\" y1=\"17.77\" x2=\"13.73\" y2=\"12.93\"/>\r\n\t<g id=\"Group_179\" transform=\"translate(0 -0.037)\">\r\n\t\t<g>\r\n\t\t\t<defs>\r\n\t\t\t\t<rect id=\"SVGID_1_\" width=\"27\" height=\"32\"/>\r\n\t\t\t</defs>\r\n\t\t\t<clipPath id=\"SVGID_00000026151135947184363400000004390900541528640675_\">\r\n\t\t\t\t<use xlink:href=\"#SVGID_1_\"  style=\"overflow:visible;\"/>\r\n\t\t\t</clipPath>\r\n\t\t\t<g id=\"Group_178\" style=\"clip-path:url(#SVGID_00000026151135947184363400000004390900541528640675_);\">\r\n\t\t\t\t<line id=\"Line_47\" class=\"st0\" x1=\"13.73\" y1=\"4.88\" x2=\"13.73\" y2=\"1.65\"/>\r\n\t\t\t\t<path id=\"Path_150\" class=\"st0\" d=\"M4.85,4.88h17.26c0.47,0,0.91,0.2,1.22,0.55l2.13,2.44c0.53,0.6,0.53,1.5,0,2.1l-2.13,2.44\r\n\t\t\t\t\tc-0.31,0.35-0.75,0.55-1.22,0.55H4.85c-0.89,0-1.62-0.72-1.62-1.62c0,0,0,0,0,0V6.5C3.23,5.61,3.95,4.88,4.85,4.88L4.85,4.88z\"\r\n\t\t\t\t\t/>\r\n\t\t\t\t<path id=\"Path_151\" class=\"st0\" d=\"M22.62,25.89H5.35c-0.47,0-0.91-0.2-1.22-0.55L2.01,22.9c-0.53-0.6-0.53-1.5,0-2.1l2.13-2.44\r\n\t\t\t\t\tc0.31-0.35,0.75-0.55,1.22-0.55h17.26c0.89,0,1.62,0.72,1.62,1.62v4.85C24.23,25.16,23.51,25.89,22.62,25.89z\"/>\r\n\t\t\t\t<line id=\"Line_48\" class=\"st0\" x1=\"13.73\" y1=\"30.73\" x2=\"13.73\" y2=\"25.89\"/>\r\n\t\t\t</g>\r\n\t\t</g>\r\n\t</g>\r\n</g>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Page redirects<span class=\"submetric_score\">100 / 100</span></h6> <p>Great job. Your page doesn't contain two or more redirects and is optimized for load time based on pointing your resources directly to the actual location.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Page redirects": []
+                  }
+                ],
+                "details": {
+                  "Page redirects": {
+                    "overallSavingsMs": 0,
+                    "headings": [],
+                    "items": [],
+                    "type": "opportunity"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.matthewedgar.net/do-redirects-add-to-website-speed/\">Read more about how redirects impact page speed</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 0,
+                  "submetrics": [
+                    {
+                      "total_byte_weight": 0
+                    }
+                  ]
+                },
+                "name": "Reduce Server Requests",
+                "impact_text": "Every time your page makes a server request, energy is required to transfer and display data. Reducing the number of requests your pages make can improve performance and reduce emissions.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 29.9 29.9\" enable-background=\"new 0 0 29.9 29.9\" xml:space=\"preserve\">\r\n<path id=\"Path_80\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M25.8,28.9\r\n\tL25.8,28.9c-1.71,0-3.1-1.39-3.1-3.1s1.39-3.1,3.1-3.1c1.71,0,3.1,1.39,3.1,3.1S27.51,28.9,25.8,28.9L25.8,28.9z\"/>\r\n<line id=\"Line_23\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"15.45\" y1=\"13.45\" x2=\"15.45\" y2=\"22.45\"/>\r\n<path id=\"Path_81\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.95,28.9\r\n\tL14.95,28.9c-1.71,0-3.1-1.39-3.1-3.1s1.39-3.1,3.1-3.1c1.71,0,3.1,1.39,3.1,3.1S16.66,28.9,14.95,28.9L14.95,28.9z\"/>\r\n<path id=\"Path_82\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.1,28.9\r\n\tL4.1,28.9c-1.71,0-3.1-1.39-3.1-3.1c0-1.71,1.39-3.1,3.1-3.1s3.1,1.39,3.1,3.1S5.81,28.9,4.1,28.9L4.1,28.9z\"/>\r\n<path id=\"Path_83\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.1,22.7\r\n\tv-3.1c0-0.86,0.69-1.55,1.55-1.55h18.6c0.86,0,1.55,0.69,1.55,1.55v3.1\"/>\r\n<path id=\"Path_84\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M22.7,1H7.2\r\n\tC3.78,1,1,3.77,1,7.2c0,3.42,2.77,6.2,6.2,6.2c0,0,0,0,0,0h15.5c3.42,0,6.2-2.78,6.2-6.2C28.9,3.78,26.12,1,22.7,1z\"/>\r\n<line id=\"Line_24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"13.45\" y1=\"7.45\" x2=\"22.45\" y2=\"7.45\"/>\r\n<path id=\"Path_85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.25,7.15\r\n\tc0.03,0.03,0.03,0.08,0,0.11c0,0,0,0,0,0C7.22,7.28,7.17,7.28,7.14,7.25c-0.03-0.03-0.03-0.07,0-0.1C7.17,7.12,7.22,7.12,7.25,7.15\r\n\tC7.25,7.15,7.25,7.15,7.25,7.15\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Total Byte Weight<span class=\"submetric_score\">0 / 100</span></h6> <p>This page scored <span class=\"var\">0</span> out of 100 possible points for the <span class=\"var\">10</span> requests it makes to the server. Try reducing the number of server requests on this page to improve your score.</p> </div>\n",
+                "opportunity_items": [],
+                "details": {
+                  "Total Byte Weight": {
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "label": "URL",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "totalBytes"
+                    ],
+                    "items": [
+                      {
+                        "totalBytes": 426737,
+                        "url": "https://merriam-webster.com/assets/mw/static/app-css-images/home/app_mw_image_2x_updated.png"
+                      },
+                      {
+                        "totalBytes": 409249,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/es2018/js/adthrive.min.js?deployment=2026-06-17-07:ada-1740:9aa0d31:4&bucket=flex-54&deliveryFeatures=additiveRaptiveFloors,altsdm,altv2,amazonBetaApstag,cfbd,consentManagerCMP,cv2,dlc,es2021,hb_crid,i262,ld,marmaladeV2,nvc,pbis,raptiveFloors,raptiveManualCookieSync,recencyFrequency,reissuingSticky,removeAdHost,rpbsecs,rpr,rrassf,stickyBucketsLocalStorage,stickyV2,switzerlandGdpr,trafficShaping,usdk,prebidLoad,gptLoad,amazonLoad,ttdSync&siteid=61575e8e934c48ea554b3caa"
+                      },
+                      {
+                        "url": "https://live.primis.tech/live/liveVideo.php?vpaidManager=sekindo&s=58057&ri=6C69766553746174737C736B317B54307D7B64323032362D30362D31375F31357D7B7331373237323538307D7B4333307D7B53643364334C6D316C636E4A7059573074643256696333526C6369356A6232303D7D7B626368726F6D657D7B716465736B746F707D7B6F6D61636F73787D7B583331307D7B593236307D7B66317D7B4C32313733367DFEFE&cudi=pip-MmQhMTAhNTphMwQ4&userUA=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_15_7%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F136.0.0.0+Safari%2F537.36+Chrome-Lighthouse&debugInformation=&isWePassGdpr=1&gppConsent=&gppSid=&noViewableMidrollPolicy=vary&isDoublePreroll=1&autoSkipVideoSec=22&c2pWaitTime=-2&sdkv=&isSinglePageFloatSupport=0&availCampaigns=&isAmpIframe=0&tagKeywords=&cbuster=1781700292&csuuid=6a3296c3d9949&debugInfo=17272580_&debugPlayerSession=&pubUrlDEMO=&isAsyncDEMO=0&customPlaylistIdDEMO=&sta=17272580&showLogo=0&clkUrl=&plMult=-1&schedule=eyJwcmVfcm9sbCI6MSwibWlkX3JvbGwiOltdLCJnYXAiOiJhdXRvIn0%3D&content=&secondaryContent=&x=310&y=260&pubUrl=https%3A%2F%2Fwww.merriam-webster.com%2F&contentNum=1&flow_closeBtn=1&flowCloseTimeout=0&flow_closeButtonPosition=right&flow_direction=br&flow_horizontalOffset=5&flow_bottomOffset=110&impGap=1&flow_width=227&flow_height=128&videoType=slider&isOriginImg=0&gdpr=0&gdprConsent=&contentFeedId=&geoLati=41.2591&geoLong=-95.8517&vpTemplate=21736&flowMode=below&isRealPreroll=0&playerApiId=brittanica&isApp=0&ccpa=0&ccpaConsent=1---&subId=&appName=&appBundleId=https%3A%2F%2Fwww.merriam-webster.com%2F&appStoreUrl=&diaid=&appPrivacyPolicy=&appIsPaid=&appDeveloper=&appId=&appVersion=&sdkv=&enableResizeObserverInapp=0&isAppJs=0",
+                        "totalBytes": 361142
+                      },
+                      {
+                        "url": "https://live.primis.tech/content/prebid/prebidVid.10.23.17.min.js",
+                        "totalBytes": 350049
+                      },
+                      {
+                        "url": "https://imasdk.googleapis.com/js/core/bridge3.771.2_en.html",
+                        "totalBytes": 278923
+                      },
+                      {
+                        "totalBytes": 195211,
+                        "url": "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606120101/pubads_impl.js?cb=31099135"
+                      },
+                      {
+                        "totalBytes": 182205,
+                        "url": "https://ads.adthrive.com/builds/core/9aa0d31/vendor/prebid/es2018/prebid.min.js"
+                      },
+                      {
+                        "url": "https://www.googletagmanager.com/gtag/js?id=G-M7RZHNRRPK&cx=c>m=4e66f1",
+                        "totalBytes": 174675
+                      },
+                      {
+                        "totalBytes": 171521,
+                        "url": "https://cdn.confiant-integrations.net/gptprebidnativevideo/202603180909/wrap.js"
+                      },
+                      {
+                        "url": "https://imasdk.googleapis.com/js/sdkloader/ima3.js",
+                        "totalBytes": 155504
+                      }
+                    ],
+                    "type": "table"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://blog.hubspot.com/marketing/reduce-http-requests\">Learn more about HTTP requests</a></p>\n"
+              }
+            ],
+            "category_percent": "17%"
+          },
+          {
+            "category": "Green Hosting",
+            "category_weight": 1,
+            "category_content": "Choosing a web host that powers its servers with renewable energy can reduce your digital product or service's environmental impact by an estimated 15%. But not all renewable energy is created equal. If possible, choose a hosting partner that directly powers their data centers with renewables versus one that purchases offsets or unbundled renewable energy credits (RECs).",
+            "category_score": 100,
+            "category_id": 2,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 100,
+                  "submetrics": [
+                    {
+                      "greenhosting_audit": 1
+                    }
+                  ]
+                },
+                "name": "Green Hosting",
+                "impact_text": "Powering servers with renewable energy is an important choice to measurably reduce your product or service's environmental impact.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 30.01 29.16\" enable-background=\"new 0 0 30.01 29.16\" xml:space=\"preserve\">\r\n<path id=\"Path_86\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.07,12.33\r\n\tc1.25,0,2.26,1.01,2.26,2.26s-1.01,2.26-2.26,2.26s-2.26-1.01-2.26-2.26C7.81,13.34,8.82,12.33,10.07,12.33\"/>\r\n<path id=\"Path_87\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M20.9,8.57\r\n\tc0,1.25-1.01,2.26-2.26,2.26c-1.25,0-2.26-1.01-2.26-2.26c0-1.25,1.01-2.26,2.26-2.26c0,0,0,0,0,0C19.89,6.3,20.9,7.32,20.9,8.57\"/>\r\n<path id=\"Path_88\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M29.01,20.62\r\n\tc0,1.25-1.01,2.26-2.26,2.26s-2.26-1.01-2.26-2.26c0-1.25,1.01-2.26,2.26-2.26c0,0,0,0,0,0C28,18.36,29.01,19.37,29.01,20.62\"/>\r\n<line id=\"Line_25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"28.15\" y1=\"14.59\" x2=\"12.33\" y2=\"14.59\"/>\r\n<line id=\"Line_26\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"7.81\" y1=\"14.59\" x2=\"1.02\" y2=\"14.59\"/>\r\n<line id=\"Line_27\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"24.49\" y1=\"20.62\" x2=\"2.43\" y2=\"20.62\"/>\r\n<line id=\"Line_28\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"16.38\" y1=\"8.57\" x2=\"2.43\" y2=\"8.57\"/>\r\n<line id=\"Line_29\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"26.75\" y1=\"8.57\" x2=\"20.9\" y2=\"8.57\"/>\r\n<path id=\"Path_89\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.93,10.81\r\n\tc0.12,1.2,0.18,2.47,0.18,3.78c0,7.49-2.02,13.56-4.52,13.56c-2.24,0-4.1-4.89-4.46-11.3\"/>\r\n<path id=\"Path_90\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.18,6.35\r\n\tc-0.83-3.24-2.13-5.32-3.59-5.32c-2.24,0-4.1,4.89-4.46,11.3\"/>\r\n<path id=\"Path_91\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M27.58,18.51\r\n\tc2.17-7.18-1.89-14.76-9.06-16.93S3.76,3.47,1.59,10.65s1.89,14.76,9.06,16.93c5.54,1.68,11.52-0.34,14.92-5.02\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Green Hosting<span class=\"submetric_score\">100 / 100</span></h6> <p>Excellent! It looks like this page uses a web host that powers its servers with renewable energy.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p>Find a green web host in <a href=\"https://www.thegreenwebfoundation.org/directory/\">The Green Web Foundation's hosting directory</a></p>\n<p>More information on the <a href=\"https://www.mightybytes.com/blog/web-hosting-renewable-energy/\">difference between RECs and renewable energy</a></p>\n"
+              }
+            ],
+            "category_percent": "17%"
+          },
+          {
+            "category": "Carbon Score",
+            "category_weight": 2,
+            "category_content": "Carbon usage category info...",
+            "category_score": 34,
+            "category_id": 6,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 34,
+                  "submetrics": [
+                    {
+                      "carbon_usage": 0.33771005565461715
+                    }
+                  ]
+                },
+                "name": "Carbon Score",
+                "impact_text": "Impact text...",
+                "svg": null,
+                "action_text": "",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p>Resources...</p>\n"
+              }
+            ],
+            "category_percent": "33%"
+          }
+        ]
+      },
+      "datetime": "2026-06-17T12:46:44.000000Z",
+      "scoreColor": "red"
+    },
+    "scantime": "2026-06-17T12:46:44.000000Z",
+    "percentile": 11,
+    "breakdownGraphData": {
+      "total": {
+        "name": "Total",
+        "count": 1106,
+        "byteTotal": 6788660,
+        "percentage": "100.00"
+      },
+      "images": {
+        "name": "Images",
+        "count": 480,
+        "byteTotal": 1084508,
+        "percentage": "15.98"
+      },
+      "html": {
+        "name": "HTML/CSS",
+        "count": 203,
+        "byteTotal": 775121,
+        "percentage": "11.42"
+      },
+      "scripts": {
+        "name": "Scripts",
+        "count": 111,
+        "byteTotal": 4132097,
+        "percentage": "60.87"
+      },
+      "media": {
+        "name": "Media",
+        "count": 0,
+        "byteTotal": 0,
+        "percentage": "0.00"
+      },
+      "other": {
+        "name": "Other",
+        "count": 312,
+        "byteTotal": 796934,
+        "percentage": "11.74"
+      }
+    }
+  },
+  "url": "/report/9uLlfp0jdLtDFbhvpkycys45",
+  "version": "47de4abbbcf775ef2eb22a95a2d11617",
+  "encryptHistory": false,
+  "clearHistory": false
+}

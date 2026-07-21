@@ -1,0 +1,46 @@
+
+====================== ENERGY COMPARISON ======================
+
+Reference: images.pi.lan_png_baseline.html
+
+RUN                                          J/page    J/pg sd   Ext J/page  E J/pg sd    MB/page   MB/pg sd    Page %   Energy %  Ext Energy %     cpu % wifi_bt %    gpu % memory % display %  other %      kWh/GB   Req/page   sync
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+images.pi.lan_svg.html                        4.595      0.132        7.734      0.263       0.04       0.00     29.2%     100.1%        100.1%     97.8%   100.8%   103.6%   100.9%   100.1%   100.6%    0.033755          5    146
+images.pi.lan_png_baseline.html               4.592      0.106        7.730      0.122       0.13       0.00    100.0%     100.0%        100.0%    100.0%   100.0%   100.0%   100.0%   100.0%   100.0%    0.009844          5    146
+images.pi.lan_jpglogo.html                    4.554      0.120        7.657      0.117       0.04       0.00     30.4%      99.2%         99.1%     94.6%   104.1%   101.6%    97.2%    99.5%    98.7%    0.032132          5    146
+
+===============================================================
+
+NETWORK VARIANCE (median page bytes)
+------------------------------------
+  Run                                            Median MB   Stdev MB     CV %
+  ---------------------------------------------------------------------------
+  images.pi.lan_svg.html                             0.038      0.000      0.0%
+  images.pi.lan_png_baseline.html                    0.130      0.000      0.0%
+  images.pi.lan_jpglogo.html                         0.039      0.000      0.0%
+
+NETWORK MEASUREMENT DIAGNOSTICS
+-------------------------------
+
+Run: images.pi.lan_svg.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+Run: images.pi.lan_png_baseline.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+Run: images.pi.lan_jpglogo.html
+  sync events:          146
+  valid measurements:   148
+  coverage:             100.0%
+
+SUMMARY
+-------
+Runs: 3
+Average diff: 68.27%
+Worst (higher external): 68.34%
+Best (lower external): 68.16%
+

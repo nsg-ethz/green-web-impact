@@ -1,0 +1,54 @@
+
+====================== ENERGY COMPARISON ======================
+
+Reference: nsg.ee.ethz.ch_baseline
+
+RUN                                          J/page    J/pg sd   Ext J/page  E J/pg sd    MB/page   MB/pg sd    Page %   Energy %  Ext Energy %      WC J/pg     WC %   WC g CO2     cpu % wifi_bt %    gpu % memory % display %  other %      kWh/GB   Req/page   sync
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+nsg.ee.ethz.ch_1000pximages                   5.852      0.137       11.829      0.259       5.98       0.00     51.4%      83.8%         88.9%    4111.1152    46.7%     0.4607     69.5%    90.9%    90.1%    84.5%    91.5%    98.2%    0.000272         27     24
+nsg.ee.ethz.ch_webp                           6.313      0.317       12.399      0.176       5.49       0.48     47.2%      90.4%         93.2%    2365.1830    26.8%     0.3246     94.5%    64.7%    92.6%    97.5%    95.4%    96.4%    0.000320         27     24
+nsg.ee.ethz.ch_baseline                       6.983      0.248       13.299      0.810      11.63       0.00    100.0%     100.0%        100.0%    8810.2030   100.0%     0.9873    100.0%   100.0%   100.0%   100.0%   100.0%   100.0%    0.000167         27     24
+
+===============================================================
+
+WEBSITE CARBON ENERGY vs BASELINE (J per page view)
+-----------------------------------------------------
+  nsg.ee.ethz.ch_1000pximages               4111.1152 J    46.7% of baseline
+  nsg.ee.ethz.ch_webp                       2365.1830 J    26.8% of baseline
+  nsg.ee.ethz.ch_baseline                   8810.2030 J   100.0% of baseline
+
+NETWORK VARIANCE (median page bytes)
+------------------------------------
+  Run                                            Median MB   Stdev MB     CV %
+  ---------------------------------------------------------------------------
+  nsg.ee.ethz.ch_1000pximages                        5.976      0.000      0.0%
+  nsg.ee.ethz.ch_webp                                5.488      0.484      8.8%
+  nsg.ee.ethz.ch_baseline                           11.629      0.000      0.0%
+
+NETWORK MEASUREMENT DIAGNOSTICS
+-------------------------------
+
+Run: nsg.ee.ethz.ch_1000pximages
+  sync events:          24
+  valid measurements:   24
+  coverage:             100.0%
+
+Run: nsg.ee.ethz.ch_webp
+  sync events:          24
+  valid measurements:   24
+  coverage:             100.0%
+
+Run: nsg.ee.ethz.ch_baseline
+  sync events:          24
+  valid measurements:   4
+  coverage:             16.7%
+  WARNING: Low network measurement coverage (16.7%).
+  Network-derived metrics may be unreliable.
+
+SUMMARY
+-------
+Runs: 3
+Average diff: 96.32%
+Worst (higher external): 102.12%
+Best (lower external): 90.44%
+

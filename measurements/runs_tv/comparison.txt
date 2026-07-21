@@ -1,0 +1,59 @@
+
+====================== ENERGY COMPARISON ======================
+
+Reference: www.tradingview.com_baseline
+
+RUN                                          J/page    J/pg sd   Ext J/page  E J/pg sd    MB/page   MB/pg sd    Page %   Energy %  Ext Energy %      WC J/pg     WC %   WC g CO2    GM J/pg     cpu % wifi_bt %    gpu % memory % display %  other %      kWh/GB   Req/page   sync
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+www.tradingview.com_merged_css                9.525      0.671       17.106      2.279       2.45       0.23     83.2%      48.8%         53.6%    6624.1261    97.5%     0.7423                38.1%    51.2%    33.6%    50.2%    94.4%    74.2%    0.001081        139     99
+www.tradingview.com_http2                    13.179      1.422       22.271      3.865       7.03       1.88    239.0%      67.5%         69.8%          nan     nan%        nan                59.1%    57.8%    83.5%    68.3%   117.2%    77.2%    0.000521       1162     98
+www.tradingview.com_baseline                 19.538      1.343       31.894      4.107       2.94       1.80    100.0%     100.0%        100.0%    6793.7990   100.0%     0.7613    95.3612    100.0%   100.0%   100.0%   100.0%   100.0%   100.0%    0.001845        563     99
+
+===============================================================
+
+WEBSITE CARBON ENERGY vs BASELINE (J per page view)
+-----------------------------------------------------
+  www.tradingview.com_merged_css            6624.1261 J    97.5% of baseline
+  www.tradingview.com_baseline              6793.7990 J   100.0% of baseline
+
+GREEN CODING (CPU+RAM J per page, server RAPL)
+----------------------------------------------
+  www.tradingview.com_baseline                95.3612 J
+
+NETWORK VARIANCE (median page bytes)
+------------------------------------
+  Run                                            Median MB   Stdev MB     CV %
+  ---------------------------------------------------------------------------
+  www.tradingview.com_merged_css                     2.447      0.233      9.5%
+  www.tradingview.com_http2                          7.030      1.883     26.8%
+  www.tradingview.com_baseline                       2.942      1.804     61.3%
+
+NETWORK MEASUREMENT DIAGNOSTICS
+-------------------------------
+
+Run: www.tradingview.com_merged_css
+  sync events:          99
+  valid measurements:   99
+  coverage:             100.0%
+
+Run: www.tradingview.com_http2
+  sync events:          98
+  valid measurements:   16
+  coverage:             16.3%
+  WARNING: Low network measurement coverage (16.3%).
+  Network-derived metrics may be unreliable.
+
+Run: www.tradingview.com_baseline
+  sync events:          99
+  valid measurements:   76
+  coverage:             76.8%
+  WARNING: Low network measurement coverage (76.8%).
+  Network-derived metrics may be unreliable.
+
+SUMMARY
+-------
+Runs: 3
+Average diff: 70.60%
+Worst (higher external): 79.59%
+Best (lower external): 63.24%
+

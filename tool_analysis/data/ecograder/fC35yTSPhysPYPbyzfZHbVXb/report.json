@@ -1,0 +1,960 @@
+{
+  "component": "svelte/App",
+  "props": {
+    "errors": {},
+    "report_id": "fC35yTSPhysPYPbyzfZHbVXb",
+    "report": {
+      "report_id": "fC35yTSPhysPYPbyzfZHbVXb",
+      "response": {
+        "site_submitted": "https://www.focus.de/",
+        "score": 55,
+        "score_text": "Hmmm. With 100 possible points to earn, you could stand to improve this page. \r\n\r\nEcograder prioritizes a holistic approach to digital sustainability reporting. Each report includes quantifiable metrics to help you reduce emissions and improve performance. We also share best-in-class web design practices that aren't as easy to quantify from an ecological perspective. \r\n\r\nRead on to learn specific action items you can take to improve this page and your website overall.",
+        "emissions_score": "0.701412",
+        "emissions_text": "",
+        "lighthouse_performance_score": "0.94",
+        "lighthouse_seo_score": "0.92",
+        "lighthouse_accessibility_score": "0.96",
+        "categories": [
+          {
+            "category": "Page Weight",
+            "category_weight": 2,
+            "category_content": "By compressing image file size and removing unused items from a page you'll not only reduce emissions but faster-downloading pages make users happier as well. Below are some things you can do to reduce the size of this page.",
+            "category_score": 59,
+            "category_id": 3,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 54,
+                  "submetrics": [
+                    {
+                      "total_byte_weight": 0.58
+                    },
+                    {
+                      "unused_css_rules": 1
+                    },
+                    {
+                      "unused_javascript": 0
+                    }
+                  ]
+                },
+                "name": "Reduce Overall Page Weight",
+                "impact_text": "Webpages that use unnecessary scripts, media, or other elements can slow down page performance, frustrate users, and increase both download times and emissions. \r\n\r\nMake sure you serve fast, lightweight pages to users by removing any unnecessary elements. \r\n\r\nLearn more about how to do this in the recommendations below.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 25 25\" enable-background=\"new 0 0 25 25\" xml:space=\"preserve\">\r\n<line id=\"Line_17\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"24\" y1=\"19\" x2=\"24\" y2=\"24\"/>\r\n<line id=\"Line_18\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"17\" y1=\"14\" x2=\"17\" y2=\"24\"/>\r\n<line id=\"Line_19\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"9\" y1=\"8\" x2=\"9\" y2=\"24\"/>\r\n<line id=\"Line_20\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"1\" y1=\"1\" x2=\"1\" y2=\"24\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Unused Javascript<span class=\"submetric_score\">0 / 100</span></h6> <p>There is unused JavaScript associated with this page. According to Ecograder's calculations, <span class=\"var\">4</span> scripts could potentially be removed. This might shave off <span class=\"var\">167.25 kb</span> from your page, speeding up download time by <span class=\"var\">0 ms</span>.</p> </div> <div class=\"at green\"> <h6>Unused CSS Rules<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! There are no unused CSS Rules on this page.</p> </div> <div class=\"at red\"> <h6>Total Byte Weight<span class=\"submetric_score\">57 / 100</span></h6> <p>This page is <span class=\"var\">1757.77 kb</span>. It scored <span class=\"var\">58</span> out of 100 for page weight. There is room to reduce overall page weight. You can do so by optimizing <span class=\"var\">10</span> items on this page.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Unused CSS Rules": [
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-091d9308.CWtAb1U1.css",
+                        "totalBytes": 13338,
+                        "wastedPercent": 100,
+                        "wastedBytes": 13338
+                      },
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-e5083dd6.Djx76B1e.css",
+                        "totalBytes": 12835,
+                        "wastedPercent": 97.95273348519362,
+                        "wastedBytes": 12572
+                      }
+                    ]
+                  },
+                  {
+                    "Unused Javascript": [
+                      {
+                        "wastedPercent": 67.50797003320515,
+                        "wastedBytes": 63691,
+                        "totalBytes": 94346,
+                        "url": "https://cmp.focus.de/Notice.d4c42.js"
+                      },
+                      {
+                        "url": "https://cdn.auth0.com/js/auth0-spa-js/2.17/auth0-spa-js.production.js",
+                        "totalBytes": 46515,
+                        "wastedPercent": 86.88931273919493,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 9993,
+                              "source": "…node_modules/oauth4webapi/src/index.ts",
+                              "sourceWastedBytes": 9352
+                            },
+                            {
+                              "source": "…src/Auth0Client.ts",
+                              "sourceWastedBytes": 4594,
+                              "sourceBytes": 5630
+                            },
+                            {
+                              "sourceWastedBytes": 2520,
+                              "source": "…node_modules/jose/dist/webapi/jwks/remote.js",
+                              "sourceBytes": 2857
+                            },
+                            {
+                              "sourceWastedBytes": 1755,
+                              "source": "…node_modules/browser-tabs-lock/index.js",
+                              "sourceBytes": 1911
+                            },
+                            {
+                              "sourceWastedBytes": 1549,
+                              "source": "…node_modules/@auth0/auth0-auth-js/src/auth-client.ts",
+                              "sourceBytes": 1549
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 40417
+                      },
+                      {
+                        "wastedPercent": 71.48238333676292,
+                        "wastedBytes": 35233,
+                        "totalBytes": 49289,
+                        "url": "https://a.bf-ad.net/adengine/focus/chunk-prepareEngine-MzNZjxdG.js"
+                      },
+                      {
+                        "url": "https://www.focus.de/",
+                        "wastedPercent": 93.6722734576958,
+                        "wastedBytes": 31922,
+                        "totalBytes": 34078
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Total Byte Weight": {
+                    "sortedBy": [
+                      "totalBytes"
+                    ],
+                    "type": "table",
+                    "items": [
+                      {
+                        "totalBytes": 215883,
+                        "url": "https://www.focus.de/"
+                      },
+                      {
+                        "totalBytes": 133231,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/chunks/chunk-CY-g2C5x.js"
+                      },
+                      {
+                        "totalBytes": 120728,
+                        "url": "https://www.focus.de/ctf/icon-set/IconSet-PDBW2QXW.svg"
+                      },
+                      {
+                        "totalBytes": 97839,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/Inter-VariableFont_latin-IMMDMY6Q.B94V3_ZQ.woff2"
+                      },
+                      {
+                        "totalBytes": 94933,
+                        "url": "https://cmp.focus.de/Notice.d4c42.js"
+                      },
+                      {
+                        "totalBytes": 87717,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/OpenSans-VariableFont_latin-FGPZWPFI.BD-2YYa6.woff2"
+                      },
+                      {
+                        "totalBytes": 82615,
+                        "url": "https://quadro.burda-forward.de/ctf/8e7ef4e7-20c9-4577-a690-d88687107d85.674a529a-bcab-4d2c-ae29-2c866f96d5ae.png?im=RegionOfInterestCrop=(992,425),regionOfInterest=(743,371)&hash=c2c615a246b5f741bc7eea93b5707ec145762f61457e77f287593e675136a2f8"
+                      },
+                      {
+                        "totalBytes": 82508,
+                        "url": "https://quadro.burda-forward.de/ctf/7dc298ff-0c8a-4874-8513-17ec67b44d9c.692a77f9-6f0a-4d4a-bf3e-5a4df694c2ab.jpeg?im=RegionOfInterestCrop=(992,558),regionOfInterest=(320,180)&hash=ad361a20a7464c6eba568e7400bca3e29e67447ae6a0f7c2feeef66bf202f938"
+                      },
+                      {
+                        "url": "https://quadro.burda-forward.de/ctf/c0fd3053-d7d5-417a-82e7-89bc86060cf7.d25563f3-3777-4ebe-83ad-e55f120cd136.jpeg?im=RegionOfInterestCrop=(992,425),regionOfInterest=(320,180)&hash=b12cbf44f8ddc593a599cc3829f9e067a3017b8df65e0905636e988fc3d19925",
+                        "totalBytes": 72263
+                      },
+                      {
+                        "totalBytes": 63607,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/InterTight-VariableFont_latin-FIIMCJAQ.HkXPiq-P.woff2"
+                      }
+                    ],
+                    "headings": [
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      }
+                    ]
+                  },
+                  "Unused CSS Rules": {
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsMs": 0,
+                    "headings": [
+                      {
+                        "key": "url",
+                        "label": "URL",
+                        "valueType": "url"
+                      },
+                      {
+                        "key": "totalBytes",
+                        "label": "Transfer Size",
+                        "valueType": "bytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 0,
+                        "FCP": 40
+                      },
+                      "type": "debugdata"
+                    },
+                    "overallSavingsBytes": 25910,
+                    "items": [
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-091d9308.CWtAb1U1.css",
+                        "totalBytes": 13338,
+                        "wastedPercent": 100,
+                        "wastedBytes": 13338
+                      },
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-e5083dd6.Djx76B1e.css",
+                        "totalBytes": 12835,
+                        "wastedPercent": 97.95273348519362,
+                        "wastedBytes": 12572
+                      }
+                    ]
+                  },
+                  "Unused Javascript": {
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "label": "URL",
+                        "key": "url",
+                        "subItemsHeading": {
+                          "valueType": "code",
+                          "key": "source"
+                        }
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "subItemsHeading": {
+                          "key": "sourceBytes"
+                        },
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "valueType": "bytes",
+                        "subItemsHeading": {
+                          "key": "sourceWastedBytes"
+                        },
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsMs": 0,
+                    "overallSavingsBytes": 171263,
+                    "items": [
+                      {
+                        "wastedPercent": 67.50797003320515,
+                        "wastedBytes": 63691,
+                        "totalBytes": 94346,
+                        "url": "https://cmp.focus.de/Notice.d4c42.js"
+                      },
+                      {
+                        "url": "https://cdn.auth0.com/js/auth0-spa-js/2.17/auth0-spa-js.production.js",
+                        "totalBytes": 46515,
+                        "wastedPercent": 86.88931273919493,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 9993,
+                              "source": "…node_modules/oauth4webapi/src/index.ts",
+                              "sourceWastedBytes": 9352
+                            },
+                            {
+                              "source": "…src/Auth0Client.ts",
+                              "sourceWastedBytes": 4594,
+                              "sourceBytes": 5630
+                            },
+                            {
+                              "sourceWastedBytes": 2520,
+                              "source": "…node_modules/jose/dist/webapi/jwks/remote.js",
+                              "sourceBytes": 2857
+                            },
+                            {
+                              "sourceWastedBytes": 1755,
+                              "source": "…node_modules/browser-tabs-lock/index.js",
+                              "sourceBytes": 1911
+                            },
+                            {
+                              "sourceWastedBytes": 1549,
+                              "source": "…node_modules/@auth0/auth0-auth-js/src/auth-client.ts",
+                              "sourceBytes": 1549
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 40417
+                      },
+                      {
+                        "wastedPercent": 71.48238333676292,
+                        "wastedBytes": 35233,
+                        "totalBytes": 49289,
+                        "url": "https://a.bf-ad.net/adengine/focus/chunk-prepareEngine-MzNZjxdG.js"
+                      },
+                      {
+                        "url": "https://www.focus.de/",
+                        "wastedPercent": 93.6722734576958,
+                        "wastedBytes": 31922,
+                        "totalBytes": 34078
+                      }
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 0,
+                        "FCP": 40
+                      },
+                      "type": "debugdata"
+                    }
+                  }
+                },
+                "resources_text": "<p><a href=\"https://sustainablewebdesign.org/has-the-design-team-set-a-page-weight-budget/\">Learn how page weight budgets can help you reach sustainability goals</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 67,
+                  "submetrics": [
+                    {
+                      "unused_css_rules": 1
+                    },
+                    {
+                      "unused_javascript": 0
+                    },
+                    {
+                      "duplicated_javascript_insight": 1
+                    }
+                  ]
+                },
+                "name": "Remove Unused Code",
+                "impact_text": "Plugins, widgets, and third-party frameworks often introduce unnecessary code snippets into your page which can adversely impact download speed and performance.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 30.43\" enable-background=\"new 0 0 27 30.43\" xml:space=\"preserve\">\r\n<path id=\"Path_74\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15.25,1\r\n\th-4.06c-1.12,0-2.03,0.91-2.03,2.03l0,0v4.06h8.12V3.03C17.28,1.91,16.37,1,15.25,1C15.25,1,15.25,1,15.25,1z\"/>\r\n<line id=\"Line_21\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"26\" y1=\"7.21\" x2=\"1\" y2=\"7.21\"/>\r\n<path id=\"Path_75\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M23.37,7.09\r\n\tl-1.86,20.49c-0.1,1.05-0.97,1.85-2.02,1.85H6.95c-1.05,0-1.93-0.8-2.02-1.85L3.06,7.09\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Unminified CSS<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! All the CSS associated with this page has been optimized. Minifying scripts removes extra characters, improving page download speeds and reducing both data usage and emissions.</p> </div> <div class=\"at green\"> <h6>Unused CSS Rules<span class=\"submetric_score\">100 / 100</span></h6> <p>We did not detect any unused CSS Rules on this page.</p> </div> <div class=\"at green\"> <h6>Unminified Javascript<span class=\"submetric_score\">100 / 100</span></h6> <p>Well done! All JavaScript associated with this page has been minified. \n<p>Minifying scripts removes extra characters, improving page download speeds and reducing both data usage and emissions.</p> </div> <div class=\"at green\"> <h6>Duplicated Javascript Insight<span class=\"submetric_score\">100 / 100</span></h6> <p>We did not detect any duplicated JavaScript on this page.</p> </div> <div class=\"at red\"> <h6>Unused Javascript<span class=\"submetric_score\">0 / 100</span></h6> <p>There is unused JavaScript associated with this page. According to Ecograder's calculations, <span class=\"var\">4</span> scripts could potentially be removed. This might shave off <span class=\"var\">167.25 kb</span> from your page, speeding up download time by <span class=\"var\">0 ms</span>.</p> </div> <div class=\"at red\"> <h6>Legacy Javascript Insight<span class=\"submetric_score\">50 / 100</span></h6> <p>There is outdated JavaScript associated with this page. Legacy scripts can slow down pages and cause potential security risks. You should fix this.</p> </div> <div class=\"at green\"> <h6>Document Latency Insight<span class=\"submetric_score\">100 / 100</span></h6> <p>It appears as though this page uses compression to deliver text-based resources. Good work.</p> </div></p>\n",
+                "opportunity_items": [
+                  {
+                    "Unused CSS Rules": [
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-091d9308.CWtAb1U1.css",
+                        "totalBytes": 13338,
+                        "wastedPercent": 100,
+                        "wastedBytes": 13338
+                      },
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-e5083dd6.Djx76B1e.css",
+                        "totalBytes": 12835,
+                        "wastedPercent": 97.95273348519362,
+                        "wastedBytes": 12572
+                      }
+                    ]
+                  },
+                  {
+                    "Unused Javascript": [
+                      {
+                        "wastedPercent": 67.50797003320515,
+                        "wastedBytes": 63691,
+                        "totalBytes": 94346,
+                        "url": "https://cmp.focus.de/Notice.d4c42.js"
+                      },
+                      {
+                        "url": "https://cdn.auth0.com/js/auth0-spa-js/2.17/auth0-spa-js.production.js",
+                        "totalBytes": 46515,
+                        "wastedPercent": 86.88931273919493,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 9993,
+                              "source": "…node_modules/oauth4webapi/src/index.ts",
+                              "sourceWastedBytes": 9352
+                            },
+                            {
+                              "source": "…src/Auth0Client.ts",
+                              "sourceWastedBytes": 4594,
+                              "sourceBytes": 5630
+                            },
+                            {
+                              "sourceWastedBytes": 2520,
+                              "source": "…node_modules/jose/dist/webapi/jwks/remote.js",
+                              "sourceBytes": 2857
+                            },
+                            {
+                              "sourceWastedBytes": 1755,
+                              "source": "…node_modules/browser-tabs-lock/index.js",
+                              "sourceBytes": 1911
+                            },
+                            {
+                              "sourceWastedBytes": 1549,
+                              "source": "…node_modules/@auth0/auth0-auth-js/src/auth-client.ts",
+                              "sourceBytes": 1549
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 40417
+                      },
+                      {
+                        "wastedPercent": 71.48238333676292,
+                        "wastedBytes": 35233,
+                        "totalBytes": 49289,
+                        "url": "https://a.bf-ad.net/adengine/focus/chunk-prepareEngine-MzNZjxdG.js"
+                      },
+                      {
+                        "url": "https://www.focus.de/",
+                        "wastedPercent": 93.6722734576958,
+                        "wastedBytes": 31922,
+                        "totalBytes": 34078
+                      }
+                    ]
+                  },
+                  {
+                    "Duplicated Javascript Insight": []
+                  }
+                ],
+                "details": {
+                  "Unused CSS Rules": {
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsMs": 0,
+                    "headings": [
+                      {
+                        "key": "url",
+                        "label": "URL",
+                        "valueType": "url"
+                      },
+                      {
+                        "key": "totalBytes",
+                        "label": "Transfer Size",
+                        "valueType": "bytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "valueType": "bytes",
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 0,
+                        "FCP": 40
+                      },
+                      "type": "debugdata"
+                    },
+                    "overallSavingsBytes": 25910,
+                    "items": [
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-091d9308.CWtAb1U1.css",
+                        "totalBytes": 13338,
+                        "wastedPercent": 100,
+                        "wastedBytes": 13338
+                      },
+                      {
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/style-e5083dd6.Djx76B1e.css",
+                        "totalBytes": 12835,
+                        "wastedPercent": 97.95273348519362,
+                        "wastedBytes": 12572
+                      }
+                    ]
+                  },
+                  "Unused Javascript": {
+                    "headings": [
+                      {
+                        "valueType": "url",
+                        "label": "URL",
+                        "key": "url",
+                        "subItemsHeading": {
+                          "valueType": "code",
+                          "key": "source"
+                        }
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "subItemsHeading": {
+                          "key": "sourceBytes"
+                        },
+                        "key": "totalBytes"
+                      },
+                      {
+                        "label": "Est Savings",
+                        "valueType": "bytes",
+                        "subItemsHeading": {
+                          "key": "sourceWastedBytes"
+                        },
+                        "key": "wastedBytes"
+                      }
+                    ],
+                    "sortedBy": [
+                      "wastedBytes"
+                    ],
+                    "overallSavingsMs": 0,
+                    "overallSavingsBytes": 171263,
+                    "items": [
+                      {
+                        "wastedPercent": 67.50797003320515,
+                        "wastedBytes": 63691,
+                        "totalBytes": 94346,
+                        "url": "https://cmp.focus.de/Notice.d4c42.js"
+                      },
+                      {
+                        "url": "https://cdn.auth0.com/js/auth0-spa-js/2.17/auth0-spa-js.production.js",
+                        "totalBytes": 46515,
+                        "wastedPercent": 86.88931273919493,
+                        "subItems": {
+                          "items": [
+                            {
+                              "sourceBytes": 9993,
+                              "source": "…node_modules/oauth4webapi/src/index.ts",
+                              "sourceWastedBytes": 9352
+                            },
+                            {
+                              "source": "…src/Auth0Client.ts",
+                              "sourceWastedBytes": 4594,
+                              "sourceBytes": 5630
+                            },
+                            {
+                              "sourceWastedBytes": 2520,
+                              "source": "…node_modules/jose/dist/webapi/jwks/remote.js",
+                              "sourceBytes": 2857
+                            },
+                            {
+                              "sourceWastedBytes": 1755,
+                              "source": "…node_modules/browser-tabs-lock/index.js",
+                              "sourceBytes": 1911
+                            },
+                            {
+                              "sourceWastedBytes": 1549,
+                              "source": "…node_modules/@auth0/auth0-auth-js/src/auth-client.ts",
+                              "sourceBytes": 1549
+                            }
+                          ],
+                          "type": "subitems"
+                        },
+                        "wastedBytes": 40417
+                      },
+                      {
+                        "wastedPercent": 71.48238333676292,
+                        "wastedBytes": 35233,
+                        "totalBytes": 49289,
+                        "url": "https://a.bf-ad.net/adengine/focus/chunk-prepareEngine-MzNZjxdG.js"
+                      },
+                      {
+                        "url": "https://www.focus.de/",
+                        "wastedPercent": 93.6722734576958,
+                        "wastedBytes": 31922,
+                        "totalBytes": 34078
+                      }
+                    ],
+                    "type": "opportunity",
+                    "debugData": {
+                      "metricSavings": {
+                        "LCP": 0,
+                        "FCP": 40
+                      },
+                      "type": "debugdata"
+                    }
+                  },
+                  "Duplicated Javascript Insight": {
+                    "debugData": {
+                      "type": "debugdata",
+                      "wastedBytes": 0
+                    },
+                    "type": "table",
+                    "headings": [
+                      {
+                        "label": "Source",
+                        "valueType": "code",
+                        "subItemsHeading": {
+                          "key": "url",
+                          "valueType": "url"
+                        },
+                        "key": "source"
+                      },
+                      {
+                        "granularity": 10,
+                        "key": "wastedBytes",
+                        "subItemsHeading": {
+                          "key": "sourceTransferBytes"
+                        },
+                        "label": "Duplicated bytes",
+                        "valueType": "bytes"
+                      }
+                    ],
+                    "items": []
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.upbuild.io/blog/find-remove-unused-css-javascript/\">Read more about how to find and remove unused scripts and code</a></p>\n"
+              }
+            ],
+            "category_percent": "33%"
+          },
+          {
+            "category": "UX Design",
+            "category_weight": 1,
+            "category_content": "Creating an accessible user experience that is free from barriers or intrusions helps people find what they need and accomplish tasks quickly. This is important because end consumer device use can potentially account for up to 52% of a digital product or service's overall emissions. Here are a few recommendations for providing your users with a better experience.",
+            "category_score": 86,
+            "category_id": 4,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 87,
+                  "submetrics": [
+                    {
+                      "largest_contentful_paint": 0.87
+                    }
+                  ]
+                },
+                "name": "Improve Page Rendering",
+                "impact_text": "Studies have shown that users leave pages that don't display content quickly. \"Above-the-fold\" page content should render on a user's device in 2.5 seconds or less. This is especially crucial in low-bandwidth areas and for users with older devices.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27.81 30.85\" enable-background=\"new 0 0 27.81 30.85\" xml:space=\"preserve\">\r\n<path id=\"Path_62\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M21.74,9.11\r\n\tc4.74,4.74,4.74,12.43,0,17.18s-12.43,4.74-17.18,0s-4.74-12.43,0-17.18c0,0,0,0,0,0C9.3,4.37,16.99,4.37,21.74,9.11\"/>\r\n<path id=\"Path_63\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13.91,17.7\r\n\tc0-0.42-0.34-0.76-0.76-0.76c-0.42,0-0.76,0.34-0.76,0.76c0,0.42,0.34,0.75,0.76,0.76c0.42,0,0.76-0.33,0.76-0.75\r\n\tC13.91,17.71,13.91,17.7,13.91,17.7\"/>\r\n<line id=\"Line_6\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"13.15\" y1=\"11.63\" x2=\"13.15\" y2=\"17.7\"/>\r\n<line id=\"Line_7\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"10.11\" y1=\"1\" x2=\"16.18\" y2=\"1\"/>\r\n<path id=\"Path_64\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M26.81,7.07\r\n\tl-3.04-3.04l1.52,1.52l-3.56,3.56\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Render Blocking Insight<span class=\"submetric_score\">0 / 100</span></h6> <p>You scored <span class=\"var\">0</span> out of 100 for using scripts or stylesheets that slow down page render time. There is room to improve this by optimizing the URLs listed below.</p> </div> <div class=\"at green\"> <h6>Largest Contentful Paint<span class=\"submetric_score\">87 / 100</span></h6> <p>This page scored <span class=\"var\">87</span> out of 100 based on how quickly this page displays content. This is pretty good. You can improve this score by identifying elements that impede page rendering. Based on Ecograder's calculations, there are <span class=\"var\">186</span> on this page that could potentially slow down page renders. It looks like you have optimized most of them.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://www.wholegraindigital.com/blog/core-web-vitals/\">Learn more about how Core Web Vitals improves user experience</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 95,
+                  "submetrics": [
+                    {
+                      "cumulative_layout_shift": 0.97
+                    },
+                    {
+                      "max_potential_fid": 0.92
+                    }
+                  ]
+                },
+                "name": "Page Interactions",
+                "impact_text": "Pages that respond slowly or don't respond as expected to user interactions—like button clicks, taps, key presses, form inputs, and so on—use more energy and frustrate users. This can be attributed to a number of things, some of which are outlined here.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 30.67 30.67\" enable-background=\"new 0 0 30.67 30.67\" xml:space=\"preserve\">\r\n<path id=\"Path_65\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M24.55,12.77\r\n\tV3.42c0-1.34-1.08-2.42-2.42-2.42c0,0,0,0,0,0H3.42C2.08,1,1,2.08,1,3.42c0,0,0,0,0,0v18.7c0,1.34,1.08,2.42,2.41,2.43\r\n\tc0,0,0.01,0,0.01,0h11.23\"/>\r\n<path id=\"Path_66\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M28.56,26.84\r\n\th-3.95l-2.53,2.51c-0.43,0.43-1.13,0.43-1.56,0c-0.21-0.21-0.32-0.49-0.32-0.78V18.48c0-0.61,0.49-1.1,1.1-1.1\r\n\tc0.29,0,0.58,0.12,0.78,0.32l7.25,7.25c0.43,0.43,0.43,1.13,0,1.56C29.14,26.72,28.86,26.84,28.56,26.84z\"/>\r\n<line id=\"Line_8\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"19.45\" y1=\"12.77\" x2=\"12.27\" y2=\"12.77\"/>\r\n<path id=\"Path_67\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.87,12.53\r\n\tc0.13,0.13,0.13,0.35,0,0.48s-0.35,0.13-0.48,0c-0.13-0.13-0.13-0.35,0-0.48c0,0,0,0,0,0C6.52,12.4,6.74,12.4,6.87,12.53\r\n\tC6.87,12.53,6.87,12.53,6.87,12.53\"/>\r\n<line id=\"Line_9\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"19.45\" y1=\"6.63\" x2=\"12.27\" y2=\"6.63\"/>\r\n<path id=\"Path_68\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M6.87,6.39\r\n\tc0.13,0.13,0.13,0.35,0,0.48c-0.13,0.13-0.35,0.13-0.48,0c-0.13-0.13-0.13-0.35,0-0.48c0,0,0,0,0,0C6.52,6.26,6.74,6.26,6.87,6.39\r\n\tC6.87,6.39,6.87,6.39,6.87,6.39\"/>\r\n<line id=\"Line_10\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"14.65\" y1=\"18.92\" x2=\"12.39\" y2=\"18.92\"/>\r\n<path id=\"Path_69\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7,18.68\r\n\tc0.13,0.13,0.13,0.35,0,0.48s-0.35,0.13-0.48,0s-0.13-0.35,0-0.48c0,0,0,0,0,0C6.65,18.55,6.86,18.55,7,18.68\r\n\tC7,18.68,7,18.68,7,18.68\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Cumulative Layout Shift<span class=\"submetric_score\">97 / 100</span></h6> <p>This page scored <span class=\"var\">97</span> out of 100 for page layout shifts. This is pretty good. Page elements that shift while a user interacts with them are not only annoying but can potentially waste energy too. This is especially true if a user must redo tasks because of shift-induced mistakes they made.</p> </div> <div class=\"at green\"> <h6>Max Potential First Input Delay<span class=\"submetric_score\">92 / 100</span></h6> <p>This page scored <span class=\"var\">92</span> out of 100 based on how quickly users can interact with content. This is pretty good. You can improve this score by identifying page elements that impede speedy interactivity. Based on Ecograder's calculations, page rendering is delayed by <span class=\"var\">122 millisecond</span>.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Cumulative Layout Shift": [
+                      {
+                        "newEngineResultDiffered": false,
+                        "newEngineResult": {
+                          "cumulativeLayoutShiftMainFrame": 0.062037999999999996,
+                          "cumulativeLayoutShift": 0.062037999999999996
+                        },
+                        "cumulativeLayoutShiftMainFrame": 0.062037999999999996
+                      }
+                    ]
+                  }
+                ],
+                "details": {
+                  "Cumulative Layout Shift": {
+                    "items": [
+                      {
+                        "newEngineResultDiffered": false,
+                        "newEngineResult": {
+                          "cumulativeLayoutShiftMainFrame": 0.062037999999999996,
+                          "cumulativeLayoutShift": 0.062037999999999996
+                        },
+                        "cumulativeLayoutShiftMainFrame": 0.062037999999999996
+                      }
+                    ],
+                    "type": "debugdata"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://ecoping.earth/blog/core-web-vitals-and-sustainability\">Learn how Google's Core Web Vitals and sustainability go hand-in-hand</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 92,
+                  "submetrics": [
+                    {
+                      "lighthouse_seo_score": "0.92"
+                    }
+                  ]
+                },
+                "name": "Optimize Content for Search",
+                "impact_text": "Pages that employ SEO best practices help people more quickly find content, reducing energy used while searching. Search-optimized pages also tend to be more accessible and work across a wider array of devices and platforms. This reduces the amount of energy (and frustration) users expend when barriers exist.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27.12 27.36\" enable-background=\"new 0 0 27.12 27.36\" xml:space=\"preserve\">\r\n<circle id=\"Ellipse_3\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" cx=\"10.37\" cy=\"10.37\" r=\"9.37\"/>\r\n<line id=\"Line_11\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"16.94\" y1=\"17.06\" x2=\"26.12\" y2=\"26.36\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>SEO Score<span class=\"submetric_score\">92 / 100</span></h6> <p>Since search is contextual, it is difficult to estimate precisely how much good SEO practices reduce page-based emissions. Google says a single search can power a lightbulb for 17 seconds. However, given the global volume of daily searches, anything you can do to reduce energy expended by helping people more quickly find content is useful.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://sustainablewebdesign.org/is-the-content-easy-to-find/\">More information on SEO and sustainability</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 96,
+                  "submetrics": [
+                    {
+                      "lighthouse_accessibility_score": "0.96"
+                    }
+                  ]
+                },
+                "name": "Accessibility",
+                "impact_text": "Accessible pages tend to work across a wider array of devices and platforms, including assistive technologies used by people with disabilities. Prioritizing accessibility reduces the amount of energy (and frustration) users expend when barriers exist. Plus, it's just the right thing to do.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 29.61 33.66\" enable-background=\"new 0 0 29.61 33.66\" xml:space=\"preserve\">\r\n<path id=\"Path_70\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M28.61,10.16\r\n\tc-7.62,2.31-19.99,2.31-27.61,0\"/>\r\n<path id=\"Path_71\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11,11.78\r\n\tc0,7.45,0,16.41-1.73,20.88\"/>\r\n<path id=\"Path_72\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.6,11.78\r\n\tc0,11.53,0,13.96,1.73,20.88\"/>\r\n<circle id=\"Ellipse_4\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" cx=\"14.8\" cy=\"4.16\" r=\"3.16\"/>\r\n<line id=\"Line_12\" fill=\"none\" stroke=\"#F0F3F3\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"11\" y1=\"22.48\" x2=\"18.6\" y2=\"22.48\"/>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Accessibility Score<span class=\"submetric_score\">96 / 100</span></h6> <p>An automated crawler like Ecograder can only catch about one-third of total possible accessibility issues on any given page. Plus, emissions estimates related to the ecological impact of accessible content are difficult to quantify. However, truly sustainable solutions are good for people and planet. Because of this, we include web accessibility in Ecograder's scoring algorithm.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p><a href=\"https://www.mightybytes.com/blog/digital-accessibility-web-sustainability/\">Read more about web content, accessibility, and sustainability</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 100,
+                  "submetrics": [
+                    {
+                      "unsized_images": 1
+                    }
+                  ]
+                },
+                "name": "Image elements do not have explicit width and height",
+                "impact_text": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 27\" style=\"enable-background:new 0 0 27 27;\" xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{clip-path:url(#SVGID_00000022562805838848282430000005082421216664944259_);}\r\n\t.st1{fill:none;stroke:#F0F3F3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}\r\n</style>\r\n<g id=\"Group_172\" transform=\"translate(0 0)\">\r\n\t<g>\r\n\t\t<defs>\r\n\t\t\t<rect id=\"SVGID_1_\" width=\"27\" height=\"27\"/>\r\n\t\t</defs>\r\n\t\t<clipPath id=\"SVGID_00000095340850356617219920000003764292749914741917_\">\r\n\t\t\t<use xlink:href=\"#SVGID_1_\"  style=\"overflow:visible;\"/>\r\n\t\t</clipPath>\r\n\t\t\r\n\t\t\t<g id=\"Group_171\" transform=\"translate(0 0)\" style=\"clip-path:url(#SVGID_00000095340850356617219920000003764292749914741917_);\">\r\n\t\t\t<path id=\"Path_136\" class=\"st1\" d=\"M5.76,20.72c-0.28,0-0.52,0.23-0.51,0.52c0,0.28,0.23,0.52,0.52,0.51\r\n\t\t\t\tc0.28,0,0.51-0.23,0.51-0.52C6.28,20.95,6.04,20.72,5.76,20.72C5.76,20.72,5.76,20.72,5.76,20.72\"/>\r\n\t\t\t<path id=\"Path_137\" class=\"st1\" d=\"M5.93,25.88L5.93,25.88c-2.66,0-4.82-2.16-4.82-4.82c0,0,0,0,0,0V3.87\r\n\t\t\t\tc0-1.52,1.23-2.75,2.75-2.75c0,0,0,0,0,0H8c1.52,0,2.75,1.23,2.75,2.75c0,0,0,0,0,0v17.2C10.75,23.73,8.59,25.88,5.93,25.88z\"/>\r\n\t\t\t<path id=\"Path_138\" class=\"st1\" d=\"M9.34,24.47L22.7,11.11c1.07-1.07,1.07-2.82,0-3.89L19.78,4.3c-1.07-1.07-2.82-1.07-3.89,0\r\n\t\t\t\tl-5.14,5.14\"/>\r\n\t\t\t<path id=\"Path_139\" class=\"st1\" d=\"M17.56,16.25h5.57c1.52,0,2.75,1.23,2.75,2.75l0,0v4.13c0,1.52-1.23,2.75-2.75,2.75H5.93\"/>\r\n\t\t</g>\r\n\t</g>\r\n</g>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Unsized images<span class=\"submetric_score\">100 / 100</span></h6> <p>Nice job! Your images have explicit width and height attributes set. This helps to prevent cumulative layout shift, which improves user experience and search rankings.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Unsized images": []
+                  }
+                ],
+                "details": {
+                  "Unsized images": {
+                    "items": [],
+                    "headings": [
+                      {
+                        "key": "node",
+                        "valueType": "node"
+                      },
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      }
+                    ],
+                    "type": "table"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/\">Read why setting width and height on images benefits your users</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 100,
+                  "submetrics": [
+                    {
+                      "redirects": 1
+                    }
+                  ]
+                },
+                "name": "Avoid multiple page redirects",
+                "impact_text": "Page redirects cause slower page speeds. Pages are flagged if they have two or more redirects.\r\n\r\nTo prevent this, look at the list of redirects and update links to point directly to each resource’s actual location. This will cut out unnecessary redirecting and reduce load times.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 27 32\" style=\"enable-background:new 0 0 27 32;\" xml:space=\"preserve\">\r\n<style type=\"text/css\">\r\n\t.st0{fill:none;stroke:#F0F3F3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}\r\n\t.st1{clip-path:url(#SVGID_00000053543231613112214770000010342768293729731002_);}\r\n</style>\r\n<g id=\"Group_180\" transform=\"translate(0 0.037)\">\r\n\t<line id=\"Line_46\" class=\"st0\" x1=\"13.73\" y1=\"17.77\" x2=\"13.73\" y2=\"12.93\"/>\r\n\t<g id=\"Group_179\" transform=\"translate(0 -0.037)\">\r\n\t\t<g>\r\n\t\t\t<defs>\r\n\t\t\t\t<rect id=\"SVGID_1_\" width=\"27\" height=\"32\"/>\r\n\t\t\t</defs>\r\n\t\t\t<clipPath id=\"SVGID_00000026151135947184363400000004390900541528640675_\">\r\n\t\t\t\t<use xlink:href=\"#SVGID_1_\"  style=\"overflow:visible;\"/>\r\n\t\t\t</clipPath>\r\n\t\t\t<g id=\"Group_178\" style=\"clip-path:url(#SVGID_00000026151135947184363400000004390900541528640675_);\">\r\n\t\t\t\t<line id=\"Line_47\" class=\"st0\" x1=\"13.73\" y1=\"4.88\" x2=\"13.73\" y2=\"1.65\"/>\r\n\t\t\t\t<path id=\"Path_150\" class=\"st0\" d=\"M4.85,4.88h17.26c0.47,0,0.91,0.2,1.22,0.55l2.13,2.44c0.53,0.6,0.53,1.5,0,2.1l-2.13,2.44\r\n\t\t\t\t\tc-0.31,0.35-0.75,0.55-1.22,0.55H4.85c-0.89,0-1.62-0.72-1.62-1.62c0,0,0,0,0,0V6.5C3.23,5.61,3.95,4.88,4.85,4.88L4.85,4.88z\"\r\n\t\t\t\t\t/>\r\n\t\t\t\t<path id=\"Path_151\" class=\"st0\" d=\"M22.62,25.89H5.35c-0.47,0-0.91-0.2-1.22-0.55L2.01,22.9c-0.53-0.6-0.53-1.5,0-2.1l2.13-2.44\r\n\t\t\t\t\tc0.31-0.35,0.75-0.55,1.22-0.55h17.26c0.89,0,1.62,0.72,1.62,1.62v4.85C24.23,25.16,23.51,25.89,22.62,25.89z\"/>\r\n\t\t\t\t<line id=\"Line_48\" class=\"st0\" x1=\"13.73\" y1=\"30.73\" x2=\"13.73\" y2=\"25.89\"/>\r\n\t\t\t</g>\r\n\t\t</g>\r\n\t</g>\r\n</g>\r\n</svg>",
+                "action_text": "<div class=\"at green\"> <h6>Page redirects<span class=\"submetric_score\">100 / 100</span></h6> <p>Great job. Your page doesn't contain two or more redirects and is optimized for load time based on pointing your resources directly to the actual location.</p> </div>\n",
+                "opportunity_items": [
+                  {
+                    "Page redirects": []
+                  }
+                ],
+                "details": {
+                  "Page redirects": {
+                    "items": [],
+                    "headings": [],
+                    "overallSavingsMs": 0,
+                    "type": "opportunity"
+                  }
+                },
+                "resources_text": "<p><a href=\"https://www.matthewedgar.net/do-redirects-add-to-website-speed/\">Read more about how redirects impact page speed</a></p>\n"
+              },
+              {
+                "score": {
+                  "metricscore": 58,
+                  "submetrics": [
+                    {
+                      "total_byte_weight": 0.58
+                    }
+                  ]
+                },
+                "name": "Reduce Server Requests",
+                "impact_text": "Every time your page makes a server request, energy is required to transfer and display data. Reducing the number of requests your pages make can improve performance and reduce emissions.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 29.9 29.9\" enable-background=\"new 0 0 29.9 29.9\" xml:space=\"preserve\">\r\n<path id=\"Path_80\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M25.8,28.9\r\n\tL25.8,28.9c-1.71,0-3.1-1.39-3.1-3.1s1.39-3.1,3.1-3.1c1.71,0,3.1,1.39,3.1,3.1S27.51,28.9,25.8,28.9L25.8,28.9z\"/>\r\n<line id=\"Line_23\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"15.45\" y1=\"13.45\" x2=\"15.45\" y2=\"22.45\"/>\r\n<path id=\"Path_81\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.95,28.9\r\n\tL14.95,28.9c-1.71,0-3.1-1.39-3.1-3.1s1.39-3.1,3.1-3.1c1.71,0,3.1,1.39,3.1,3.1S16.66,28.9,14.95,28.9L14.95,28.9z\"/>\r\n<path id=\"Path_82\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.1,28.9\r\n\tL4.1,28.9c-1.71,0-3.1-1.39-3.1-3.1c0-1.71,1.39-3.1,3.1-3.1s3.1,1.39,3.1,3.1S5.81,28.9,4.1,28.9L4.1,28.9z\"/>\r\n<path id=\"Path_83\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M4.1,22.7\r\n\tv-3.1c0-0.86,0.69-1.55,1.55-1.55h18.6c0.86,0,1.55,0.69,1.55,1.55v3.1\"/>\r\n<path id=\"Path_84\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M22.7,1H7.2\r\n\tC3.78,1,1,3.77,1,7.2c0,3.42,2.77,6.2,6.2,6.2c0,0,0,0,0,0h15.5c3.42,0,6.2-2.78,6.2-6.2C28.9,3.78,26.12,1,22.7,1z\"/>\r\n<line id=\"Line_24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"13.45\" y1=\"7.45\" x2=\"22.45\" y2=\"7.45\"/>\r\n<path id=\"Path_85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7.25,7.15\r\n\tc0.03,0.03,0.03,0.08,0,0.11c0,0,0,0,0,0C7.22,7.28,7.17,7.28,7.14,7.25c-0.03-0.03-0.03-0.07,0-0.1C7.17,7.12,7.22,7.12,7.25,7.15\r\n\tC7.25,7.15,7.25,7.15,7.25,7.15\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Total Byte Weight<span class=\"submetric_score\">57 / 100</span></h6> <p>With a score of <span class=\"var\">58</span> out of 100, your page makes <span class=\"var\">10</span> server requests. This score is okay but could stand improving. Try reducing the number of server calls this page makes.</p> </div>\n",
+                "opportunity_items": [],
+                "details": {
+                  "Total Byte Weight": {
+                    "sortedBy": [
+                      "totalBytes"
+                    ],
+                    "type": "table",
+                    "items": [
+                      {
+                        "totalBytes": 215883,
+                        "url": "https://www.focus.de/"
+                      },
+                      {
+                        "totalBytes": 133231,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/chunks/chunk-CY-g2C5x.js"
+                      },
+                      {
+                        "totalBytes": 120728,
+                        "url": "https://www.focus.de/ctf/icon-set/IconSet-PDBW2QXW.svg"
+                      },
+                      {
+                        "totalBytes": 97839,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/Inter-VariableFont_latin-IMMDMY6Q.B94V3_ZQ.woff2"
+                      },
+                      {
+                        "totalBytes": 94933,
+                        "url": "https://cmp.focus.de/Notice.d4c42.js"
+                      },
+                      {
+                        "totalBytes": 87717,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/OpenSans-VariableFont_latin-FGPZWPFI.BD-2YYa6.woff2"
+                      },
+                      {
+                        "totalBytes": 82615,
+                        "url": "https://quadro.burda-forward.de/ctf/8e7ef4e7-20c9-4577-a690-d88687107d85.674a529a-bcab-4d2c-ae29-2c866f96d5ae.png?im=RegionOfInterestCrop=(992,425),regionOfInterest=(743,371)&hash=c2c615a246b5f741bc7eea93b5707ec145762f61457e77f287593e675136a2f8"
+                      },
+                      {
+                        "totalBytes": 82508,
+                        "url": "https://quadro.burda-forward.de/ctf/7dc298ff-0c8a-4874-8513-17ec67b44d9c.692a77f9-6f0a-4d4a-bf3e-5a4df694c2ab.jpeg?im=RegionOfInterestCrop=(992,558),regionOfInterest=(320,180)&hash=ad361a20a7464c6eba568e7400bca3e29e67447ae6a0f7c2feeef66bf202f938"
+                      },
+                      {
+                        "url": "https://quadro.burda-forward.de/ctf/c0fd3053-d7d5-417a-82e7-89bc86060cf7.d25563f3-3777-4ebe-83ad-e55f120cd136.jpeg?im=RegionOfInterestCrop=(992,425),regionOfInterest=(320,180)&hash=b12cbf44f8ddc593a599cc3829f9e067a3017b8df65e0905636e988fc3d19925",
+                        "totalBytes": 72263
+                      },
+                      {
+                        "totalBytes": 63607,
+                        "url": "https://www.focus.de/ctf/assets/renderer/static/static/InterTight-VariableFont_latin-FIIMCJAQ.HkXPiq-P.woff2"
+                      }
+                    ],
+                    "headings": [
+                      {
+                        "label": "URL",
+                        "valueType": "url",
+                        "key": "url"
+                      },
+                      {
+                        "label": "Transfer Size",
+                        "valueType": "bytes",
+                        "key": "totalBytes"
+                      }
+                    ]
+                  }
+                },
+                "resources_text": "<p><a href=\"https://blog.hubspot.com/marketing/reduce-http-requests\">Learn more about HTTP requests</a></p>\n"
+              }
+            ],
+            "category_percent": "17%"
+          },
+          {
+            "category": "Green Hosting",
+            "category_weight": 1,
+            "category_content": "Choosing a web host that powers its servers with renewable energy can reduce your digital product or service's environmental impact by an estimated 15%. But not all renewable energy is created equal. If possible, choose a hosting partner that directly powers their data centers with renewables versus one that purchases offsets or unbundled renewable energy credits (RECs).",
+            "category_score": 0,
+            "category_id": 2,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 0,
+                  "submetrics": [
+                    {
+                      "greenhosting_audit": 0
+                    }
+                  ]
+                },
+                "name": "Green Hosting",
+                "impact_text": "Powering servers with renewable energy is an important choice to measurably reduce your product or service's environmental impact.",
+                "svg": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\r\n\t viewBox=\"0 0 30.01 29.16\" enable-background=\"new 0 0 30.01 29.16\" xml:space=\"preserve\">\r\n<path id=\"Path_86\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.07,12.33\r\n\tc1.25,0,2.26,1.01,2.26,2.26s-1.01,2.26-2.26,2.26s-2.26-1.01-2.26-2.26C7.81,13.34,8.82,12.33,10.07,12.33\"/>\r\n<path id=\"Path_87\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M20.9,8.57\r\n\tc0,1.25-1.01,2.26-2.26,2.26c-1.25,0-2.26-1.01-2.26-2.26c0-1.25,1.01-2.26,2.26-2.26c0,0,0,0,0,0C19.89,6.3,20.9,7.32,20.9,8.57\"/>\r\n<path id=\"Path_88\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M29.01,20.62\r\n\tc0,1.25-1.01,2.26-2.26,2.26s-2.26-1.01-2.26-2.26c0-1.25,1.01-2.26,2.26-2.26c0,0,0,0,0,0C28,18.36,29.01,19.37,29.01,20.62\"/>\r\n<line id=\"Line_25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"28.15\" y1=\"14.59\" x2=\"12.33\" y2=\"14.59\"/>\r\n<line id=\"Line_26\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"7.81\" y1=\"14.59\" x2=\"1.02\" y2=\"14.59\"/>\r\n<line id=\"Line_27\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"24.49\" y1=\"20.62\" x2=\"2.43\" y2=\"20.62\"/>\r\n<line id=\"Line_28\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"16.38\" y1=\"8.57\" x2=\"2.43\" y2=\"8.57\"/>\r\n<line id=\"Line_29\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" x1=\"26.75\" y1=\"8.57\" x2=\"20.9\" y2=\"8.57\"/>\r\n<path id=\"Path_89\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.93,10.81\r\n\tc0.12,1.2,0.18,2.47,0.18,3.78c0,7.49-2.02,13.56-4.52,13.56c-2.24,0-4.1-4.89-4.46-11.3\"/>\r\n<path id=\"Path_90\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M18.18,6.35\r\n\tc-0.83-3.24-2.13-5.32-3.59-5.32c-2.24,0-4.1,4.89-4.46,11.3\"/>\r\n<path id=\"Path_91\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M27.58,18.51\r\n\tc2.17-7.18-1.89-14.76-9.06-16.93S3.76,3.47,1.59,10.65s1.89,14.76,9.06,16.93c5.54,1.68,11.52-0.34,14.92-5.02\"/>\r\n</svg>",
+                "action_text": "<div class=\"at red\"> <h6>Green Hosting<span class=\"submetric_score\">0 / 100</span></h6> <p>Hmmm. It appears as though you're not using a web host that powers its servers with renewable energy. You can improve this part of your score by switching to a green web host.</p> </div>\n",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p>Find a green web host in <a href=\"https://www.thegreenwebfoundation.org/directory/\">The Green Web Foundation's hosting directory</a></p>\n<p>More information on the <a href=\"https://www.mightybytes.com/blog/web-hosting-renewable-energy/\">difference between RECs and renewable energy</a></p>\n"
+              }
+            ],
+            "category_percent": "17%"
+          },
+          {
+            "category": "Carbon Score",
+            "category_weight": 2,
+            "category_content": "Carbon usage category info...",
+            "category_score": 64,
+            "category_id": 6,
+            "metrics": [
+              {
+                "score": {
+                  "metricscore": 64,
+                  "submetrics": [
+                    {
+                      "carbon_usage": 0.6405618085775838
+                    }
+                  ]
+                },
+                "name": "Carbon Score",
+                "impact_text": "Impact text...",
+                "svg": null,
+                "action_text": "",
+                "opportunity_items": [],
+                "details": [],
+                "resources_text": "<p>Resources...</p>\n"
+              }
+            ],
+            "category_percent": "33%"
+          }
+        ]
+      },
+      "datetime": "2026-06-17T12:36:28.000000Z",
+      "scoreColor": "red"
+    },
+    "scantime": "2026-06-17T12:36:28.000000Z",
+    "percentile": 23,
+    "breakdownGraphData": {
+      "total": {
+        "name": "Total",
+        "count": 186,
+        "byteTotal": 1802540,
+        "percentage": "100.00"
+      },
+      "images": {
+        "name": "Images",
+        "count": 17,
+        "byteTotal": 356442,
+        "percentage": "19.77"
+      },
+      "html": {
+        "name": "HTML/CSS",
+        "count": 14,
+        "byteTotal": 286598,
+        "percentage": "15.90"
+      },
+      "scripts": {
+        "name": "Scripts",
+        "count": 89,
+        "byteTotal": 689787,
+        "percentage": "38.27"
+      },
+      "media": {
+        "name": "Media",
+        "count": 0,
+        "byteTotal": 0,
+        "percentage": "0.00"
+      },
+      "other": {
+        "name": "Other",
+        "count": 66,
+        "byteTotal": 469713,
+        "percentage": "26.06"
+      }
+    }
+  },
+  "url": "/report/fC35yTSPhysPYPbyzfZHbVXb",
+  "version": "47de4abbbcf775ef2eb22a95a2d11617",
+  "encryptHistory": false,
+  "clearHistory": false
+}

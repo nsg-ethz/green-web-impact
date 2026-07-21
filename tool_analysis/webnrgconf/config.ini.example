@@ -1,0 +1,14 @@
+[green_coding]
+# X-Authentication header value for api.green-coding.io
+api_key = REPLACE_ME
+
+# Hosts (override only if you have a different deployment)
+gateway_host = https://gateway.green-coding.io
+api_host = https://api.green-coding.io
+
+[polling]
+# How long to wait between polls of /v2/runs, in seconds
+poll_interval_seconds = 15
+
+# Max time to wait for a run to appear, in seconds
+poll_timeout_seconds = 1800

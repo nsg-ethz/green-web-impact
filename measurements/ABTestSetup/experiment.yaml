@@ -1,0 +1,61 @@
+enabled: true
+quality: 80
+
+allow_domains: [] # empty = all
+block_domains:
+  - play.googleapis.com
+  - googleapis.com
+
+img_resize:
+  enabled: false
+  max_size: 1000
+
+js_replacement:
+  enabled: true
+
+  # Mode: "call" replaces specific function calls (keeps the rest of the code).
+  #       "stub" replaces entire function bodies with {} (full no-op).
+  # Default is "call" — change to "stub" to replace entire function bodies.
+  mode: "call"
+
+  target_urls:
+    - "*e_metaserver__static__js__warp__warp_page_edison-*"
+
+  # Functions to stub (stub mode)
+  # Stubs the entire function body with {} — everything inside stops executing.
+  stub_functions:
+    - "track"
+
+  # Function calls to replace (call mode)
+  # Matches the FULL call pattern (name + arguments + context), not just
+  # the function name. This is how you handle short/minified names like 'y',
+  # 'F', 'v4' without matching them everywhere in the code.
+  call_patterns:
+    # Matches: y("event")
+    # Replace with the exact call you want to eliminate
+    - 'y\("event"\)'
+
+    # Matches: P.k.v4() — UUID generation
+    - 'P\.k\.v4\(\)'
+
+    # Matches: i.RE() — unknown getter
+    - 'i\.RE\(\)'
+
+    # Matches: F(l) — appears inside the try block
+    # Note: 'F' alone would match everywhere; the full call pattern is unique.
+    - 'F\(l\)'
+
+    # Matches: this.exportEntry(s, o) — network call (already known to be fast)
+    - 'this\.exportEntry\([^)]*\)'
+
+css_replacement:
+  enabled: true
+  replace_mode: "matched"
+  target_urls:
+    - "https://static.tradingview.com/*"
+
+embed_blocker:
+  enabled: true
+  block_domains:
+    - "https://youtube.com"
+    - "https://a.slack-edge.com"
