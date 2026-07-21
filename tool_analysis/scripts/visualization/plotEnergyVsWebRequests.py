@@ -54,8 +54,8 @@ fig = make_subplots(
     rows=1,
     cols=2,
     subplot_titles=[
-        "GM CPU Energy vs EcoGrader Page Weight",
-        "GM CPU Energy vs EcoGrader Web Requests",
+        "GM CPU Energy vs Ecograder Page Weight",
+        "GM CPU Energy vs Ecograder Web Requests",
     ],
 )
 

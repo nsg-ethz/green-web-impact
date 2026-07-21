@@ -184,11 +184,11 @@ pf = load_perfetto()
 df_selected = df[df["url"].isin(SELECTED_URLS)].copy()
 
 METRIC_LABELS = {
-    "eco_scripts_bytesTotal": "EcoGrader: Scripts",
-    "eco_images_bytesTotal": "EcoGrader: Images",
-    "eco_media_bytesTotal": "EcoGrader: Media",
-    "eco_html_bytesTotal": "EcoGrader: HTML",
-    "eco_page_weight_bytes": "EcoGrader: Page Weight",
+    "eco_scripts_bytesTotal": "Ecograder: Scripts",
+    "eco_images_bytesTotal": "Ecograder: Images",
+    "eco_media_bytesTotal": "Ecograder: Media",
+    "eco_html_bytesTotal": "Ecograder: HTML",
+    "eco_page_weight_bytes": "Ecograder: Page Weight",
     "gm_cpu_energy_j": "Green Metrics CPU Energy",
     "wc_energy_j": "Website Carbon Energy",
 }

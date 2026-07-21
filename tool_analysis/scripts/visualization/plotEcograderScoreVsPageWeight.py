@@ -88,7 +88,7 @@ fig.add_trace(
 )
 
 fig.update_layout(
-    xaxis_title="EcoGrader Score (no green hosting)",
+    xaxis_title="Ecograder Score (no green hosting)",
     yaxis_title="Page Weight (bytes)",
     template="plotly_white",
     clickmode="event+select",

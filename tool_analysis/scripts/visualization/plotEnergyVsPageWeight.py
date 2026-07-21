@@ -25,7 +25,7 @@ KWH_TO_J = 3_600_000
 LABELS = {
     "gm_cpu_energy_j": "Green Metrics CPU energy (J)",
     "gm_page_weight_mb": "GM page weight (MB)",
-    "eco_page_weight_mb": "EcoGrader page weight (MB)",
+    "eco_page_weight_mb": "Ecograder page weight (MB)",
 }
 
 data["gm_cpu_energy_j"] = data["gm_cpu_energy_kwh"] * KWH_TO_J

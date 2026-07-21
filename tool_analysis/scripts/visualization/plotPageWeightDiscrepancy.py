@@ -68,7 +68,7 @@ fig = px.scatter(
     hover_data=["url", "delta_pct", "z_score"],
     labels={
         "gm_page_weight_bytes": "GM Page Weight (bytes)",
-        "eco_page_weight_bytes": "EcoGrader Page Weight (bytes)",
+        "eco_page_weight_bytes": "Ecograder Page Weight (bytes)",
         "abs_delta_bytes": "Absolute Discrepancy (bytes)",
     },
 )

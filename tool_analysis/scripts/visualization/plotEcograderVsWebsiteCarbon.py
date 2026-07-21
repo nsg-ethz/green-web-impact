@@ -182,7 +182,7 @@ r, slope = add_ols(fig, df_plot, "co2_wc", "co2_eco")
 
 fig.update_layout(
     xaxis_title="Website Carbon CO₂ (g per page view)",
-    yaxis_title="EcoGrader CO₂ (g per page view)",
+    yaxis_title="Ecograder CO₂ (g per page view)",
 )
 
 max_val = max(df_plot["co2_wc"].max(), df_plot["co2_eco"].max())

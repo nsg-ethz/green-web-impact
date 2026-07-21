@@ -30,7 +30,7 @@ data["page_weight_mb"] = data["gm_page_weight_bytes"] / (1024 * 1024)
 data["sqrt_page_weight_mb"] = np.sqrt(data["page_weight_mb"])
 
 # =====================================================
-# 1. EcoGrader vs GM Energy
+# 1. Ecograder vs GM Energy
 # =====================================================
 
 corr_eco = data["eco_overall_score_no_greenhosting"].corr(
@@ -54,7 +54,7 @@ fig1 = px.scatter(
 
 fig1.update_traces(marker=dict(size=8, opacity=0.7))
 fig1.update_layout(
-    xaxis_title="EcoGrader Score (no green hosting)",
+    xaxis_title="Ecograder Score (no green hosting)",
     yaxis_title="GM Estimated Energy (J)",
     coloraxis_colorbar=dict(
         title="√Page Weight",
@@ -70,7 +70,7 @@ print(f"[Eco vs GM] Pearson r = {corr_eco:.3f}")
 
 
 # =====================================================
-# 2. EcoGrader Score vs GM CPU Energy
+# 2. Ecograder Score vs GM CPU Energy
 # =====================================================
 
 corr_eco_cpu = data["eco_overall_score_no_greenhosting"].corr(
@@ -94,7 +94,7 @@ fig2 = px.scatter(
 
 fig2.update_traces(marker=dict(size=8, opacity=0.7))
 fig2.update_layout(
-    xaxis_title="EcoGrader Score (no green hosting)",
+    xaxis_title="Ecograder Score (no green hosting)",
     yaxis_title="Green Metrics CPU energy (J)",
     xaxis=dict(rangemode="tozero"),
     yaxis=dict(rangemode="tozero"),
