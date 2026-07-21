@@ -1,6 +1,6 @@
 # Green Web Audit
 
-Bottom Up measurements of energy on optimizations on Websites. 
+Bottom Up measurements of energy on optimizations on Websites from the Tranco list. See `measurements` for the raw data and `tool_analysis` for scraped data from web assessment tools.
 
 
 ## Setup
@@ -14,4 +14,4 @@ MIT
 
 ## AI use
 
-* Scripts were AI generated.
+* Scripts were AI generated. We reviewed the outputs for correctness
