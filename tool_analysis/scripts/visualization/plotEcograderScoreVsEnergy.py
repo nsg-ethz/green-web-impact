@@ -148,7 +148,7 @@ fig3 = px.scatter(
 
 fig3.update_traces(marker=dict(size=8, opacity=0.7))
 fig3.update_layout(
-    xaxis_title="WebsiteCarbon Energy (J)",
+    xaxis_title="Website Carbon Energy (J)",
     yaxis_title="GM Estimated Energy (J)",
     coloraxis_colorbar=dict(
         title="√Page Weight",

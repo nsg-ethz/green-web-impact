@@ -181,7 +181,7 @@ fig = px.scatter(
 r, slope = add_ols(fig, df_plot, "co2_wc", "co2_eco")
 
 fig.update_layout(
-    xaxis_title="WebsiteCarbon CO₂ (g per page view)",
+    xaxis_title="Website Carbon CO₂ (g per page view)",
     yaxis_title="EcoGrader CO₂ (g per page view)",
 )
 
